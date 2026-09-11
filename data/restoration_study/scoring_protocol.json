@@ -1,0 +1,141 @@
+{
+  "plate": "LoC 27004508 image 0016 (Russell Periodic Chart), source_scans/loc/full/p0016.jpg, 2712x3264 8-bit gray",
+  "date_frozen": "2026-09-11",
+  "frozen_before_any_variant_was_scored": true,
+  "metrics_roi_xywh": [
+    380,
+    50,
+    2290,
+    3190
+  ],
+  "metrics": {
+    "M1_stroke_width": "Erosion-depth distribution on ink pixels inside ROI: d(p) = number of successive 3x3 binary erosions survived. Report median and P90 of d; approx stroke width ~ 2d-1 px. Computed identically for every variant.",
+    "M2_min_xheight": "Cap-height in px of smallest inner-ring label class, measured on crop L09_silver_cluster ('SILVER' radial text): count of ink rows across letter body on the binarized crop, reported per variant.",
+    "M3_broken_glyphs": "Visual count of broken glyphs (letter fragmented into >1 piece) and falsely-touching glyph pairs (letters merged that are separate in raw) in the FIXED 20-label sample, per variant contact sheet. Lower broken = better; touching counts flag over-repair.",
+    "M4_speckle": "Number of 8-connected ink components inside ROI with area <= 4 px (speckle count), and total component count.",
+    "M5_ink_fraction": "Fraction of ROI pixels that are ink; sanity guard against over/under-binarization."
+  },
+  "label_sample_fixed_crop_boxes_xywh": {
+    "L01_xenon_node": [
+      880,
+      1500,
+      200,
+      110
+    ],
+    "L02_argon_node": [
+      1035,
+      1500,
+      170,
+      110
+    ],
+    "L03_helium_node": [
+      1165,
+      1500,
+      170,
+      110
+    ],
+    "L04_center_alphanon": [
+      1420,
+      1430,
+      330,
+      220
+    ],
+    "L05_hydron_node": [
+      1750,
+      1500,
+      180,
+      110
+    ],
+    "L06_neon_node": [
+      1890,
+      1500,
+      160,
+      110
+    ],
+    "L07_krypton_node": [
+      2010,
+      1500,
+      180,
+      110
+    ],
+    "L08_niton_node": [
+      2140,
+      1500,
+      170,
+      110
+    ],
+    "L09_silver_cluster": [
+      1420,
+      860,
+      260,
+      200
+    ],
+    "L10_iodine": [
+      880,
+      1240,
+      220,
+      110
+    ],
+    "L11_sodium": [
+      1930,
+      1320,
+      220,
+      110
+    ],
+    "L12_rubidium": [
+      2020,
+      1300,
+      220,
+      110
+    ],
+    "L13_carbon_top": [
+      1340,
+      420,
+      300,
+      140
+    ],
+    "L14_nitrogen_ul": [
+      980,
+      470,
+      300,
+      150
+    ],
+    "L15_boron_ur": [
+      1760,
+      470,
+      300,
+      150
+    ],
+    "L16_header": [
+      640,
+      220,
+      1800,
+      90
+    ],
+    "L17_caption": [
+      740,
+      2790,
+      1600,
+      90
+    ],
+    "L18_sphere_arc": [
+      960,
+      1030,
+      320,
+      220
+    ],
+    "L19_cobalt_cluster": [
+      1450,
+      2020,
+      300,
+      220
+    ],
+    "L20_lanthanum": [
+      1180,
+      2120,
+      260,
+      200
+    ]
+  },
+  "selection_note": "Boxes chosen on the RAW scan from a contact sheet before any pipeline variant existed; mix of node labels (L01-L08), small inner-ring radial text (L09-L12,L19,L20), large outer arc text (L13-L15,L18), letterpress header/caption (L16,L17)."
+}

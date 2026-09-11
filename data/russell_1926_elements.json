@@ -743,7 +743,7 @@
       "chart": "OXYGEN"
      },
      "status": "agreed",
-     "notes": "chart witness restored to OXYGEN 2026-09-11: the R12 BERYLIUM amendment had been applied to both octave-5 rows numbered 502; both blind chart passes read OXYGEN here (data/audit_work/pass_loc_chart.json, pass_usp_chart.json)"
+     "notes": "chart witness restored to OXYGEN 2026-09-11: the R12 BERYLIUM amendment had been applied to both octave-5 rows numbered 502; both blind chart passes read OXYGEN here (private audit working files; see verification/transcription_audit.md)"
     },
     {
      "position_col": "1−",

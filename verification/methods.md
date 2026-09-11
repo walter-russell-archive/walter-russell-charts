@@ -88,6 +88,16 @@ Every disagreement in the project is logged with its evidence.
 - Transcription (two-pass): 874 of 959 cells agreed first-pass. 85 were resolved: 81 were a documented spacing convention of the metal type, and 4 were glyph adjudications. 0 remained uncertain. Log: `data/transcription_log_r11.md`.
 - Audit (four-witness): 3 table cells and 3 chart-witness cells went to adjudication. All 3 table cells and 2 chart cells ruled dataset-correct. 1 chart cell was the `BERYLIUM` error, corrected in the dataset as described above. 0 remained uncertain. Log: `data/disagreements.tsv`, one row per cell, with the crop paths for both witnesses.
 
+### What stays private, and why
+
+The logs above cite evidence crops and pass files under `data/audit_crops/`,
+`data/audit_work/` and `data/elements_work/`. Those directories are private
+working staging and are not published. One reason decides it: half of every
+comparison pair is cut from the 1974 printing, and no pixel of that printing is
+published here. The published side is fully reproducible without them. Each
+disagreement row names its octave, row and cell, the three published Library of
+Congress pages carry the printed source, and the reader can cut the same crop.
+
 ## Re-derive it yourself
 
 The commands below rebuild the published artifacts from the public scan. Dependencies: Python 3.11, numpy, Pillow; Inkscape only for the optional overlay proof. The Library asks automated clients to stay under 10 requests per minute; honor that.
@@ -108,9 +118,26 @@ python3 tools/measure_geometry.py
 # 4. Redraw (frozen dataset + measured geometry -> charts/russell_periodic.svg)
 python3 tools/render_chart.py
 
-# 5. Scoreboard validation (schema + referential integrity + rule checks)
+# 5. Derived table (dataset JSON -> data/russell_1926_elements.tsv)
+python3 tools/elements_json_to_tsv.py
+
+# 6. Scoreboard validation (schema + referential integrity + rule checks)
 python3 tools/validate_scoreboard.py data/scoreboard.json
+
+# 7. Site, then the two manifests, in this order
+python3 tools/build_site.py
+python3 tools/make_image_provenance.py
+python3 tools/make_checksums.py
+
+# 8. Verify the manifests against the files on disk
+python3 tools/check_image_provenance.py
+python3 tools/make_checksums.py --check
 ```
+
+Step 7 has a required order: the image manifest records the hashes of the built
+images, and the checksum table records the hash of the image manifest. The site
+build refuses to run against a stale checksum table, so a skipped step fails
+loudly rather than publishing a wrong number.
 
 Verify your fetched plates against the checksums below before running the pipeline.
 
@@ -127,7 +154,7 @@ SHA256 of every published artifact, its sources, and the tools that build them. 
 
 | File | Bytes | SHA256 |
 |---|---|---|
-| `data/russell_1926_elements.json` | 74175 | `ca2a21cb5439d287a89a8cff4f2751b36b107d9305d70a7c8560190b2162b950` |
+| `data/russell_1926_elements.json` | 74187 | `f3021dc85e72e9e39cff108085f20cf48f2138e74a40d38929db90f628ed938a` |
 | `data/russell_1926_elements.tsv` | 21330 | `0e92525a24efb36f34cbb4253127d2818f619622627d5e3b4f996df3ec839544` |
 | `data/claims.json` | 30256 | `cd28aeb70aa52ca1010b07e5f145410d2aa37d97cd612805ed6e2b7de4522da9` |
 | `data/modern_elements.json` | 220571 | `621a70cf5633c5a67755874a163b905c5ffe6a940d6c1e2d72692da935153102` |
@@ -141,12 +168,17 @@ SHA256 of every published artifact, its sources, and the tools that build them. 
 | `data/loc_page_map.tsv` | 18464 | `ca63777d2fb0df82ed5249953ca2d8e2f1e5c724b0220cf0b65702ff11fb8a91` |
 | `data/transcription_log_r11.md` | 15935 | `f5ce73d04a2be816bb2118b12e35ecafd82a1452e011de5f347ac54c8a267d76` |
 | `data/editorial_standards_public.md` | 2970 | `622bb1fc455b82635b9c068bb7a36042a0c6394383b2667f252061b084055c05` |
+| `data/claims_notes.md` | 14909 | `8866d7b7a7c8f83a4e4c2e8740b6b0a206ddc1cb1a0f8903f27bd18eb324de99` |
+| `data/plate_audit.md` | 12856 | `59d8801a3b56755ac64e3fb0b0f241fc665a5400824a19eff453f28977ea2ed8` |
+| `data/comparison.tsv` | 7606 | `2e4458efe7f372a75360e74b52facf8f2819d57ce4a6046427713f8a200ff67a` |
+| `data/restoration_study/scoring_protocol.json` | 3073 | `03ee92dc469a5fc357b30db4dc65dff9245a7756c50a405de87c4dbc1db6aaf6` |
 | `charts/russell_periodic.svg` | 122550 | `2e43c1834b058005303f14b649709385e7300c00606e74fe22fcc04871416d71` |
+| `essay/comparison.md` | 15550 | `86a8b4b1b5b411519155286080ca922e1830463a9f732bcb818a2bf7f45e004d` |
 | `verification/transcription_audit.md` | 13066 | `5a8cd7a4eb46e5f840838d9b1b42d144265f344ce47e5422e466c63ba4ac2d95` |
 | `verification/restoration_study.md` | 16938 | `f6124faf10a7fe2c803bce1944e48bce8ff34804cb830566643f1865be8c8691` |
 | `verification/loc_rights.md` | 5996 | `3b5a53fc9808037c9b44b0a041f0bc158e61656b315e43269632400124bf2494` |
 | `verification/deuterium_negative.md` | 17578 | `a0b0e870a4f337e4edbe4cfa305bb04b55e92de0dc1f4bdb3ac09b199d055303` |
-| `verification/image_provenance.tsv` | 8725 | `6b1f730badf830502e24fc09131ab099a6b5d47d701dc2b611f65add0c7f98ac` |
+| `verification/image_provenance.tsv` | 8725 | `47692800932877266a340d6a98f407ab1baa141c0162bafb0add5231b3d31ba1` |
 | `source_scans/loc/full/p0016.jpg` | 1409306 | `b718e70c57942324cc191ba42d63d5aacd0fcd249f3cae2a9b488b61b7726e37` |
 | `source_scans/loc/full/p0112.jpg` | 655191 | `bf32acd2c03157b5695740dd3f33d1592dd811271c12e9b4ca3055f67064bbe8` |
 | `source_scans/loc/full/p0113.jpg` | 620077 | `cce0990a61133affc4a908d4f6b3002df0d9b547a24395a82a473eca5d9979f0` |
@@ -158,7 +190,7 @@ SHA256 of every published artifact, its sources, and the tools that build them. 
 | `tools/audit_diff.py` | 10230 | `1045e88650d381ac4ef985a956b09cabdffbb653612ecee6b2c0ed25c9c2571f` |
 | `tools/make_image_provenance.py` | 23230 | `87db69a457385ec92368b11aa394c9014c5ea916a4437c3f0978af787392598a` |
 | `tools/check_image_provenance.py` | 7216 | `6e52c05e65bc4f718cfea3d0068afb3dbd0e7ae5c237b54bb14d56884444fcab` |
-| `tools/make_checksums.py` | 4657 | `05725a72f404becb58b3999d8637652ba553faafb2488dc989ba6314b89c7ba4` |
+| `tools/make_checksums.py` | 4818 | `2017b31e53f39fb5b13ce97ae0950328b528dac74038a51c303a7f96bf53019a` |
 
 The table above and `verification/checksums.tsv` come from one list in
 `tools/make_checksums.py`, so they cannot disagree. Regenerate both from the
