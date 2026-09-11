@@ -2,6 +2,10 @@
 
 Where the images come from, how the data was read, what the machines did, and how to re-derive every artifact on this site.
 
+Every file this page names ships in the repository behind the site:
+<https://github.com/walter-russell-archive/charts>. Paths are relative to its
+root, and the checksum table at the end covers all of them.
+
 ## Sources
 
 Every published image derives from one digitization. The Library of Congress scanned *The Universal One* (New York: Brieger Press, Inc., c1926) as item [27004508](https://www.loc.gov/item/27004508/). The scan holds 290 page images. Each image is served over IIIF at this URL pattern:
