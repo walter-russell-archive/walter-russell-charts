@@ -1,0 +1,138 @@
+octave	page_printed	position_col	position	sigil	name	typography	symbol	atomic_mass	melting_point_c	status	loc	usp	chart	variants
+1	92	0=	100	=	Alphanon	italic	An.			agreed	0= | Alphanon | italic | 100= | An. |  | 	0= | Alphanon | italic | 100= | An. |  | 	ALPHANON	
+1	92	1+	101	+	Irenon	roman	Io			agreed	1+ | Irenon | roman | 101+ | Io |  | 	1+ | Irenon | roman | 101+ | Io |  | 	IRENON	
+1	92	2+	102	+	Vijaon	roman	Vj			agreed	2+ | Vijaon | roman | 102+ | Vj |  | 	2+ | Vijaon | roman | 102+ | Vj |  | 	VIJAON	
+1	92	3+	103	+	Marvaon	roman	Mv			agreed	3+ | Marvaon | roman | 103+ | Mv |  | 	3+ | Marvaon | roman | 103+ | Mv |  | 	MARVAON	
+1	92	4‡	104	‡	TOMION	caps	Tn			agreed	4‡ | TOMION | caps | 104‡ | Tn |  | 	4‡ | TOMION | caps | 104‡ | Tn |  | 	TOMION	
+1	92	3−	103	−	Alberton	roman	At.			resolved	3− | Alberton | roman | 103− | At. |  | 	3− | Alberton | roman | 103− | [uncertain:At.|At:] |  | 	ALBERTON	
+1	92	2−	102	−	Blackton	roman	Bn.			agreed	2− | Blackton | roman | 102− | Bn. |  | 	2− | Blackton | roman | 102− | Bn. |  | 	BLACTON	
+1	92	1−	101	−	Boston	roman	Bt.			agreed	1− | Boston | roman | 101− | Bt. |  | 	1− | Boston | roman | 101− | Bt. |  | 	BOSTON	
+2	92	0=	200	=	Betanon	italic	Bo.			agreed	0= | Betanon | italic | 200= | Bo. |  | 	0= | Betanon | italic | 200= | Bo. |  | 	BETANON	
+2	92	1+	201	+	Jamearnon	roman	Jn.			agreed	1+ | Jamearnon | roman | 201+ | Jn. |  | 	1+ | Jamearnon | roman | 201+ | Jn. |  | 	JAMEARNON	
+2	92	2+	202	+	Erneston	roman	En.			agreed	2+ | Erneston | roman | 202+ | En. |  | 	2+ | Erneston | roman | 202+ | En. |  | 	ERNESTON	
+2	92	3+	203	+	Eykaon	roman	Ek.			agreed	3+ | Eykaon | roman | 203+ | Ek. |  | 	3+ | Eykaon | roman | 203+ | Ek. |  | 	EYKAON	
+2	92	4‡	204	‡	ATHENON	smallcaps	Ae.			agreed	4‡ | ATHENON | smallcaps | 204‡ | Ae. |  | 	4‡ | ATHENON | smallcaps | 204‡ | Ae. |  | 	ATHENON	
+2	92	3−	203	−	Barnardon	roman	Bd.			agreed	3− | Barnardon | roman | 203− | Bd. |  | 	3− | Barnardon | roman | 203− | Bd. |  | 	BARNARDON	
+2	92	2−	202	−	Delphanon	roman	Dn.			agreed	2− | Delphanon | roman | 202− | Dn. |  | 	2− | Delphanon | roman | 202− | Dn. |  | 	DELPHANON	
+2	92	1−	201	−	Romanon	roman	Rn.			agreed	1− | Romanon | roman | 201− | Rn. |  | 	1− | Romanon | roman | 201− | Rn. |  | 	ROMANON	
+3	92	0=	300	=	Gammanon	italic	Gn.			agreed	0= | Gammanon | italic | 300= | Gn. |  | 	0= | Gammanon | italic | 300= | Gn. |  | 	GAMMANON	
+3	92	1+	301	+	Marconium	roman	Mc			agreed	1+ | Marconium | roman | 301+ | Mc |  | 	1+ | Marconium | roman | 301+ | Mc |  | 	MARCONIUM	
+3	92	2+	302	+	Penrynium	roman	Pn			agreed	2+ | Penrynium | roman | 302+ | Pn |  | 	2+ | Penrynium | roman | 302+ | Pn |  | 	PENRYNIUM	
+3	92	3+	303	+	Vinton	roman	Vn			agreed	3+ | Vinton | roman | 303+ | Vn |  | 	3+ | Vinton | roman | 303+ | Vn |  | 	VINTON	
+3	92	4‡	304	‡	QUENTIN	smallcaps	Qn			agreed	4‡ | QUENTIN | smallcaps | 304‡ | Qn |  | 	4‡ | QUENTIN | smallcaps | 304‡ | Qn |  | 	QUENTIN	
+3	92	3−	303	−	Tracion	roman	Tc			agreed	3− | Tracion | roman | 303− | Tc |  | 	3− | Tracion | roman | 303− | Tc |  | 	TRACION	
+3	92	2−	302	−	Buzzeon	roman	Bz			agreed	2− | Buzzeon | roman | 302− | Bz |  | 	2− | Buzzeon | roman | 302− | Bz |  | 	BUZZEON	
+3	92	1−	301	−	Helenon	roman	Hl			agreed	1− | Helenon | roman | 301− | Hl |  | 	1− | Helenon | roman | 301− | Hl |  | 	HELENINE	
+4	94	0=	400	=	Hydron	italic	Hy			agreed	0= | Hydron | italic | 400= | Hy |  | 	0= | Hydron | italic | 400= | Hy |  | 	HYDRON	
+4	94	1+	401	+	Hydrogen	roman	H	1.008	−259	agreed	1+ | Hydrogen | roman | 401+ | H | 1.008 | −259	1+ | Hydrogen | roman | 401+ | H | 1.008 | −259	HYDROGEN	
+4	94	2+	402	+	Ethlogen	roman	Eg			agreed	2+ | Ethlogen | roman | 402+ | Eg |  | 	2+ | Ethlogen | roman | 402+ | Eg |  | 	ETHLOGEN	
+4	94	3+	403	+	Bebegen	roman	Bb			agreed	3+ | Bebegen | roman | 403+ | Bb |  | 	3+ | Bebegen | roman | 403+ | Bb |  | 	BEBEGEN	
+4	94	4‡	404	‡	CARBOGEN	smallcaps	Cb			agreed	4‡ | CARBOGEN | smallcaps | 404‡ | Cb |  | 	4‡ | CARBOGEN | smallcaps | 404‡ | Cb |  | 	CARBOGEN	
+4	94	3−	403	−	Luminon	roman	Ln	*2.92		agreed	3− | Luminon | roman | 403− | Ln | *2.92 | 	3− | Luminon | roman | 403− | Ln | *2.92 | 	LUMINON	
+4	94	2−	402	−	Halanon	roman	Ha			agreed	2− | Halanon | roman | 402− | Ha |  | 	2− | Halanon | roman | 402− | Ha |  | 	HALANON	
+4	94	1−	401	−	Helionon	roman	Hi			agreed	1− | Helionon | roman | 401− | Hi |  | 	1− | Helionon | roman | 401− | Hi |  | 	HELIONON	
+5	94	0=	500	=	Helium	italic	He.	4.0	−271	resolved	0= | Helium | italic | 500= | He. | 4.0 | −271	0= | Helium | italic | 500= | He. | 4.0 | —271	HELIUM	
+5	94	1+	501	+	Lithium	roman	Li	7.03	186	agreed	1+ | Lithium | roman | 501+ | Li | 7.03 | 186	1+ | Lithium | roman | 501+ | Li | 7.03 | 186	LITHIUM	
+5	94	2+	502	+	Beryllium	roman	Be	9.1	1280	agreed	2+ | Beryllium | roman | 502+ | Be | 9.1 | 1280	2+ | Beryllium | roman | 502+ | Be | 9.1 | 1280	BERYLIUM	
+5	94	3+	503	+	Boron	roman	B	11.0	2350	agreed	3+ | Boron | roman | 503+ | B | 11.0 | 2350	3+ | Boron | roman | 503+ | B | 11.0 | 2350	BORON	
+5	94	4‡	504	‡	CARBON	caps	C	12.0	3600	agreed	4‡ | CARBON | caps | 504‡ | C | 12.0 | 3600	4‡ | CARBON | caps | 504‡ | C | 12.0 | 3600	CARBON	
+5	94	3−	503	−	Nitrogen	roman	N	14.04	−210	agreed	3− | Nitrogen | roman | 503− | N | 14.04 | −210	3− | Nitrogen | roman | 503− | N | 14.04 | −210	NITROGEN	
+5	94	2−	502	−	Oxygen	roman	O	16.00	−218	agreed	2− | Oxygen | roman | 502− | O | 16.00 | −218	2− | Oxygen | roman | 502− | O | 16.00 | −218	OXYGEN	
+5	94	1−	501	−	Fluorine	roman	F	19.0	−223	agreed	1− | Fluorine | roman | 501− | F | 19.0 | −223	1− | Fluorine | roman | 501− | F | 19.0 | −223	FLUORINE	
+6	94	0=	600	=	Neon	italic	Ne	19.9	−253	resolved	0= | Neon | italic | 600= | Ne | 19.9 | −253	0= | Neon | italic | 600= | Ne | 19.9 | —253	NEON	
+6	94	1+	601	+	Sodium	roman	Na	23.05	98	agreed	1+ | Sodium | roman | 601+ | Na | 23.05 | 98	1+ | Sodium | roman | 601+ | Na | 23.05 | 98	SODIUM	
+6	94	2+	602	+	Magnesium	roman	Mg	24.1	651	agreed	2+ | Magnesium | roman | 602+ | Mg | 24.1 | 651	2+ | Magnesium | roman | 602+ | Mg | 24.1 | 651	MAGNESIUM	
+6	94	3+	603	+	Aluminum	roman	Al	27.0	659	agreed	3+ | Aluminum | roman | 603+ | Al | 27.0 | 659	3+ | Aluminum | roman | 603+ | Al | 27.0 | 659	ALUMINUM	
+6	94	4‡	604	‡	SILICON	smallcaps	Si	28.4	1420	agreed	4‡ | SILICON | smallcaps | 604‡ | Si | 28.4 | 1420	4‡ | SILICON | smallcaps | 604‡ | Si | 28.4 | 1420	SILICON	
+6	94	3−	603	−	Phosphorus	roman	P	31.4	725	agreed	3− | Phosphorus | roman | 603− | P | 31.4 | 725	3− | Phosphorus | roman | 603− | P | 31.4 | 725	PHOSPHORUS	
+6	94	2−	602	−	Sulphur	roman	S	32.06	119	agreed	2− | Sulphur | roman | 602− | S | 32.06 | 119	2− | Sulphur | roman | 602− | S | 32.06 | 119	SULPHUR	
+6	94	1−	601	−	Chlorine	roman	Cl	35.45	−102	agreed	1− | Chlorine | roman | 601− | Cl | 35.45 | −102	1− | Chlorine | roman | 601− | Cl | 35.45 | −102	CHLORINE	
+7	96	0=	700	=	Argon	italic	Ar	39.09	−188	agreed	0= | Argon | italic | 700= | Ar | 39.09 | −188	0= | Argon | italic | 700= | Ar | 39.09 | −188	ARGON	
+7	96	1+	701	+	Potassium	roman	K	39.10	62.3	agreed	1+ | Potassium | roman | 701+ | K | 39.10 | 62.3	1+ | Potassium | roman | 701+ | K | 39.10 | 62.3	POTASSIUM	
+7	96	2+	702	+	Calcium	roman	Ca	40.1	810	agreed	2+ | Calcium | roman | 702+ | Ca | 40.1 | 810	2+ | Calcium | roman | 702+ | Ca | 40.1 | 810	CALCIUM	
+7	96	3+	703	+	Scandium	roman	Sc	44.1		agreed	3+ | Scandium | roman | 703+ | Sc | 44.1 | 	3+ | Scandium | roman | 703+ | Sc | 44.1 | 	SCANDIUM	
+7	96	3A+	703A	+	Titanium	roman	Ti	48.1	1800	resolved	3A+ | Titanium | roman | 703A+ | Ti | 48.1 | 1800	3A + | Titanium | roman | 703A+ | Ti | 48.1 | 1800	TITANIUM	
+7	96	3B+	703B	+	Vanadium	roman	V	51.4	1720	resolved	3B+ | Vanadium | roman | 703B+ | V | 51.4 | 1720	3B + | Vanadium | roman | 703B + | V | 51.4 | 1720	VANADIUM	
+7	96	3C+	703C	+	Chromium	roman	Cr	52.0	1615	resolved	3C+ | Chromium | roman | 703C+ | Cr | 52.0 | 1615	3C + | Chromium | roman | 703C + | Cr | 52.0 | 1615	CHROMIUM	
+7	96	3D+	703D	+	Manganese	roman	Mn	55.0	1230	resolved	3D+ | Manganese | roman | 703D+ | Mn | 55.0 | 1230	3D + | Manganese | roman | 703D + | Mn | 55.0 | 1230	MANGANESE	
+7	96	3E+	703E	+	Iron	roman	Fe	55.9	1530	resolved	3E+ | Iron | roman | 703E+ | Fe | 55.9 | 1530	3E + | Iron | roman | 703E + | Fe | 55.9 | 1530	IRON	
+7	96	4‡	704	‡	COBALT	smallcaps	Co	58.97	1480	agreed	4‡ | COBALT | smallcaps | 704‡ | Co | 58.97 | 1480	4‡ | COBALT | smallcaps | 704‡ | Co | 58.97 | 1480	COBALT	
+7	96	4E−	703E	−	Nickel	roman	Ni	59	1452	resolved	4E− | Nickel | roman | 703E− | Ni | 59 | 1452	4E − | Nickel | roman | 703E − | Ni | 59 | 1452	NICKLE	
+7	96	4D−	703D	−	Copper	roman	Cu	63.57	1083	resolved	4D− | Copper | roman | 703D− | Cu | 63.57 | 1083	4D − | Copper | roman | 703D− | Cu | 63.57 | 1083	COPPER	
+7	96	4C−	703C	−	Zinc	roman	Zn	65.37	419	resolved	4C− | Zinc | roman | 703C− | Zn | 65.37 | 419	4C − | Zinc | roman | 703C− | Zn | 65.37 | 419	ZINC	
+7	96	4B−	703B	−	Gallium	roman	Ga	70.1	30	resolved	4B− | Gallium | roman | 703B− | Ga | 70.1 | 30	4B − | Gallium | roman | 703B − | Ga | 70.1 | 30	GALLIUM	
+7	96	4A−	703A	−	Germanium	roman	Ge	72.5	958	agreed	4A− | Germanium | roman | 703A− | Ge | 72.5 | 958	4A− | Germanium | roman | 703A− | Ge | 72.5 | 958	GERMANIUM	
+7	96	3−	703	−	Arsenic	roman	As	74.96	850	agreed	3− | Arsenic | roman | 703− | As | 74.96 | 850	3− | Arsenic | roman | 703− | As | 74.96 | 850	ARSENIC	
+7	96	2−	702	−	Selenium	roman	Se	79.2	217	agreed	2− | Selenium | roman | 702− | Se | 79.2 | 217	2− | Selenium | roman | 702− | Se | 79.2 | 217	SELENIUM	
+7	96	1−	701	−	Bromine	roman	Br	79.92	−7.3	agreed	1− | Bromine | roman | 701− | Br | 79.92 | −7.3	1− | Bromine | roman | 701− | Br | 79.92 | −7.3	BROMINE	
+8	96	0=	800	=	Krypton	italic	Kr.	82.92	—169	agreed	0= | Krypton | italic | 800= | Kr. | 82.92 | —169	0= | Krypton | italic | 800= | Kr. | 82.92 | —169	KRYPTON	
+8	96	1+	801	+	Rubidium	roman	Rb.	85.45	38	agreed	1+ | Rubidium | roman | 801+ | Rb. | 85.45 | 38	1+ | Rubidium | roman | 801+ | Rb. | 85.45 | 38	RUBIDIUM	
+8	96	2+	802	+	Strontium	roman	Sr.	87.65	830	agreed	2+ | Strontium | roman | 802+ | Sr. | 87.65 | 830	2+ | Strontium | roman | 802+ | Sr. | 87.65 | 830	STRONTIUM	
+8	96	3+	803	+	Yttrium	roman	Yt.	89.33	1490	agreed	3+ | Yttrium | roman | 803+ | Yt. | 89.33 | 1490	3+ | Yttrium | roman | 803+ | Yt. | 89.33 | 1490	YTTRIUM	
+8	96	3A+	803A	+	Zirconium	roman	Zr.	90.6	1700	agreed	3A+ | Zirconium | roman | 803A+ | Zr. | 90.6 | 1700	3A+ | Zirconium | roman | 803A+ | Zr. | 90.6 | 1700	ZIRCONIUM	
+8	96	3B+	803B	+	Niobium	roman	Nb	94.0		resolved	3B+ | Niobium | roman | 803B+ | Nb | 94.0 | 	3B + | Niobium | roman | 803B + | Nb | 94.0 | 	NIOBIUM	
+8	96	3C+	803C	+	Molybdenum	roman	Mo	96.0	2550	resolved	3C+ | Molybdenum | roman | 803C+ | Mo | 96.0 | 2550	3C + | Molybdenum | roman | 803C + | Mo | 96.0 | 2550	MOLYBDENUM	
+8	96	3D+	803D	+	Mate to 3D−	roman				resolved	3D+ | Mate to 3D− | roman | 803D+ |  |  | 	3D + | Mate to 3D− | roman | 803D + |  |  | 	UNKNOWN	
+8	96	3E+	803E	+	Ruthenium	roman	Ru	101.7	2450	resolved	3E+ | Ruthenium | roman | 803E+ | Ru | 101.7 | 2450	3E + | Ruthenium | roman | 803E + | Ru | 101.7 | 2450	RUTHENIUM	
+8	96	4‡	804	‡	RHODIUM	smallcaps	Rh	103.0	1950	agreed	4‡ | RHODIUM | smallcaps | 804‡ | Rh | 103.0 | 1950	4‡ | RHODIUM | smallcaps | 804‡ | Rh | 103.0 | 1950	RHODIUM	
+8	96	3E−	803E	−	Palladium	roman	Pd	106.5	1549	resolved	3E− | Palladium | roman | 803E− | Pd | 106.5 | 1549	3E − | Palladium | roman | 803E − | Pd | 106.5 | 1549	PALLADIUM	
+8	96	3D−	803D	−	Silver	roman	Ag	107.88	961	agreed	3D− | Silver | roman | 803D− | Ag | 107.88 | 961	3D− | Silver | roman | 803D− | Ag | 107.88 | 961	SILVER	
+8	96	3C−	803C	−	Cadmium	roman	Cd	112.40	321	agreed	3C− | Cadmium | roman | 803C− | Cd | 112.40 | 321	3C− | Cadmium | roman | 803C− | Cd | 112.40 | 321	CADMIUM	
+8	96	3B−	803B	−	Indium	roman	In	114.8	155	resolved	3B− | Indium | roman | 803B− | In | 114.8 | 155	3B − | Indium | roman | 803B − | In | 114.8 | 155	INDIUM	
+8	96	3A−	803A	−	Tin	roman	Sn	118.7	232	resolved	3A− | Tin | roman | 803A− | Sn | 118.7 | 232	3A− | Tin | roman | 803A − | Sn | 118.7 | 232	TIN	
+8	96	3−	803	−	Antimony	roman	Sb	120.2	630	agreed	3− | Antimony | roman | 803− | Sb | 120.2 | 630	3− | Antimony | roman | 803− | Sb | 120.2 | 630	ANTIMONY	
+8	96	2−	802	−	Tellurium	roman	Te	*127.5	446	agreed	2− | Tellurium | roman | 802− | Te | *127.5 | 446	2− | Tellurium | roman | 802− | Te | *127.5 | 446	TELLURIUM	
+8	96	1−	801	−	Iodine	roman	I	*126.92	114	agreed	1− | Iodine | roman | 801− | I | *126.92 | 114	1− | Iodine | roman | 801− | I | *126.92 | 114	IODINE	
+9	98	0=	900	=	Xenon	italic	Xe	130.2	—140	agreed	0= | Xenon | italic | 900= | Xe | 130.2 | —140	0= | Xenon | italic | 900= | Xe | 130.2 | —140	XENON	
+9	98	1+	901	+	Caesium	roman	Cs	132.81	26	agreed	1+ | Caesium | roman | 901+ | Cs | 132.81 | 26	1+ | Caesium | roman | 901+ | Cs | 132.81 | 26	CAESIUM	
+9	98	2+	902	+	Barium	roman	Ba	137.37	850	agreed	2+ | Barium | roman | 902+ | Ba | 137.37 | 850	2+ | Barium | roman | 902+ | Ba | 137.37 | 850	BARIUM	
+9	98	3+	903	+	Lanthanum	roman	La	139	810	agreed	3+ | Lanthanum | roman | 903+ | La | 139 | 810	3+ | Lanthanum | roman | 903+ | La | 139 | 810	LANTHANUM	
+9	98	3A+	903A	+	Cerium	roman	Ce	140.25	640	resolved	3A+ | Cerium | roman | 903A+ | Ce | 140.25 | 640	3A + | Cerium | roman | 903A + | Ce | 140.25 | 640	CERIUM	
+9	98	3B+	903B	+	Praseodymium	roman	Pr	140.9	940	resolved	3B+ | Praseodymium | roman | 903B+ | Pr | 140.9 | 940	3B + | Praseodymium | roman | 903B + | Pr | 140.9 | 940	PRASEODYMIUM	
+9	98	3C+	903C	+	Neodymium	roman	Nd	144.3	840	resolved	3C+ | Neodymium | roman | 903C+ | Nd | 144.3 | 840	3C + | Neodymium | roman | 903C + | Nd | 144.3 | 840	NEODYMIUM	
+9	98	3D+	903D	+	Mate to 3D−	roman				resolved	3D+ | Mate to 3D− | roman | 903D+ |  |  | 	3D + | Mate to 3D− | roman | 903D + |  |  | 	UNKNOWN	
+9	98	3E+	903E	+	Samarium	roman	Sa	150.4	1350	resolved	3E+ | Samarium | roman | 903E+ | Sa | 150.4 | 1350	3E + | Samarium | roman | 903E + | [uncertain:Sa|Sa.] | 150.4 | 1350	SAMARIUM	
+9	98	3F+	903F	+	Europium	roman	Eu	152.0		resolved	3F+ | Europium | roman | 903F+ | Eu | 152.0 | 	3F + | Europium | roman | 903F + | Eu | 152.0 | 	EUROPIUM	
+9	98	3G+	903G	+	Gadolinium	roman	Gd	157.3		resolved	3G+ | Gadolinium | roman | 903G+ | Gd | 157.3 | 	3G + | Gadolinium | roman | 903G + | Gd | 157.3 | 	GADOLINIUM	
+9	98	3H+	903H	+	Terbium	roman	Tb	159.2		resolved	3H+ | Terbium | roman | 903H+ | Tb | 159.2 | 	3H+ | Terbium | roman | 903H + | Tb | 159.2 | 	TERBIUM	
+9	98	3I+	903I	+	Disbrossium	roman	Dy	162.5		resolved	3I+ | Disbrossium | roman | 903 I + | Dy | 162.5 | 	3I + | Disbrossium | roman | 903 I + | Dy | 162.5 | 	DISBROSSIUM	
+9	98	3J+	903J	+	Holmium	roman	Ho	163.5		resolved	3J+ | Holmium | roman | 903 J + | Ho | 163.5 | 	3J + | Holmium | roman | 903 J + | Ho | 163.5 | 	HOLMIUM	
+9	98	3K+	903K	+	Erbium	roman	Er	167.7		resolved	3K+ | Erbium | roman | 903K+ | Er | 167.7 | 	3K + | Erbium | roman | 903K + | Er | 167.7 | 	ERBIUM	
+9	98	3L+	903L	+	Thulium	roman	Tm	168.5		resolved	3L+ | Thulium | roman | 903L+ | Tm | 168.5 | 	3L + | Thulium | roman | 903L + | Tm | 168.5 | 	THULIUM	
+9	98	3M+	903M	+	Ytterbium	roman	Yb	173.5		agreed	3M+ | Ytterbium | roman | 903M+ | Yb | 173.5 | 	3M+ | Ytterbium | roman | 903M+ | Yb | 173.5 | 	YTTERBIUM	
+9	98	4‡	904	‡	LUTECIUM	smallcaps	Lu	175.0		agreed	4‡ | LUTECIUM | smallcaps | 904‡ | Lu | 175.0 | 	4‡ | LUTECIUM | smallcaps | 904‡ | Lu | 175.0 | 	LUTECIUM	
+9	98	3M−	903M	−	Mate to 3M+	roman				agreed	3M− | Mate to 3M+ | roman | 903M− |  |  | 	3M− | Mate to 3M+ | roman | 903M− |  |  | 	UNKNOWN	
+9	98	3L−	903L	−	Mate to 3L+	roman	Ta	181.5	2900	resolved	3L− | Mate to 3L+ | roman | 903L− | Ta | 181.5 | 2900	3L − | Mate to 3L+ | roman | 903L − | Ta | 181.5 | 2900		
+9	98	3K−	903K	−	Tantalum	roman	W	184.0	3400	resolved	3K− | Tantalum | roman | 903K− | W | 184.0 | 3400	3K − | Tantalum | roman | 903K − | W | 184.0 | 3400	TANTALUM	
+9	98	3J−	903J	−	Tungsten	roman				resolved	3J− | Tungsten | roman | 903 J − |  |  | 	3J − | Tungsten | roman | 903J − |  |  | 	TUNGSTEN	
+9	98	3I−	903I	−	Mate to 3I+	roman	Os	190.9	2700	resolved	3I− | Mate to 3I+ | roman | 903 I − | Os | 190.9 | 2700	3I − | Mate to 3I+ | roman | 903 I − | Os | 190.9 | 2700	UNKNOWN	
+9	98	3H−	903H	−	Osmium	roman	Ir	193.1	2250	resolved	3H− | Osmium | roman | 903H− | Ir | 193.1 | 2250	3H − | Osmium | roman | 903H − | Ir | 193.1 | 2250	OSMIUM	
+9	98	3G−	903G	−	Iridium	roman	Pt	195.2	1755	resolved	3G− | Iridium | roman | 903G− | Pt | 195.2 | 1755	3G − | Iridium | roman | 903G − | Pt | 195.2 | 1755	IRIDIUM	
+9	98	3F−	903F	−	Platinum	roman	Au	197.2	1063	resolved	3F− | Platinum | roman | 903F− | Au | 197.2 | 1063	3F − | Platinum | roman | 903F − | Au | 197.2 | 1063	PLATINUM	
+9	98	3E−	903E	−	Mate to 3E+	roman	Hg	200.6	—39	resolved	3E− | Mate to 3E+ | roman | 903E− | Hg | 200.6 | —39	3E − | Mate to 3E+ | roman | 903E − | Hg | 200.6 | —39		
+9	98	3D−	903D	−	Gold	roman	Tl	204.0	302	resolved	3D− | Gold | roman | 903D− | Tl | 204.0 | 302	3D − | Gold | roman | 903D − | Tl | 204.0 | 302	GOLD	
+9	98	3C−	903C	−	Mercury	roman	Pb	207.2	327	resolved	3C− | Mercury | roman | 903C− | Pb | 207.2 | 327	3C − | Mercury | roman | 903C − | Pb | 207.2 | 327	MERCURY	
+9	98	3B−	903B	−	Thallium	roman				resolved	3B− | Thallium | roman | 903B− |  |  | 	3B − | Thallium | roman | 903B − |  |  | 	THALLIUM	
+9	98	3A−	903A	−	Lead	roman				resolved	3A− | Lead | roman | 903A− |  |  | 	3A − | Lead | roman | 903A − |  |  | 	LEAD	
+9	98	3−	903	−	Bismuth	roman	Bi	208.0	271	agreed	3− | Bismuth | roman | 903− | Bi | 208.0 | 271	3− | Bismuth | roman | 903− | Bi | 208.0 | 271	BISMUTH	
+9	98	2−	902	−	Polonium	roman	Po			agreed	2− | Polonium | roman | 902− | Po |  | 	2− | Polonium | roman | 902− | Po |  | 	POLONIUM	
+9	98	1−	901	−	Mate to 1+	roman				agreed	1− | Mate to 1+ | roman | 901− |  |  | 	1− | Mate to 1+ | roman | 901− |  |  | 	UNKNOWN	
+10	100	0=	1000	=	Niton	italic	Nt	222.4		agreed	0= | Niton | italic | 1000= | Nt | 222.4 | 	0= | Niton | italic | 1000= | Nt | 222.4 | 	NITON	
+10	100	1+	1001	+	Mate to 1−	roman				agreed	1+ | Mate to 1− | roman | 1001+ |  |  | 	1+ | Mate to 1− | roman | 1001+ |  |  | 	UNKNOWN	
+10	100	2+	1002	+	Radium	roman	Ra	226.0	700	agreed	2+ | Radium | roman | 1002+ | Ra | 226.0 | 700	2+ | Radium | roman | 1002+ | Ra | 226.0 | 700	RADIUM	
+10	100	3+	1003	+	Actinium	roman	Ac			agreed	3+ | Actinium | roman | 1003+ | Ac |  | 	3+ | Actinium | roman | 1003+ | Ac |  | 	ACTINIUM	
+10	100	3A+	1003A	+	Thorium	roman	Th	232.15	1700	agreed	3A+ | Thorium | roman | 1003A+ | Th | 232.15 | 1700	3A+ | Thorium | roman | 1003A+ | Th | 232.15 | 1700	THORIUM	
+10	100	3B+	1003B	+	Uranium XII	roman	UrXII			resolved	3B+ | Uranium XII | roman | 1003B+ | UrXII |  | 	3B + | Uranium XII | roman | 1003B + | UrXII |  | 	URANIUM XII	
+10	100	3C+	1003C	+	Uranium	roman	Ur	238.2	1850	resolved	3C+ | Uranium | roman | 1003C+ | Ur | 238.2 | 1850	3C+ | Uranium | roman | 1003C + | Ur | 238.2 | 1850	URANIUM	
+10	100	3D+	1003D	+	Uridium	roman	Um			agreed	3D+ | Uridium | roman | 1003D+ | Um |  | 	3D+ | Uridium | roman | 1003D+ | Um |  | 	URIDIUM	
+10	100	3E+	1003E	+	Urium	roman	Uu			resolved	3E+ | Urium | roman | 1003E+ | Uu |  | 	3E + | Urium | roman | 1003E + | Uu |  | 	URIUM	
+10	100	4‡	104	‡	TOMIUM	caps	Tn			agreed	4‡ | TOMIUM | caps | 104‡ | Tn |  | 	4‡ | TOMIUM | caps | 104‡ | Tn |  | 	TOMION	
+10	100	3E−	103E	−	Whitnion	roman	Wn			resolved	3E− | Whitnion | roman | 103E− | Wn |  | 	3E − | Whitnion | roman | 103E − | Wn |  | 	WHITNION	
+10	100	3D−	103D	−	Alphonson	roman	Ap			agreed	3D− | Alphonson | roman | 103D− | Ap |  | 	3D− | Alphonson | roman | 103D− | Ap |  | 	ALPHONSON	
+10	100	3C−	103C	−	Georgeon	roman	Gg			agreed	3C− | Georgeon | roman | 103C− | Gg |  | 	3C− | Georgeon | roman | 103C− | Gg |  | 	GEORGEON	
+10	100	3B−	103B	−	Victoron	roman	V			resolved	3B− | Victoron | roman | 103B− | V |  | 	3B − | Victoron | roman | 103B − | V |  | 	VICTORON	
+10	100	3A−	103A	−	Lipton	roman	Ln			agreed	3A− | Lipton | roman | 103A− | Ln |  | 	3A− | Lipton | roman | 103A− | Ln |  | 	LIPTON	
+10	100	+3−	+103	−	Alberton	roman	At			agreed	+3− | Alberton | roman | +103− | At |  | 	+3− | Alberton | roman | +103− | At |  | 	ALBERTON	
+10	100	+2−	+102	−	Blackton	roman	Bn			agreed	+2− | Blackton | roman | +102− | Bn |  | 	+2− | Blackton | roman | +102− | Bn |  | 	BLACTON	
+10	100	+1−	+101	−	Boston	roman	Bt			agreed	+1− | Boston | roman | +101− | Bt |  | 	+1− | Boston | roman | +101− | Bt |  | 	BOSTON	
+10	100	0=	100	=	Omeganon	roman				agreed	0= | Omeganon | roman | 100= |  |  | 	0= | Omeganon | roman | 100= |  |  | 	OMEGANON	

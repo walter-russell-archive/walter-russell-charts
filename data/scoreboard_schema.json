@@ -1,0 +1,1056 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://local/russell-verdict/scoreboard.schema.json",
+ "title": "R18 verdict scoreboard schema for data/scoreboard.json",
+ "description": "Schema for the verdict scoreboard of Walter Russell's checkable 1926 claims (The Universal One). Taxonomy, evidence standards and scoring rules: data/verdict_taxonomy.md. Claim ids reference the frozen data/claims.json; modern source objects use the data/modern_elements.json shape. The five entries under 'examples' are the R18 worked hard cases; each is an instance of #/$defs/entry and is validated by tools/validate_scoreboard.py.",
+ "generated": "2026-09-11",
+ "type": "object",
+ "properties": {
+  "title": {
+   "type": "string",
+   "minLength": 1
+  },
+  "generated": {
+   "type": "string",
+   "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+  },
+  "taxonomy": {
+   "const": "data/verdict_taxonomy.md"
+  },
+  "entries": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/entry"
+   },
+   "minItems": 1
+  }
+ },
+ "required": [
+  "title",
+  "generated",
+  "taxonomy",
+  "entries"
+ ],
+ "additionalProperties": false,
+ "$defs": {
+  "claimId": {
+   "type": "string",
+   "pattern": "^C[0-9]{3}$"
+  },
+  "verdict": {
+   "enum": [
+    "confirmed",
+    "partially confirmed",
+    "unfalsifiable",
+    "refuted",
+    "never claimed",
+    "terminology only",
+    "undetermined"
+   ],
+   "description": "Closed vocabulary of data/verdict_taxonomy.md §1. Additions require written justification there."
+  },
+  "novelty": {
+   "enum": [
+    "novel",
+    "period-standard",
+    "period-contested"
+   ],
+   "description": "Novelty against the 1926 state of knowledge (taxonomy §3.2). Truth and novelty are separate axes."
+  },
+  "sourceObject": {
+   "type": "object",
+   "description": "Modern source citation, same shape as data/modern_elements.json source objects.",
+   "properties": {
+    "name": {
+     "type": "string",
+     "minLength": 1
+    },
+    "url": {
+     "type": "string",
+     "minLength": 1
+    },
+    "retrieved": {
+     "type": "string",
+     "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "name",
+    "url",
+    "retrieved"
+   ],
+   "additionalProperties": false
+  },
+  "evidence1926": {
+   "type": "object",
+   "description": "A 1926 quote: claims.json id + verbatim quote + printed page. quote_verbatim MUST be a verbatim substring of that claim's quote_verbatim in the frozen data/claims.json (checked by tools/validate_scoreboard.py).",
+   "properties": {
+    "claim_id": {
+     "$ref": "#/$defs/claimId"
+    },
+    "quote_verbatim": {
+     "type": "string",
+     "minLength": 1
+    },
+    "printed_page": {
+     "type": "string",
+     "minLength": 1
+    },
+    "loc_index": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "claim_id",
+    "quote_verbatim",
+    "printed_page"
+   ],
+   "additionalProperties": false
+  },
+  "component": {
+   "type": "object",
+   "description": "One checkable component of a compound claim (taxonomy §4.1). Premises are verified but not creditable (§3.1); only assertions enter the aggregation (§3.3).",
+   "properties": {
+    "role": {
+     "enum": [
+      "premise",
+      "assertion"
+     ]
+    },
+    "statement": {
+     "type": "string",
+     "minLength": 1
+    },
+    "status": {
+     "enum": [
+      "confirmed",
+      "refuted",
+      "unfalsifiable",
+      "undetermined"
+     ]
+    },
+    "novelty": {
+     "$ref": "#/$defs/novelty"
+    },
+    "rests_on_uncertain_datum": {
+     "type": "boolean",
+     "description": "True if the component's status depends on a datum flagged [uncertain] (taxonomy §4.5). A refuted verdict may not rest on such a component."
+    },
+    "evidence_modern": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/sourceObject"
+     }
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "role",
+    "statement",
+    "status",
+    "novelty",
+    "rests_on_uncertain_datum"
+   ],
+   "additionalProperties": false
+  },
+  "uncertaintyFlag": {
+   "type": "object",
+   "properties": {
+    "source_claim_id": {
+     "$ref": "#/$defs/claimId"
+    },
+    "description": {
+     "type": "string",
+     "minLength": 1
+    },
+    "resolution": {
+     "enum": [
+      "verdict-stable",
+      "blocking"
+     ],
+     "description": "verdict-stable: the verdict is identical under every admissible resolution of the uncertainty. blocking: some resolution changes the verdict; the entry verdict must then be 'undetermined'."
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "description",
+    "resolution"
+   ],
+   "additionalProperties": false
+  },
+  "entry": {
+   "type": "object",
+   "description": "One scoreboard entry = one adjudicated question (taxonomy §3.5).",
+   "properties": {
+    "entry_id": {
+     "type": "string",
+     "pattern": "^V[0-9]{3}$"
+    },
+    "title": {
+     "type": "string",
+     "minLength": 1
+    },
+    "date": {
+     "type": "string",
+     "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "claim_ids": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/claimId"
+     },
+     "uniqueItems": true,
+     "description": "claims.json ids the entry adjudicates. Empty only for 'never claimed' entries (the claim under test is folklore, not in claims.json)."
+    },
+    "related_claim_ids": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/claimId"
+     },
+     "uniqueItems": true
+    },
+    "claim_scope": {
+     "enum": [
+      "single",
+      "consolidated",
+      "split"
+     ],
+     "description": "single: one claims.json id. consolidated: several ids printing the same physical claim (taxonomy §4.2). split: part of one id; scope_note states what is NOT adjudicated here."
+    },
+    "scope_note": {
+     "type": "string",
+     "minLength": 1
+    },
+    "verdict": {
+     "$ref": "#/$defs/verdict"
+    },
+    "novelty_1926": {
+     "$ref": "#/$defs/novelty"
+    },
+    "folklore_provenance": {
+     "type": "object",
+     "properties": {
+      "statement": {
+       "type": "string",
+       "minLength": 1
+      },
+      "provenance": {
+       "type": "string",
+       "minLength": 1
+      },
+      "note": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "statement",
+      "provenance"
+     ],
+     "additionalProperties": false
+    },
+    "absence_verification": {
+     "type": "object",
+     "properties": {
+      "document": {
+       "type": "string",
+       "minLength": 1
+      },
+      "method_summary": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "required": [
+      "document",
+      "method_summary"
+     ],
+     "additionalProperties": false
+    },
+    "reading_adopted": {
+     "type": "object",
+     "description": "Interpretation rule, taxonomy §4.6.",
+     "properties": {
+      "reading": {
+       "type": "string",
+       "minLength": 1
+      },
+      "evidence_for": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "minItems": 1
+      },
+      "alternatives": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "reading": {
+          "type": "string"
+         },
+         "consequence": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "reading",
+         "consequence"
+        ],
+        "additionalProperties": false
+       },
+       "minItems": 1
+      }
+     },
+     "required": [
+      "reading",
+      "evidence_for",
+      "alternatives"
+     ],
+     "additionalProperties": false
+    },
+    "evidence_1926": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/evidence1926"
+     },
+     "minItems": 1
+    },
+    "evidence_modern": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/sourceObject"
+     }
+    },
+    "components": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/component"
+     }
+    },
+    "class_base_rate": {
+     "type": "object",
+     "description": "Required editorially whenever the claim is one instance of a printed class (taxonomy §3.4).",
+     "properties": {
+      "class_description": {
+       "type": "string",
+       "minLength": 1
+      },
+      "class_size": {
+       "type": "integer",
+       "minimum": 1
+      },
+      "hits": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "misses": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "note": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "class_description",
+      "class_size",
+      "hits",
+      "misses"
+     ],
+     "additionalProperties": false
+    },
+    "printed_variants": {
+     "type": "array",
+     "description": "Duplicate printings of the same physical claim with different figures (taxonomy §4.2): report all; never average; never select the favorable one.",
+     "items": {
+      "type": "object",
+      "properties": {
+       "claim_id": {
+        "$ref": "#/$defs/claimId"
+       },
+       "printed_value": {
+        "type": "string",
+        "minLength": 1
+       },
+       "location": {
+        "type": "string",
+        "minLength": 1
+       },
+       "note": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "printed_value",
+       "location"
+      ],
+      "additionalProperties": false
+     },
+     "minItems": 2
+    },
+    "analysis": {
+     "type": "string",
+     "minLength": 1
+    },
+    "verdict_sentence": {
+     "type": "string",
+     "pattern": "^The ",
+     "description": "Register rule (taxonomy §4.4): the grammatical subject is the claim, never a person; the ten checks of data/editorial_rules.md apply."
+    },
+    "uncertainty_flags": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/uncertaintyFlag"
+     }
+    },
+    "resolution_needed": {
+     "type": "string",
+     "minLength": 1,
+     "description": "undetermined only: the observation that would resolve the block."
+    },
+    "register_checked": {
+     "const": true,
+     "description": "Reviewer attestation that the entry prose passes the ten checks of data/editorial_rules.md."
+    }
+   },
+   "required": [
+    "entry_id",
+    "title",
+    "claim_ids",
+    "claim_scope",
+    "verdict",
+    "evidence_1926",
+    "analysis",
+    "verdict_sentence",
+    "uncertainty_flags",
+    "register_checked"
+   ],
+   "additionalProperties": false,
+   "allOf": [
+    {
+     "$comment": "Dual-evidence rule (taxonomy §2): every non-unfalsifiable verdict cites both a 1926 quote and a modern source. evidence_1926 is unconditionally required above.",
+     "if": {
+      "properties": {
+       "verdict": {
+        "not": {
+         "const": "unfalsifiable"
+        }
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "evidence_modern": {
+        "minItems": 1
+       }
+      },
+      "required": [
+       "evidence_modern"
+      ]
+     }
+    },
+    {
+     "$comment": "never claimed: folklore provenance and absence verification required; other verdicts must name at least one claims.json id.",
+     "if": {
+      "properties": {
+       "verdict": {
+        "const": "never claimed"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "folklore_provenance",
+       "absence_verification"
+      ]
+     },
+     "else": {
+      "properties": {
+       "claim_ids": {
+        "minItems": 1
+       }
+      }
+     }
+    },
+    {
+     "$comment": "confirmed / partially confirmed: novelty axis and component table required (taxonomy §3.2, §4.1).",
+     "if": {
+      "properties": {
+       "verdict": {
+        "enum": [
+         "confirmed",
+         "partially confirmed"
+        ]
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "novelty_1926",
+       "components"
+      ],
+      "properties": {
+       "components": {
+        "minItems": 1
+       }
+      }
+     }
+    },
+    {
+     "$comment": "partially confirmed: at least one confirmed assertion and at least one non-confirmed assertion.",
+     "if": {
+      "properties": {
+       "verdict": {
+        "const": "partially confirmed"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "components": {
+        "allOf": [
+         {
+          "contains": {
+           "properties": {
+            "role": {
+             "const": "assertion"
+            },
+            "status": {
+             "const": "confirmed"
+            }
+           },
+           "required": [
+            "role",
+            "status"
+           ]
+          }
+         },
+         {
+          "contains": {
+           "properties": {
+            "role": {
+             "const": "assertion"
+            },
+            "status": {
+             "enum": [
+              "refuted",
+              "unfalsifiable"
+             ]
+            }
+           },
+           "required": [
+            "role",
+            "status"
+           ]
+          }
+         }
+        ]
+       }
+      },
+      "required": [
+       "components"
+      ]
+     }
+    },
+    {
+     "$comment": "refuted: at least one refuted assertion that does not rest on an uncertain datum (taxonomy §4.5).",
+     "if": {
+      "properties": {
+       "verdict": {
+        "const": "refuted"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "components": {
+        "contains": {
+         "properties": {
+          "role": {
+           "const": "assertion"
+          },
+          "status": {
+           "const": "refuted"
+          },
+          "rests_on_uncertain_datum": {
+           "const": false
+          }
+         },
+         "required": [
+          "role",
+          "status",
+          "rests_on_uncertain_datum"
+         ]
+        }
+       }
+      },
+      "required": [
+       "components"
+      ]
+     }
+    },
+    {
+     "$comment": "terminology only: adopted reading with evidence and alternatives required (taxonomy §4.6).",
+     "if": {
+      "properties": {
+       "verdict": {
+        "const": "terminology only"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "reading_adopted"
+      ]
+     }
+    },
+    {
+     "$comment": "undetermined: the blocking flag and the resolving observation are required.",
+     "if": {
+      "properties": {
+       "verdict": {
+        "const": "undetermined"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "resolution_needed"
+      ],
+      "properties": {
+       "uncertainty_flags": {
+        "contains": {
+         "properties": {
+          "resolution": {
+           "const": "blocking"
+          }
+         },
+         "required": [
+          "resolution"
+         ]
+        }
+       }
+      }
+     }
+    },
+    {
+     "$comment": "split scope: state what is not adjudicated here (taxonomy §3.5).",
+     "if": {
+      "properties": {
+       "claim_scope": {
+        "const": "split"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "scope_note"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "examples": [
+  {
+   "entry_id": "V001",
+   "title": "Folklore: \"Russell predicted deuterium and tritium in The Universal One (1926)\"",
+   "claim_ids": [],
+   "claim_scope": "single",
+   "verdict": "never claimed",
+   "folklore_provenance": {
+    "statement": "Walter Russell \"predicted deuterium and tritium\" in The Universal One (1926).",
+    "provenance": "Community folklore circulating in Russell-adjacent spaces; guardrail item 5 of data/editorial_rules.md; stated as the claim under test in verification/deuterium_negative.md §1."
+   },
+   "absence_verification": {
+    "document": "verification/deuterium_negative.md",
+    "method_summary": "13 term variants (deuterium, tritium, heavy hydrogen, isotope, stems, hyphenated forms, heavy water, protium) at 0 hits in both independent OCR witnesses (LoC fulltext; USP 1974 text layer), OCR-corruption sweep (every *tium*/*deut* token), positive controls (hydrogen 55/54, helium 17/16), and native-resolution visual reads of every page where isotope language would have to occur. Witness independence is scan-level only (the 1974 plates are photographic reproductions of the 1926 plates)."
+   },
+   "evidence_1926": [
+    {
+     "claim_id": "C008",
+     "quote_verbatim": "The cycle begins with the highest note and descends the scale sequentially through man's unseen universe until hydrogen, the first element perceivable to man, is reached.",
+     "printed_page": "6",
+     "loc_index": 24,
+     "note": "What the text says instead: the tones before hydrogen are \"man's unseen universe\"; hydrogen is the first perceivable element."
+    },
+    {
+     "claim_id": "C030",
+     "quote_verbatim": "Hydron (400=) the master-tone of its octave, is a non-inflammable inert gas which is in every way superior for transportation to hydrogen because it is much lighter, absolutely non-injurious and easier to produce. It has all of the safety qualities of helium and its carrying capacity exceeds that of helium by eight times and is double that of hydrogen.",
+     "printed_page": "100",
+     "loc_index": 120,
+     "note": "What the text says instead: Hydron, the tone immediately preceding hydrogen, is \"much lighter\" than hydrogen — deuterium and tritium are heavier."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "H.C. Urey, F.G. Brickwedde, G.M. Murphy, \"A Hydrogen Isotope of Mass 2 and its Concentration\", Phys. Rev. 40, 1–15 (1932)",
+     "url": "https://doi.org/10.1103/PhysRev.40.1",
+     "retrieved": "2026-09-11",
+     "note": "Deuterium discovered 1931–32; the word did not exist in 1926."
+    },
+    {
+     "name": "M.L. Oliphant, P. Harteck, E. Rutherford, \"Transmutation Effects Observed with Heavy Hydrogen\", Proc. R. Soc. A 144, 692–703 (1934)",
+     "url": "https://royalsocietypublishing.org/rspa/article/144/853/692/3593/Transmutation-effects-observed-with-heavy-hydrogen",
+     "retrieved": "2026-09-11",
+     "note": "Tritium first produced 1934."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "The 1926 text contains the words deuterium, tritium, heavy hydrogen, isotope, or an equivalent designation of a heavier hydrogen variant.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "0/0 hits for all 13 term variants in both witnesses (R17 §3)."
+    },
+    {
+     "role": "assertion",
+     "statement": "The 1926 text describes some substance as a heavier form of hydrogen.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "The entities at and below hydrogen's position are distinct undiscovered elements with blank mass cells; the one weight-characterized, Hydron (400=), is stated to be \"much lighter\" than hydrogen; the closest retro-fit candidates (Ethlogen, Bebegen, Luminon) are never linked to hydrogen chemically or by name (R17 §5–6)."
+    }
+   ],
+   "analysis": "The folklore claim is tested against the settled R17 negative, which is cited and not re-derived. Both of its factual predicates fail: the words are absent from both witnesses (expected, since they postdate the book by 6–8 years), and no substance in the 1926 text is described as a heavier form of hydrogen — the text's scheme has no isotope concept, its ordering rule makes every pre-hydrogen tone lighter than hydrogen, and its one explicit weight characterization (Hydron) says \"much lighter\". This note makes no claim about other Russell works or later editions.",
+   "verdict_sentence": "The claim that \"The Universal One\" (1926) predicted deuterium and tritium is unsupported by the 1926 text: the terms are absent from both witnesses, and the substances the text places at and below hydrogen's position are presented as distinct undiscovered elements, the only weight-characterized one as \"much lighter\" than hydrogen.",
+   "uncertainty_flags": [
+    {
+     "description": "A simultaneous OCR miss in both witnesses is conceivable in principle.",
+     "resolution": "verdict-stable",
+     "note": "Closed by native-resolution visual reads of all pages where isotope language would have to occur (R17 §4)."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V002",
+   "title": "Elemental tone and colour assignments (colour law, red/blue rule, tonal sound)",
+   "claim_ids": [
+    "C039",
+    "C040",
+    "C041",
+    "C042",
+    "C043",
+    "C046"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "unfalsifiable",
+   "evidence_1926": [
+    {
+     "claim_id": "C039",
+     "quote_verbatim": "Every state of motion is indicated by its own particular color line, exactly as it is indicated by its own degrees of temperature, plane and pressure.",
+     "printed_page": "204",
+     "loc_index": 224
+    },
+    {
+     "claim_id": "C041",
+     "quote_verbatim": "All mass indicates its ability to generate by the color pressures indicated by genero-active lines on the red side of the spectrum, and its ability to radiate by radio-active lines on the blue side of the spectrum.",
+     "printed_page": "204",
+     "loc_index": 224
+    },
+    {
+     "claim_id": "C046",
+     "quote_verbatim": "Tone is registered in sound as it is in color, plane, temperature and other dimensions. Every expression of energy has its own particular tonal sound just as it has its own color plane or degree of temperature.",
+     "printed_page": "247",
+     "loc_index": 267
+    },
+    {
+     "claim_id": "C042",
+     "quote_verbatim": "The most outstanding of these apparent contradictions is the characteristic yellow D line of sodium. If sodium were perfectly consistent with the law, its red line should be prominent and its yellow line weak, instead of which they are the reverse. The explanation is simple. Sodium (601+) is the first positive tone of the sixth octave.",
+     "printed_page": "205",
+     "loc_index": 225,
+     "note": "The diagnostic passage: the one consequence the book derives from the colour law is stated as an observed contradiction and absorbed by an octave-position exception on the same page (p.205)."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "NIST Atomic Spectra Database (Na I D lines: D2 5889.951 Å, D1 5895.924 Å — the strongest features of the sodium spectrum)",
+     "url": "https://physics.nist.gov/PhysRefData/ASD/lines_form.html",
+     "retrieved": "2026-09-11",
+     "note": "Optional under the dual-evidence rule (unfalsifiable verdict); supplied to ground the sodium-concession analysis."
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "Elements have characteristic spectral lines.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Standard since Kirchhoff and Bunsen (1860); not creditable (premise rule §3.1)."
+    },
+    {
+     "role": "assertion",
+     "statement": "Every state of motion (element/tone) has its own particular colour line indicating its \"condition or potential\" as a measurement dimension (C039, C043).",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "No element→wavelength assignment is printed anywhere in the book; the sole quantitative spectral assignment (He 4922.1 → luminon) is scored separately at V004, where it is refuted."
+    },
+    {
+     "role": "assertion",
+     "statement": "Genero-active ability shows as lines on the red side of the spectrum, radio-active ability on the blue side (C041).",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "\"Genero-active\"/\"radio-active [colour pressure]\" are given no measurable definition; the one consequence the book derives (sodium: red prominent, yellow weak) it concedes fails and retains by exception (C042)."
+    },
+    {
+     "role": "assertion",
+     "statement": "Every expression of energy has its own particular tonal sound (C046).",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "No element→pitch assignment is printed anywhere in the book."
+    }
+   ],
+   "analysis": "The book asserts that per-element colour and tone assignments exist but never states one, and its assignment terms carry no measurable definition. The decisive evidence for unfalsifiability rather than refutation is the sodium D-line passage (C042, p.205): the law's sole derived consequence — sodium's red line prominent, yellow weak — is presented by the book itself as contradicted by observation (\"instead of which they are the reverse\") and immediately absorbed (\"The explanation is simple. Sodium (601+) is the first positive tone of the sixth octave.\"). The book never asserts the false consequence, so there is no printed false component to refute; a law whose only stated test is conceded and retained by amendment leaves no checkable content standing. Distinct folklore variant for the scoreboard: \"Russell gave each element its true frequency\" would be `never claimed` — the book asserts assignments exist but states none.",
+   "verdict_sentence": "The claim that every element carries its own colour line and tonal sound, with genero-activity on the red side and radio-activity on the blue, is unfalsifiable as printed: no assignment is ever stated, the assignment terms have no measurable definition, and the single consequence the book derives from the law (the sodium red-line expectation) is conceded on p.205 to fail and is retained by an octave-position exception.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V003",
+   "title": "The unknown element (1001+) preceding radium (the francium position)",
+   "claim_ids": [
+    "C044"
+   ],
+   "related_claim_ids": [
+    "C024",
+    "C015"
+   ],
+   "claim_scope": "single",
+   "verdict": "confirmed",
+   "novelty_1926": "period-standard",
+   "evidence_1926": [
+    {
+     "claim_id": "C044",
+     "quote_verbatim": "Hydrogen (401+) should be adopted as the unit of valency measurement of the fourth octave only. Lithium (501+) for the fifth octave, sodium (601+) for the sixth octave, potassium (701+) for the seventh octave, rubidium (801+) for the eighth octave, caesium (901+) for the ninth octave and the unknown element (1001+) preceding radium for the tenth octave.",
+     "printed_page": "246",
+     "loc_index": 266,
+     "note": "The 1+ series named (hydrogen, lithium, sodium, potassium, rubidium, caesium) is the alkali column; the frozen R11 table prints exactly one empty slot (\"Mate to 1−\", 1001+, all data cells blank) between Niton (radon, 222.4) and Radium (226.0) — cf. C024."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "CRC Handbook of Chemistry and Physics, 97th ed. (2016), Sec. 4, \"The Elements\" (C.R. Hammond)",
+     "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+     "retrieved": "2026-09-11",
+     "note": "Francium, Z=87, discovered 1939 by Marguerite Perey (Institut du Radium, Paris); primary announcement M. Perey, C. R. Acad. Sci. (Paris) 208, 97–99 (1939). Via the frozen data/modern_elements.json francium record."
+    },
+    {
+     "name": "IUPAC Periodic Table of the Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "retrieved": "2026-09-11",
+     "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "An element, unknown in 1926, exists in the single position between Niton (radon) and radium.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Francium (Z=87, Perey 1939). Period-standard: the Z=87 gap (\"eka-caesium\") was fixed by Moseley's X-ray sequence in 1913–14 and carried in standard interwar tables (essay/comparison.md §1.4)."
+    },
+    {
+     "role": "assertion",
+     "statement": "That element is the valency-one (1+) homolog of the series hydrogen, lithium, sodium, potassium, rubidium, caesium.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Francium is a group-1 alkali metal, valence 1."
+    }
+   ],
+   "class_base_rate": {
+    "class_description": "Starred/placeholder class of C015/C024: 40 named invented elements plus 8 unnamed \"Mate to …\" placeholder slots; this entry adjudicates 1 of the 8 unnamed slots.",
+    "class_size": 8,
+    "hits": 6,
+    "misses": 2,
+    "note": "Positional matches: 803D+ (Mo–Ru) → Tc (1937); 903D+ (Nd–Sm) → Pm (1945); one of 903M−/903L− (Lu–Ta) → Hf (already discovered 1923); 903I− (W–Os) → Re (already discovered 1925); 901− (after Po) → At (1940); 1001+ (Nt–Ra) → Fr (1939). Misses: the second Lu–Ta slot (only Hf exists there) and 903E− (Pt–Au: no gap exists). Every match was a Moseley-known gap or an already-discovered element. The 40 named inventions match 0 of the 118 modern elements."
+   },
+   "analysis": "Selection audit (rule §3.4, no cherry-picking): Uridium/Urium (C027) was examined and rejected as the lead confirmed case — elements beyond uranium exist (Np, Pu, 1940), but the printed content beyond continuation is a count-and-terminus (two tones, then the cycle ends at Tomium) that the 26 known transuranics refute; expected `partially confirmed` at best when scored. The starred-name class is refuted-dominated (0/40). The inert-gas claims lean refuted (C007: none of the 3½ octaves of \"missing\" inert gases exists; C045: no gas–gas \"interlocking\" chemistry of the noble gases exists — the 1962-onward noble-gas compounds are fluorides/oxides). C044 is the strongest: both checkable components are confirmed by francium. Under §3.3 step 2 (no novel components — both are period-standard), the verdict aggregates over all assertion components → confirmed, with the novelty axis and class base rate disclosed. This entry credits no priority and transfers nothing to the octave scheme: the ten-octave structure conflicts with the modern period lengths (essay/comparison.md §3), and the row prints no mass or melting point that could have been checked.",
+   "verdict_sentence": "The claim that an unknown element (1001+) precedes radium as the tenth row's valency-one position is confirmed by the discovery of francium (Z=87, Perey 1939) — with the qualification that a gap at that position was standard knowledge from Moseley's 1913–14 sequence, so the confirmation records no location not already in the period literature.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V004",
+   "title": "Luminon and the helium 4922.1 line (cold-light element between hydrogen and helium)",
+   "claim_ids": [
+    "C013",
+    "C020",
+    "C032"
+   ],
+   "related_claim_ids": [
+    "C014",
+    "C029"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C013",
+     "quote_verbatim": "Element 403− is a negative, expanding gas which becomes highly luminous upon impact with a recharging, or regenerating higher potential. This gas will be the chemical basis of the cold light of the future. It is the secret of the fireflies “phosphorescence”. The spectrum of helium, wave length 4922.1 tells the existence of luminon.",
+     "printed_page": "[89]",
+     "loc_index": 109
+    },
+    {
+     "claim_id": "C020",
+     "quote_verbatim": "*2.92 … *Approximate",
+     "printed_page": "94",
+     "loc_index": 114,
+     "note": "Luminon (403−) is assigned atomic mass 2.92, footnote \"*Approximate\" — the only novel mass value printed anywhere in the ten-octave tables."
+    },
+    {
+     "claim_id": "C032",
+     "quote_verbatim": "Luminon (403−), is the basis of the cold light of the future. Luminosity of better color can be produced by regenerative excitation of this radiative gas at about one forty-thousandth of the expenditure of energy necessary to produce the same degree of luminosity by the use of a tungsten filament. Luminon can also be produced by transmutation at a negligible expenditure.",
+     "printed_page": "100",
+     "loc_index": 120
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "NIST Handbook of Basic Atomic Spectroscopic Data, helium tables (He I 4921.9313 Å; transition 1s2p ¹P° – 1s4d ¹D, singlet system)",
+     "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/heliumtable3_a.htm",
+     "retrieved": "2026-09-11",
+     "note": "The line Russell cites is a classified transition of neutral helium itself."
+    },
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "Helium has a spectral line at wave length ≈4922 (printed 4922.1).",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "He I 4921.93 Å is real; the printed 4922.1 is 0.17 Å off the modern value. Verified but not creditable (premise rule §3.1); the verdict does not rest on the wavelength precision."
+    },
+    {
+     "role": "assertion",
+     "statement": "The helium line at 4922.1 tells the existence of an undiscovered element, luminon (403−).",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "The line is a classified transition of neutral helium (1s2p ¹P° – 1s4d ¹D), fully accounted for by helium's own two-electron structure; it evidences no other substance."
+    },
+    {
+     "role": "assertion",
+     "statement": "An element of atomic mass ≈2.92 exists between hydrogen and helium.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "No element exists between Z=1 and Z=2 (Moseley). The mass-≈3 nuclides ³H and ³He are isotopes of hydrogen and helium, not new elements — and the 1926 scheme has no isotope concept (verification/deuterium_negative.md §6)."
+    },
+    {
+     "role": "assertion",
+     "statement": "Luminon is the (chemical) basis of the cold light of the future, at about 1/40,000 of the energy of a tungsten filament.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "Efficient non-incandescent lighting exists (discharge, fluorescent, LED) and involves no such element; the efficiency figure attaches to a substance that does not exist. Scored as printed: the claim ties cold light to luminon as its basis."
+    }
+   ],
+   "analysis": "The claim has genuinely checkable content — a specific wavelength, an approximate mass, a chemical role — and every checkable assertion fails against the modern record. The verified premise (helium really has a line there) is exactly what the premise rule §3.1 exists for: citing a real line confirms nothing about the element asserted on top of it. Aggregation (§3.3): all novel assertions refuted, none confirmed → refuted.",
+   "verdict_sentence": "The claim that the helium line at wave length 4922.1 tells the existence of a distinct element luminon is refuted: the line is a classified transition of neutral helium itself, no element exists between hydrogen and helium, and cold light arrived with no such substance as its basis.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C013",
+     "description": "Hand-lettered comma after \"helium\"; order of closing quote and period after \"phosphorescence\" — typography-only.",
+     "resolution": "verdict-stable",
+     "note": "No component rests on these marks (rule §4.5 with §4.3)."
+    },
+    {
+     "description": "Printed 4922.1 vs modern 4921.93 Å (0.17 Å difference).",
+     "resolution": "verdict-stable",
+     "note": "The verdict does not rest on the wavelength precision; the premise is granted as verified."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V005",
+   "title": "\"Uranium XII\" (1003B+, symbol UrXII) between thorium and uranium",
+   "claim_ids": [
+    "C027"
+   ],
+   "claim_scope": "split",
+   "scope_note": "Adjudicates only the \"Uranium XII\" row documented in C027; the Uridium/Urium rows of the same claim id are a separate scoreboard question (see V003 analysis).",
+   "verdict": "terminology only",
+   "reading_adopted": {
+    "reading": "\"Uranium XII\" is the period radioelement designation Uranium X II (UX₂), not an invented element name.",
+    "evidence_for": [
+     "The printed symbol \"UrXII\" is Russell's uranium symbol \"Ur\" + \"XII\", matching the UX₂ designation pattern; his coinages elsewhere are proper names (Uridium, Urium, Whitnion), never roman-numeral designators.",
+     "The row position between Thorium (1003A+, 232.15) and Uranium (1003C+, 238.2) matches the period placement of UX₂ by atomic weight (≈234).",
+     "Designations of exactly this form (UX₁, UX₂) were standard in the 1913–1926 radiochemical literature (Fajans and Göhring, 1913, \"brevium\")."
+    ],
+    "alternatives": [
+     {
+      "reading": "An invented Russell element named \"Uranium XII\".",
+      "consequence": "The row would join the 40-name invented class with zero confirmations. Under neither reading does the row yield credit, so the adopted reading is not outcome-driven (rule §4.6 no-special-pleading check)."
+     }
+    ]
+   },
+   "evidence_1926": [
+    {
+     "claim_id": "C027",
+     "quote_verbatim": "Uridium 1003D+ Um / Urium 1003E+ Uu",
+     "printed_page": "100",
+     "loc_index": 120,
+     "note": "The same frozen claim record documents the adjacent row: between Thorium and Uranium the table prints \"Uranium XII\" (1003B+, symbol UrXII, cells empty); row verified at native resolution and present in data/russell_1926_elements.json (octave 10, position 1003B)."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "IUPAC CIAAW element page: protactinium",
+     "url": "https://ciaaw.org/protactinium.htm",
+     "retrieved": "2026-09-11",
+     "note": "UX₂ = ²³⁴ᵐPa, identified 1913 by Fajans and Göhring and named \"brevium\"; protactinium (Z=91) lies between thorium (90) and uranium (92). Via the frozen data/modern_elements.json protactinium record and its aliases_1926."
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "The designation \"Uranium XII\"/\"UrXII\" denotes the period radioelement Uranium X II (UX₂ = ²³⁴ᵐPa).",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Identification under the adopted reading; the referent is an isotope of protactinium, not a distinct element. No assertion components exist: every data cell of the row is printed blank."
+    }
+   ],
+   "analysis": "The printed glyphs are certain (both OCR witnesses and the native image agree); only the reading is interpretive, and claims.json flags exactly that. Under the adopted reading the row records nomenclature of the period radiochemical literature — a decay-series designation that modern usage resolves to ²³⁴ᵐPa — and asserts nothing of the author's own: no name he coined, no property, no prediction (all cells blank). Under the alternative reading it would be one more never-observed invented name. The credit total is identical either way, so the classification is stable in the only respect that matters for the scoreboard; the adopted reading is the better-evidenced one on the printed pattern and position.",
+   "verdict_sentence": "The printed row \"Uranium XII\" (1003B+, UrXII) is read as the period radioelement designation Uranium X II (UX₂ = ²³⁴ᵐPa), recorded as nomenclature of the 1913–1926 radiochemical literature rather than an assertion by the author; the row itself prints no checkable content.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C027",
+     "description": "The printed text \"Uranium XII\" is certain; its interpretation as UX₂ is a reading (flagged [uncertain] in claims.json).",
+     "resolution": "verdict-stable",
+     "note": "Handled under the interpretation rule §4.6: both admissible readings yield zero credit; reading stated with its evidence."
+    }
+   ],
+   "register_checked": true
+  }
+ ]
+}

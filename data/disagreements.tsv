@@ -1,0 +1,7 @@
+octave	position	field	dataset_value	witness_values	resolution	crop_path
+8	r8(Mate to 3D−)	name	Mate to 3D−	loc_table='Mate to 3D −'; usp_table='Mate to 3D−'	dataset-correct	data/audit_crops/o8r8_name_loc_4x.png;data/audit_crops/o8r8_name_usp_4x.png
+9	r8(Mate to 3D−)	name	Mate to 3D−	loc_table='Mate to 3D −'; usp_table='Mate to 3D−'	dataset-correct	data/audit_crops/o9r8_name_loc_4x.png;data/audit_crops/o9r8_name_usp_4x.png
+10	r2(Mate to 1−)	name	Mate to 1−	loc_table='Mate to 1 −'; usp_table='Mate to 1−'	dataset-correct	data/audit_crops/o10r2_name_loc_4x.png;data/audit_crops/o10r2_name_usp_4x.png
+4	r3(Ethlogen)	chart_witness	ETHLOGEN	loc_chart=label found verbatim; usp_chart=label found verbatim; see adjudication	dataset-correct	data/audit_crops/chart_o4r3_ethlogen_loc0109_rot.png;data/audit_crops/chart_o4r3_ethlogen_usp107.png
+4	r8(Helionon)	chart_witness	HELIONON	loc_chart=label found verbatim; usp_chart=label found verbatim; see adjudication	dataset-correct	data/audit_crops/chart_o4r8_helonon_loc0109_4x.png;data/audit_crops/chart_o4r8_helonon_usp107_5x.png
+5	r3(Beryllium)	chart_witness	BERYLLIUM	loc_chart=verbatim label NOT found; usp_chart=verbatim label NOT found; see adjudication	dataset-error-candidate	data/audit_crops/chart_o5r3_berylium_loc0111_4x.png;data/audit_crops/chart_o5r3_berylium_usp109_4x.png

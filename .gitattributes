@@ -1,0 +1,3 @@
+# Byte-for-byte fidelity: the published checksums must match what a clone
+# receives, so Git performs no end-of-line or encoding conversion here.
+* -text

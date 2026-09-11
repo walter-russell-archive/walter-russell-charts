@@ -1,0 +1,300 @@
+# The Universal One (Walter Russell, Brieger Press, c1926) - Library of Congress gdc.27004508
+# Page map: LoC IIIF image index (1-290) -> printed folio + content class.
+# Produced 2026-09-11. Method + exact commands: see data/plate_audit.md (appendix) and data/pagemap_work/.
+# printed_page: number as printed on the page; "none" = no folio printed on that page.
+#   Full-page chart pages carry no printed folio; they are counted in the pagination sequence,
+#   so their position number is given in brackets, e.g. [39] = page 39 by count, folio not printed.
+#   The single tipped-in plate leaf (Contents: "Chart ... Opposite 58") is unpaginated: "none".
+# content_class: text | table | plate/figure | front_matter | blank
+# Image pixel dimensions per index (from IIIF info.json): data/pagemap_work/loc_info_dims.tsv
+loc_index	printed_page	content_class	notes
+1	none	front_matter	front cover (cloth board; LoC barcode label)
+2	none	front_matter	patterned endpaper
+3	none	front_matter	patterned endpaper
+4	none	blank	blank flyleaf
+5	none	blank	blank flyleaf
+6	none	blank	blank flyleaf
+7	none	front_matter	title page: THE UNIVERSAL ONE / Walter Russell
+8	none	front_matter	copyright page: Copyright 1926 by Walter Russell
+9	none	front_matter	dedication: To the One God, the universal One
+10	none	blank	blank
+11	none	front_matter	PRELUDE p.1 (unnumbered)
+12	none	front_matter	PRELUDE p.2 (unnumbered)
+13	none	front_matter	PRELUDE p.3 (unnumbered; ends with facsimile signature)
+14	none	front_matter	CONTENTS p.1 (Book I + start Book II; lists charts by page incl. 'Opposite 58')
+15	none	front_matter	CONTENTS (Continued) p.2 (Book II ch. VI-XXVIII; New Laws and Principles 255)
+16	none	plate/figure	PLATE frontispiece: Russell Periodic Chart of Atomic Weights... (not listed in Contents)
+17	none	front_matter	epigraph in ruled box: John i:1
+18	none	blank	blank
+19	1	text	BOOK I, CHAPTER I begins (folio 1); folio read by strip OCR
+20	2	text	folio read by strip OCR
+21	3	text	folio read by strip OCR
+22	4	text	folio read by strip OCR
+23	[5]	plate/figure	PLATE: reproduction of Mendeleef 1904 periodic table (listed as 'Chart' in Contents); folio not printed on chart pages, value from pagination sequence
+24	6	text	folio read by strip OCR
+25	7	text	folio read by strip OCR
+26	8	text	folio read by strip OCR
+27	[9]	plate/figure	PLATE: 'There Is' evolution/devolution fan diagram; folio not printed on chart pages, value from pagination sequence
+28	10	text	folio read by strip OCR
+29	[11]	plate/figure	PLATE: 'The Law' cosmic pendulum spiral; folio not printed on chart pages, value from pagination sequence
+30	12	text	folio read by strip OCR
+31	[13]	plate/figure	PLATE: 'The octaves are not semi-circular' ten-octave ellipsoid diagram; folio not printed on chart pages, value from pagination sequence
+32	14	text	folio read by strip OCR
+33	15	text	folio read by strip OCR
+34	16	text	folio read by strip OCR
+35	[17]	plate/figure	PLATE: chart describing the electro-magnetic process of mass formation; folio not printed on chart pages, value from pagination sequence
+36	18	text	folio read by strip OCR
+37	[19]	plate/figure	PLATE: 'Matter is an appearance...' diagram; folio not printed on chart pages, value from pagination sequence
+38	20	text	folio read by strip OCR
+39	21	text	folio read by strip OCR
+40	22	text	folio by arithmetic (sequence-verified)
+41	23	text	folio read by strip OCR
+42	24	text	folio read by strip OCR
+43	25	text	folio read by strip OCR
+44	26	text	folio read by strip OCR
+45	27	text	folio read by strip OCR
+46	28	text	folio read by strip OCR
+47	29	text	folio read by strip OCR
+48	30	text	folio read by strip OCR
+49	31	text	folio read by strip OCR
+50	32	text	folio read by strip OCR
+51	33	text	folio read by strip OCR
+52	34	text	folio read by strip OCR
+53	35	text	folio by arithmetic (sequence-verified)
+54	36	text	folio by arithmetic (sequence-verified)
+55	37	text	folio read by strip OCR
+56	38	text	folio read by strip OCR
+57	[39]	plate/figure	PLATE: The Cosmic Clock; folio not printed on chart pages, value from pagination sequence
+58	40	text	folio read by strip OCR
+59	[41]	plate/figure	PLATE: chart classifying locked potential points (octave numbers); folio not printed on chart pages, value from pagination sequence
+60	42	text	folio read by strip OCR
+61	43	text	folio read by strip OCR
+62	44	text	folio read by strip OCR
+63	45	text	folio read by strip OCR
+64	46	text	folio by arithmetic (sequence-verified)
+65	47	text	folio read by strip OCR
+66	48	text	folio read by strip OCR
+67	49	text	folio read by strip OCR
+68	50	text	folio read by strip OCR
+69	51	text	folio read by strip OCR
+70	52	text	folio read by strip OCR
+71	53	text	folio read by strip OCR
+72	54	text	folio read by strip OCR
+73	55	text	folio read by strip OCR
+74	56	text	folio read by strip OCR
+75	57	text	folio read by strip OCR
+76	58	text	folio read by strip OCR
+77	none	plate/figure	PLATE unnumbered tipped-in leaf recto: 'There Is But One Dynamic Force' (Contents: 'Chart ... Opposite 58')
+78	none	plate/figure	verso of unnumbered plate leaf: boxed text 'The creating universe of matter appears...'
+79	59	text	BOOK II, CHAPTER I begins (folio 59); folio read by strip OCR
+80	60	text	folio read by strip OCR
+81	61	text	folio read by strip OCR
+82	62	text	folio by arithmetic (sequence-verified)
+83	63	text	folio read by strip OCR
+84	64	text	folio read by strip OCR
+85	65	text	folio read by strip OCR
+86	66	text	folio by arithmetic (sequence-verified)
+87	67	text	folio read by strip OCR
+88	68	text	folio read by strip OCR
+89	69	text	folio read by strip OCR
+90	70	text	folio read by strip OCR
+91	71	text	folio read by strip OCR
+92	72	text	folio read by strip OCR
+93	73	text	folio read by strip OCR
+94	74	text	folio read by strip OCR
+95	75	text	folio read by strip OCR
+96	76	text	folio read by strip OCR
+97	77	text	folio read by strip OCR
+98	78	text	folio read by strip OCR
+99	79	text	folio read by strip OCR
+100	80	text	folio by arithmetic (sequence-verified)
+101	81	text	folio read by strip OCR
+102	82	text	folio read by strip OCR
+103	[83]	plate/figure	PLATE: Formula of the Locked Potentials / law of emanation orbits; folio not printed on chart pages, value from pagination sequence
+104	84	text	folio read by strip OCR
+105	85	text	folio read by strip OCR
+106	86	text	folio read by strip OCR
+107	[87]	plate/figure	PLATE: 'Created universe of matter' diagram; folio not printed on chart pages, value from pagination sequence
+108	88	text	CHAPTER VI The Ten Octave Cycle begins (folio 88); folio read by strip OCR
+109	[89]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+110	90	text	folio read by strip OCR
+111	[91]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+112	92	table	TABLE OF THE TEN OCTAVES page (running header THE UNIVERSAL ONE); folio read by strip OCR
+113	[93]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+114	94	table	TABLE OF THE TEN OCTAVES page (running header THE UNIVERSAL ONE); folio read by strip OCR
+115	[95]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+116	96	table	TABLE OF THE TEN OCTAVES page (running header THE UNIVERSAL ONE); folio read by strip OCR
+117	[97]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+118	98	table	TABLE OF THE TEN OCTAVES page (running header THE UNIVERSAL ONE); folio read by strip OCR
+119	[99]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+120	100	table	TABLE OF THE TEN OCTAVES page (running header THE UNIVERSAL ONE); folio read by strip OCR
+121	[101]	plate/figure	PLATE: Evolution of Force into Tones (astro-photo plate; Chart No.2 Structure of the Atom); folio not printed on chart pages, value from pagination sequence
+122	102	text	folio read by strip OCR
+123	[103]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+124	104	text	folio read by strip OCR
+125	[105]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+126	106	text	folio read by strip OCR
+127	[107]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+128	108	text	folio read by strip OCR
+129	[109]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+130	110	text	folio read by strip OCR
+131	[111]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+132	112	text	folio read by strip OCR
+133	[113]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+134	114	text	folio read by strip OCR
+135	115	text	folio read by strip OCR
+136	116	text	folio read by strip OCR
+137	117	text	folio read by strip OCR
+138	118	text	folio read by strip OCR
+139	119	text	folio read by strip OCR
+140	120	text	folio read by strip OCR
+141	121	text	folio read by strip OCR
+142	122	text	folio read by strip OCR
+143	123	text	folio read by strip OCR
+144	124	text	folio read by strip OCR
+145	[125]	plate/figure	PLATE: Nature's plan of erecting pressure walls; folio not printed on chart pages, value from pagination sequence
+146	126	text	folio read by strip OCR
+147	127	text	folio read by strip OCR
+148	128	text	folio read by strip OCR
+149	129	text	folio read by strip OCR
+150	130	text	folio read by strip OCR
+151	131	text	folio read by strip OCR
+152	132	text	folio read by strip OCR
+153	133	text	folio read by strip OCR
+154	134	text	folio read by strip OCR
+155	135	text	folio read by strip OCR
+156	136	text	folio read by strip OCR
+157	137	text	folio read by strip OCR
+158	138	text	folio read by strip OCR
+159	[139]	plate/figure	PLATE: attraction/repulsion chart; folio not printed on chart pages, value from pagination sequence
+160	140	text	folio read by strip OCR
+161	141	text	folio read by strip OCR
+162	142	text	folio read by strip OCR
+163	143	text	folio read by strip OCR
+164	144	text	folio read by strip OCR
+165	145	text	folio read by strip OCR
+166	146	text	folio read by strip OCR
+167	147	text	folio read by strip OCR
+168	148	text	folio read by strip OCR
+169	149	text	folio read by strip OCR
+170	150	text	folio read by strip OCR
+171	[151]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+172	152	text	folio read by strip OCR
+173	[153]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+174	154	text	folio read by strip OCR
+175	[155]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+176	156	text	folio read by strip OCR
+177	[157]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+178	158	text	folio read by strip OCR
+179	[159]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+180	160	text	folio read by strip OCR
+181	[161]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+182	162	text	folio read by strip OCR
+183	[163]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+184	164	text	folio read by strip OCR
+185	[165]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+186	166	text	folio read by strip OCR
+187	[167]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+188	168	text	folio read by strip OCR
+189	[169]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+190	170	text	folio read by strip OCR
+191	[171]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+192	172	text	folio read by strip OCR
+193	[173]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+194	174	text	folio read by strip OCR
+195	[175]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+196	176	text	folio read by strip OCR
+197	[177]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+198	178	text	folio read by strip OCR
+199	[179]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+200	180	text	folio read by strip OCR
+201	[181]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+202	182	text	folio read by strip OCR
+203	[183]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+204	184	text	folio read by strip OCR
+205	185	text	folio read by strip OCR
+206	186	text	folio read by strip OCR
+207	187	text	folio read by strip OCR
+208	188	text	folio by arithmetic (sequence-verified)
+209	[189]	plate/figure	PLATE: The Universal See-Saw; folio not printed on chart pages, value from pagination sequence
+210	190	text	folio read by strip OCR
+211	191	text	folio read by strip OCR
+212	192	text	folio read by strip OCR
+213	193	text	folio read by strip OCR
+214	194	text	folio read by strip OCR
+215	195	text	folio read by strip OCR
+216	196	text	folio read by strip OCR
+217	[197]	plate/figure	PLATE: The Solar Mystery Chart No.1; folio not printed on chart pages, value from pagination sequence
+218	198	text	folio read by strip OCR
+219	[199]	plate/figure	PLATE: The Solar Mystery Chart No.2; folio not printed on chart pages, value from pagination sequence
+220	200	text	folio read by strip OCR
+221	201	text	folio read by strip OCR
+222	202	text	folio read by strip OCR
+223	203	text	folio read by strip OCR
+224	204	text	folio read by strip OCR
+225	205	text	folio read by strip OCR
+226	206	text	folio read by strip OCR
+227	207	text	folio read by strip OCR
+228	208	text	folio read by strip OCR
+229	[209]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+230	210	text	folio read by strip OCR
+231	[211]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+232	212	text	folio read by strip OCR
+233	[213]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+234	214	text	folio read by strip OCR
+235	215	text	folio read by strip OCR
+236	216	text	folio read by strip OCR
+237	217	text	folio read by strip OCR
+238	218	text	folio read by strip OCR
+239	[219]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+240	220	text	folio read by strip OCR
+241	[221]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+242	222	text	folio read by strip OCR
+243	[223]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+244	224	text	folio read by strip OCR
+245	[225]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+246	226	text	folio read by strip OCR
+247	[227]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+248	228	text	folio read by strip OCR
+249	[229]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+250	230	text	folio read by strip OCR
+251	231	text	folio read by strip OCR
+252	232	text	folio read by strip OCR
+253	[233]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+254	234	text	folio read by strip OCR
+255	[235]	plate/figure	PLATE: Crystallization Chart No.1 (listed under Ch XXII in Contents); folio not printed on chart pages, value from pagination sequence
+256	236	text	folio read by strip OCR
+257	237	text	folio read by strip OCR
+258	238	text	folio read by strip OCR
+259	239	text	folio read by strip OCR
+260	240	text	folio read by strip OCR
+261	[241]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+262	242	text	folio read by strip OCR
+263	[243]	plate/figure	PLATE: full-page chart (listed in Contents); folio not printed on chart pages, value from pagination sequence
+264	244	text	folio read by strip OCR
+265	245	text	folio read by strip OCR
+266	246	text	folio read by strip OCR
+267	247	text	folio read by strip OCR
+268	248	text	folio read by strip OCR
+269	249	text	folio read by strip OCR
+270	250	text	folio read by strip OCR
+271	251	text	CONCLUSION begins; folio read by strip OCR
+272	252	text	folio read by strip OCR
+273	253	text	Conclusion text + boxed diagram 'appears from the One / disappears into the One'; folio read by strip OCR
+274	254	text	text panel + spiral diagram 'The Mystery of Gravitation & Radiation' (not in Contents chart list); folio read by strip OCR
+275	255	text	NEW LAWS AND PRINCIPLES begins (folio 255, matches Contents); folio read by strip OCR
+276	256	text	folio read by strip OCR
+277	257	text	folio read by strip OCR
+278	258	text	folio read by strip OCR
+279	259	text	folio read by strip OCR
+280	260	text	folio read by strip OCR
+281	261	text	folio read by strip OCR
+282	262	text	folio read by strip OCR
+283	263	text	folio read by strip OCR
+284	none	blank	blank flyleaf
+285	none	blank	blank flyleaf
+286	none	blank	blank flyleaf
+287	none	blank	blank flyleaf
+288	none	blank	patterned endpaper (back)
+289	none	blank	patterned endpaper (back)
+290	none	blank	back cover (cloth board; LoC label)

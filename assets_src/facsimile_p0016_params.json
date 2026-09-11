@@ -1,0 +1,31 @@
+{
+  "input": "source_scans/loc/full/p0016.jpg",
+  "input_size": [
+    2712,
+    3264
+  ],
+  "pipeline": [
+    "gray_close background estimation, window=101",
+    "flatten = clip(gray/max(bg,1)*255)",
+    "global Otsu on flattened -> threshold=166",
+    "despeckle: drop 8-connected components with area<=8px (removed 364 components, 1176 px)",
+    "scanner-frame removal: drop ink components touching the image boundary (486496 px)",
+    "NO stroke-repair closing (failure boundary at radius 1; see verification/restoration_study.md)"
+  ],
+  "otsu_threshold": 166,
+  "bg_window": 101,
+  "speckle_max_area": 8,
+  "close_iters": 0,
+  "removed_speckle_components": 364,
+  "removed_speckle_px": 1176,
+  "drop_border": true,
+  "removed_border_px": 486496,
+  "ink_fraction": 0.17492901013650297,
+  "not_done": [
+    "no generative/diffusion enhancement",
+    "no learned upscaling",
+    "no inpainting",
+    "no manual retouching",
+    "no morphological stroke repair (documented failure boundary)"
+  ]
+}

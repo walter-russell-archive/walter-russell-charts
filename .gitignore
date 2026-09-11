@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# A global ignore file on the build machine excludes data/*. The dataset is the
+# product here, so re-include it explicitly.
+!data/
+!data/*

@@ -1,0 +1,506 @@
+[
+  {
+    "id": "C001",
+    "claim_type": "other_checkable",
+    "quote_verbatim": "And of those most important of the elements, which man calls the “inert gases,” nothing at all is known except that they will not combine with any other elements. O the pity of it!",
+    "loc_index": 13,
+    "printed_page": "none (Prelude, 3rd leaf)",
+    "context_note": "Prelude. State-of-knowledge claim about the inert gases as of 1926, setting up their later reclassification as master-tones."
+  },
+  {
+    "id": "C002",
+    "claim_type": "other_checkable",
+    "quote_verbatim": "With truth comes knowledge; and with knowledge power to transmute at will, and simply, plentiful substances of matter into those which are the rarest, to meet the needs of man.",
+    "loc_index": 13,
+    "printed_page": "none (Prelude, 3rd leaf)",
+    "context_note": "Prelude. General transmutation-at-will prediction; concrete instances at C009, C012, C031."
+  },
+  {
+    "id": "C003",
+    "claim_type": "periodicity",
+    "quote_verbatim": "It runs the gamut of periodic and opposing deceleration and acceleration in six full tones, one double tone, and a master-tone, to each of ten lowering octaves, and a variable number of mid-tones in each of the last four octaves.",
+    "loc_index": 22,
+    "printed_page": "4",
+    "context_note": "Book I ch. I. Core octave-structure claim: 10 octaves x (6 full tones + 1 double tone + 1 master-tone), mid-tones confined to octaves 7–10 (cf. C025)."
+  },
+  {
+    "id": "C004",
+    "claim_type": "classification",
+    "quote_verbatim": "The master-tone of each octave is the inheritance of the original motion of the thinking process of Mind. These master-tones are the “inert gases” which are classified in the zero group of the Mendeléef table.",
+    "loc_index": 22,
+    "printed_page": "4",
+    "context_note": "Identifies the zero-group inert gases with his 'master-tones'."
+  },
+  {
+    "id": "C005",
+    "claim_type": "classification",
+    "quote_verbatim": "The master-tones which represent a state of motion-in-inertia and are the inert gases, bear the same relationship to the elements that white bears to the colors. They are a registration of them all. White is not included in the spectrum, it has no place there. The inert gases should not be included in the elements. They have no place there. Of this more shall be written later in its proper place.",
+    "loc_index": 22,
+    "printed_page": "4",
+    "context_note": "The inert-gas demotion claim: noble gases are to be removed from the elements proper."
+  },
+  {
+    "id": "C006",
+    "claim_type": "classification",
+    "quote_verbatim": "It is correct only in the orderly periodicity of atomic weight, which is mass dimension. In all other dimensions and periodicities it is wrongly arranged. There is no eighth group.",
+    "loc_index": 23,
+    "printed_page": "[5]",
+    "context_note": "Caption under the reproduced Mendeléef 1904 table (plate, unnumbered; page [5] by count). 'It' = the Mendeléef table. Denies the existence of Group VIII."
+  },
+  {
+    "id": "C007",
+    "claim_type": "classification",
+    "quote_verbatim": "The inert gases of the zero group are incomplete and 3½ octaves are missing.",
+    "loc_index": 23,
+    "printed_page": "[5]",
+    "context_note": "Same caption. NOTE: both OCR witnesses garble the fraction ('31/4'/'31'); native-image read establishes the printed glyph is 3½ (stacked one-over-two), not 3¼. Implies undiscovered inert gases (Alphanon, Betanon, Gammanon, Hydron; cf. C017, C019).",
+    "related_element_names": [
+      "Alphanon",
+      "Betanon",
+      "Gammanon",
+      "Hydron"
+    ]
+  },
+  {
+    "id": "C008",
+    "claim_type": "classification",
+    "quote_verbatim": "The cycle begins with the highest note and descends the scale sequentially through man's unseen universe until hydrogen, the first element perceivable to man, is reached.",
+    "loc_index": 24,
+    "printed_page": "6",
+    "context_note": "Places 3+ octaves of 'unseen' elements before hydrogen; hydrogen is the first perceivable element. Continues: 'Those tones which follow hydrogen are man's visible or \"physical\" universe of matter and continue into the tenth octave.' (same page, verified). Reused from verification/deuterium_negative.md §5.1."
+  },
+  {
+    "id": "C009",
+    "claim_type": "other_checkable",
+    "quote_verbatim": "As all states of motion are measurable and are under the absolute control of mind, and as man is mind, man may, with dawning knowledge of causes, change any one state of motion into any other state of motion, and by so doing transmute any one substance into any other one. The granite rock may become gold, or radium, at the will of man.",
+    "loc_index": 27,
+    "printed_page": "[9]",
+    "context_note": "Caption text block on the plate 'CHART TRACING SOURCE OF MAN'S SUPPOSEDLY MANY SUBSTANCES BACK TO THE ONE' (page [9] by count). [uncertain] punctuation earlier in the same block: after 'the seven tones of an octave' the mark is comma-vs-semicolon ambiguous on the native image (LoC OCR reads ';')."
+  },
+  {
+    "id": "C010",
+    "claim_type": "periodicity",
+    "quote_verbatim": "All states of motion, no matter how complex, are reducible to ten octaves of seven tones each, plus their mid-tones and their master-tones.",
+    "loc_index": 54,
+    "printed_page": "36",
+    "context_note": "Ch. XIV Concerning Dimension. Sentence straddles the two columns of p.36."
+  },
+  {
+    "id": "C011",
+    "claim_type": "element_prediction",
+    "quote_verbatim": "All creation is reducible to about a hundred and forty elements which tell the entire complex story of God's thinking just as all literature is reducible to twenty-six letters which tell the entire complex story of all of man's thinking.",
+    "loc_index": 54,
+    "printed_page": "36",
+    "context_note": "Total element-count claim (~140), consistent with his tables: 10 octaves x 8 tabulated positions plus mid-tones."
+  },
+  {
+    "id": "C012",
+    "claim_type": "other_checkable",
+    "quote_verbatim": "All that he lacks is the knowledge of dimension in order that he may transmute that state of potential energy locked up in a state of motion called carbon into that other state of motion called gold; and he may have all that he desires at the cost of a very slight effort.",
+    "loc_index": 55,
+    "printed_page": "37",
+    "context_note": "Carbon-to-gold transmutation claim."
+  },
+  {
+    "id": "C013",
+    "claim_type": "spectral",
+    "quote_verbatim": "Element 403− is a negative, expanding gas which becomes highly luminous upon impact with a recharging, or regenerating higher potential. This gas will be the chemical basis of the cold light of the future. It is the secret of the fireflies “phosphorescence”. The spectrum of helium, wave length 4922.1 tells the existence of luminon.",
+    "loc_index": 109,
+    "printed_page": "[89]",
+    "context_note": "Hand-lettered annotation on the plate 'FIRST FOUR OCTAVES OF THE TEN OCTAVE CYCLE OF CREATION' (page [89] by count). 403− = Luminon. [uncertain]: the comma after 'helium' is a ~2px hand-lettered mark (comma most likely; both OCR layers omit it); 'fireflies' is printed without apostrophe; the mark order in '“phosphorescence”.' is quote-then-period on best read. He 4921.9 Å is a real He I line; checkable.",
+    "related_element_names": [
+      "Luminon"
+    ]
+  },
+  {
+    "id": "C014",
+    "claim_type": "spectral",
+    "quote_verbatim": "This is the second element within the visible range. The intervening six have been unknown and the evidence of their existence which is clearly shown in the spectrum of helium(500=)has been ignored because unrecognized.",
+    "loc_index": 109,
+    "printed_page": "[89]",
+    "context_note": "Companion annotation on the same plate (arrow to helium). Claims the helium spectrum evidences six unknown elements between hydrogen and helium. Tight hand-lettered spacing 'helium(500=)has' as printed.",
+    "related_element_names": [
+      "Ethlogen",
+      "Bebegen",
+      "Carbogen",
+      "Luminon",
+      "Halanon",
+      "Helionon"
+    ]
+  },
+  {
+    "id": "C015",
+    "claim_type": "element_prediction",
+    "quote_verbatim": "★ STARS INDICATE UNDISCOVERED ELEMENTS LOCATED BY THE AUTHOR",
+    "loc_index": 111,
+    "printed_page": "[91]",
+    "context_note": "Legend on the plate 'FOURTH, FIFTH AND SIXTH OCTAVES...' (page [91] by count); the same legend appears on the first-four-octaves plate (LoC 0109, page [89]) and on the tipped-in chart leaf (USP witness p.56 region). The explicit undiscovered-element assertion covering every starred tone.",
+    "related_element_names": [
+      "Alphanon",
+      "Irenon",
+      "Vijaon",
+      "Marvaon",
+      "Tomion",
+      "Alberton",
+      "Blackton",
+      "Boston",
+      "Betanon",
+      "Jamearnon",
+      "Erneston",
+      "Eykaon",
+      "Athenon",
+      "Barnardon",
+      "Delphanon",
+      "Romanon",
+      "Gammanon",
+      "Marconium",
+      "Penrynium",
+      "Vinton",
+      "Quentin",
+      "Tracion",
+      "Buzzeon",
+      "Helenon",
+      "Hydron",
+      "Ethlogen",
+      "Bebegen",
+      "Carbogen",
+      "Luminon",
+      "Halanon",
+      "Helionon",
+      "Uridium",
+      "Urium",
+      "Tomium",
+      "Whitnion",
+      "Alphonson",
+      "Georgeon",
+      "Victoron",
+      "Lipton",
+      "Omeganon"
+    ]
+  },
+  {
+    "id": "C016",
+    "claim_type": "classification",
+    "quote_verbatim": "Tone 401+ is hydrogen. It is the first + element of the fourth octave. Hydrogen could not exist without its negative reaction which is helionon, 401−. An element of positive charge must have its mate in negative discharge to maintain the equilibrium of this universe of motion. Tone 401+ plus tone 401− equals one unit constant. Seven tones in one octave equal one constant of energy.",
+    "loc_index": 111,
+    "printed_page": "[91]",
+    "context_note": "Annotation box on the same plate. Positions hydrogen as 401+ and pairs it with undiscovered helionon 401−.",
+    "related_element_names": [
+      "Helionon"
+    ]
+  },
+  {
+    "id": "C017",
+    "claim_type": "element_prediction",
+    "quote_verbatim": "TABLE OF THE TEN OCTAVES OF THE VARYING STATES OF MOTION WHICH CREATE THE ILLUSION OF DIFFERENT SUBSTANCES KNOWN AS “THE ELEMENTS OF MATTER.” / FIRST OCTAVE WAVE / Beginning of the Cyclic Inhalation at Tomion.",
+    "loc_index": 112,
+    "printed_page": "92",
+    "context_note": "Table page: octaves 1–3, 24 rows, ALL bearing invented names (octave 1: Alphanon 100=, Irenon 101+, Vijaon 102+, Marvaon 103+, TOMION 104‡, Alberton 103−, Blackton 102−, Boston 101−; octave 2: Betanon 200= … Romanon 201−; octave 3: Gammanon 300= … Helenon 301−). ATOMIC MASS and MELTING POINT columns are printed EMPTY (“”) for every row on the page — blank white paper, verified at native resolution here and in R2/R17. Quote is the table title + first-octave subtitle; '/' marks printed line groups.",
+    "related_element_names": [
+      "Alphanon",
+      "Irenon",
+      "Vijaon",
+      "Marvaon",
+      "Tomion",
+      "Alberton",
+      "Blackton",
+      "Boston",
+      "Betanon",
+      "Jamearnon",
+      "Erneston",
+      "Eykaon",
+      "Athenon",
+      "Barnardon",
+      "Delphanon",
+      "Romanon",
+      "Gammanon",
+      "Marconium",
+      "Penrynium",
+      "Vinton",
+      "Quentin",
+      "Tracion",
+      "Buzzeon",
+      "Helenon"
+    ]
+  },
+  {
+    "id": "C018",
+    "claim_type": "classification",
+    "quote_verbatim": "Each element is a tone. Each tone has its opposite. Two opposite tones are a unit. The fourth tone has its opposite within itself. It is a double tone. There are four units to each octave. There are seven tones to each octave.",
+    "loc_index": 113,
+    "printed_page": "[93]",
+    "context_note": "Hand-lettered credo box on the plate 'SEVENTH AND EIGHTH OCTAVE CONSTANTS...' (page [93] by count). [uncertain]: third line shows a stray period-like mark, reading 'a.unit.' on the scan; transcribed as 'a unit.'"
+  },
+  {
+    "id": "C019",
+    "claim_type": "element_prediction",
+    "quote_verbatim": "FOURTH OCTAVE WAVE — rows: Hydron 400= Hy; Hydrogen 401+ H 1.008 −259; Ethlogen 402+ Eg; Bebegen 403+ Bb; CARBOGEN 404‡ Cb; Luminon 403− Ln *2.92; Halanon 402− Ha; Helionon 401− Hi.",
+    "loc_index": 114,
+    "printed_page": "94",
+    "context_note": "Table page (octaves 4–6). Seven invented tones surround hydrogen, the octave's only known element. All mass/melting cells printed empty except Hydrogen (1.008 / −259) and Luminon's starred mass (see C020). Octaves 5–6 on this page carry only standard element names (verified; no further invented names). Row-level transcription per R17 §5.4 native-resolution read; quote is a row summary, not running prose.",
+    "related_element_names": [
+      "Hydron",
+      "Ethlogen",
+      "Bebegen",
+      "Carbogen",
+      "Luminon",
+      "Halanon",
+      "Helionon"
+    ]
+  },
+  {
+    "id": "C020",
+    "claim_type": "physical_property",
+    "quote_verbatim": "*2.92 … *Approximate",
+    "loc_index": 114,
+    "printed_page": "94",
+    "context_note": "Luminon (403−) is assigned atomic mass 2.92 with footnote '*Approximate' — the ONLY novel mass value printed anywhere in the ten-octave tables (R17 §5.4, native-res read of LoC 0114). Checkable against C013/C032 (spectral identity, cold light) and against the He/H mass interval.",
+    "related_element_names": [
+      "Luminon"
+    ]
+  },
+  {
+    "id": "C021",
+    "claim_type": "physical_property",
+    "quote_verbatim": "* Note.—The calculation of the atomic weight of iodine, or tellurium, or of both, appears to be incorrect. The mass of iodine must exceed that of tellurium.",
+    "loc_index": 116,
+    "printed_page": "96",
+    "context_note": "Footnote under the eighth-octave table, tied to the starred values *127.5 (Te) and *126.92 (I). Concrete, falsifiable claim: his octave scheme requires m(I) > m(Te)."
+  },
+  {
+    "id": "C022",
+    "claim_type": "physical_property",
+    "quote_verbatim": "TENTH OCTAVE CONSTANT WHERE TIME DIMENSION OVERTAKES POWER DIMENSION IN PRESSURES WHICH EJECT BETA EMANA-TIONS AT 186,400 MILES PER SECOND. THIS ENDS THE CYCLE.",
+    "loc_index": 117,
+    "printed_page": "[97]",
+    "context_note": "Caption of the tenth-octave-constant plate (page [97] by count; hyphen shows printed line break). Beta emanation speed printed 186,400 mi/s here vs 'exactly 186,330' at C035 — both values are as printed."
+  },
+  {
+    "id": "C023",
+    "claim_type": "periodicity",
+    "quote_verbatim": "The last three tones of the tenth octave constant are the overlapping negative reactions of the first octave The cycle ends between 1003+ and 1003−, therefore 1004 ‡ equals 104 ‡ and is the end of the cosmic attempt to accumulate power and the beginning of another cycle All effects of motion are repeative",
+    "loc_index": 117,
+    "printed_page": "[97]",
+    "context_note": "Header box on the same plate; sentence-ending periods absent and 'repeative' as printed. Asserts octave-10/octave-1 overlap (Tomium≡Tomion; cf. C027, C028). The plate's tone ladder spells TOMION where the p.100 table prints TOMIUM.",
+    "related_element_names": [
+      "Tomium",
+      "Tomion"
+    ]
+  },
+  {
+    "id": "C024",
+    "claim_type": "element_prediction",
+    "quote_verbatim": "NINTH OCTAVE / With Twenty-six Mid-Tones",
+    "loc_index": 118,
+    "printed_page": "98",
+    "context_note": "Table page. Six positions carry the placeholder 'Mate to …' instead of a name (Mate to 3D− at 903D+; Mate to 3M+ at 903M−; Mate to 3L+ at 903L−; Mate to 3I+ at 903I−; Mate to 3E+ at 903E−; Mate to 1+ at 901−), all with symbol/mass/melting cells empty — unnamed predicted elements. The eighth-octave table (p.96, LoC 0116) likewise prints 'Mate to 3D−' at 803D+ between Molybdenum and Ruthenium; the tenth-octave table (p.100, LoC 0120) prints 'Mate to 1−' at 1001+ (cf. C044). All three placeholder sets verified at native resolution."
+  },
+  {
+    "id": "C025",
+    "claim_type": "periodicity",
+    "quote_verbatim": "Note. Mid-tones begin in the seventh octave. In the ninth octave the struggle to hold advancing positions forces the construction of new pressure walls in many split tonal positions. In the tenth octave there is such a multitude of split tonal pressure walls that only the conspicuous ones are herein tabulated.",
+    "loc_index": 118,
+    "printed_page": "98",
+    "context_note": "Note under the ninth-octave table. Mid-tone counts as printed in table subtitles: seventh and eighth octaves 'With Ten Mid-Tones' (p.96), ninth 'With Twenty-six Mid-Tones' (p.98), tenth 'With Innumerable Mid-tones' (p.100)."
+  },
+  {
+    "id": "C026",
+    "claim_type": "other_checkable",
+    "quote_verbatim": "Imagine these lines drawn on the surface of a cone into which you are looking and you will know the lines of force of the hydrogene atom, 1+. Shorten the cone gradually until these lines are as flat as a watch spring and you then have the carbon atom, 4‡.",
+    "loc_index": 119,
+    "printed_page": "[99]",
+    "context_note": "Caption of 'CHART No. 1. EVOLUTION OF FORCE INTO SEVEN TONES...' (page [99] by count). Atomic-structure claim: atoms as spiral force-lines on cones. 'hydrogene' spelling confirmed on the native image (both OCR witnesses agree). [uncertain]: the sign glyphs after '1' and '4' both render as double-stroked crosses at native resolution; transcribed by position convention (1+ inhalation first tone, 4‡ double tone), and '1' vs 'I' is not resolvable."
+  },
+  {
+    "id": "C027",
+    "claim_type": "element_prediction",
+    "quote_verbatim": "Uridium 1003D+ Um / Urium 1003E+ Uu",
+    "loc_index": 120,
+    "printed_page": "100",
+    "context_note": "Tenth-octave table rows (quote = printed row cells; mass and melting cells empty). ANSWER TO THE PLAN'S QUESTION: the post-uranium names as printed are 'Uridium' (1003D+, symbol Um) and 'Urium' (1003E+, symbol Uu), immediately after Uranium 1003C+ (Ur, 238.2, 1850). Between Thorium and Uranium the table prints 'Uranium XII' (1003B+, symbol UrXII, cells empty) — read as the period radioelement designation Uranium X II (UX2), not an invented Russell name.",
+    "related_element_names": [
+      "Uridium",
+      "Urium"
+    ]
+  },
+  {
+    "id": "C028",
+    "claim_type": "element_prediction",
+    "quote_verbatim": "TOMIUM 104‡ Tn / Whitnion 103E− Wn / Alphonson 103D− Ap / Georgeon 103C− Gg / Victoron 103B− V / Lipton 103A− Ln / Alberton +103− At / Blackton +102− Bn / Boston +101− Bt / Omeganon 100= — the end, which is Alphanon, the beginning.",
+    "loc_index": 120,
+    "printed_page": "100",
+    "context_note": "Tenth-octave exhalation side (quote = printed rows + closing line). Note the deliberate three-digit numbers (104‡, 103E− …): the tenth octave's end overlaps the first octave (C023); the printed note below adds: '101− 102− and 103− are tonal mates of 1001+ 1002+ and 1003+, also they are tonal mates of 101+ 102+ and 103+.' New names here: Tomium, Whitnion, Alphonson, Georgeon, Victoron, Lipton, Omeganon; Alberton/Blackton/Boston repeat octave 1. All mass/melting cells empty; Omeganon's symbol cell empty.",
+    "related_element_names": [
+      "Tomium",
+      "Whitnion",
+      "Alphonson",
+      "Georgeon",
+      "Victoron",
+      "Lipton",
+      "Omeganon"
+    ]
+  },
+  {
+    "id": "C029",
+    "claim_type": "element_prediction",
+    "quote_verbatim": "Of these elements two in the fourth octave, when discovered, will be of great use to man. Each of them will mark an epoch in human progress.",
+    "loc_index": 120,
+    "printed_page": "100",
+    "context_note": "Explicit when-discovered prediction for two fourth-octave elements: Hydron (C030) and Luminon (C032).",
+    "related_element_names": [
+      "Hydron",
+      "Luminon"
+    ]
+  },
+  {
+    "id": "C030",
+    "claim_type": "physical_property",
+    "quote_verbatim": "Hydron (400=) the master-tone of its octave, is a non-inflammable inert gas which is in every way superior for transportation to hydrogen because it is much lighter, absolutely non-injurious and easier to produce. It has all of the safety qualities of helium and its carrying capacity exceeds that of helium by eight times and is double that of hydrogen.",
+    "loc_index": 120,
+    "printed_page": "100",
+    "context_note": "Quantified property claims for the undiscovered gas Hydron. Reused from R17 (verification/deuterium_negative.md §5.5, native-res read of LoC 0120; the 'and is double' connective is garbled in both OCR layers and was settled on the image).",
+    "related_element_names": [
+      "Hydron"
+    ]
+  },
+  {
+    "id": "C031",
+    "claim_type": "other_checkable",
+    "quote_verbatim": "Both hydron and helium can be produced by transmutation in unlimited quantities at an expense which is negligible while helium, of a sufficient quantity to fill a dirigible, produced by the present methods now costs three-quarters of a million dollars. The control of the production of this gas by any nation would insure the peace of the world.",
+    "loc_index": 120,
+    "printed_page": "100",
+    "context_note": "Transmutation-production claim with a period cost figure for helium.",
+    "related_element_names": [
+      "Hydron"
+    ]
+  },
+  {
+    "id": "C032",
+    "claim_type": "physical_property",
+    "quote_verbatim": "Luminon (403−), is the basis of the cold light of the future. Luminosity of better color can be produced by regenerative excitation of this radiative gas at about one forty-thousandth of the expenditure of energy necessary to produce the same degree of luminosity by the use of a tungsten filament. Luminon can also be produced by transmutation at a negligible expenditure.",
+    "loc_index": 120,
+    "printed_page": "100",
+    "context_note": "Cold-light claim with a quantified 1/40,000 efficiency factor vs tungsten filament; comma after '(403−)' as printed. Companion to the plate-annotation version C013 ('This gas will be the chemical basis of the cold light of the future').",
+    "related_element_names": [
+      "Luminon"
+    ]
+  },
+  {
+    "id": "C033",
+    "claim_type": "classification",
+    "quote_verbatim": "Note.—The true tonal mate of hydrogen is not fluorine; it is helionon, an undiscovered tone in the fourth octave.",
+    "loc_index": 127,
+    "printed_page": "[107]",
+    "context_note": "On 'EXPLANATORY CHART NO. 1 / INDICATING TONAL MATES OF MAXIMUM STABILITY' (page [107] by count).",
+    "related_element_names": [
+      "Helionon"
+    ]
+  },
+  {
+    "id": "C034",
+    "claim_type": "spectral",
+    "quote_verbatim": "Zeeman long since stumbled upon one evidence of the ten octaves by sending a strong generative charge through sodium, but the significance of what he saw had no meaning for him.",
+    "loc_index": 144,
+    "printed_page": "124",
+    "context_note": "Claims the Zeeman effect (sodium line splitting) as evidence of the ten octaves. Same page: 'All of the ten octaves are measurable in every dimension even to the infra and ultra ends.' (verified)."
+  },
+  {
+    "id": "C035",
+    "claim_type": "physical_property",
+    "quote_verbatim": "From actinium (1003+) on the ejection speed increases until, in tomium (1004‡) it is exactly 186,330 miles per second.",
+    "loc_index": 208,
+    "printed_page": "188",
+    "context_note": "Radioactive-ejection speed claim; the '‡' after 1004 confirmed against the plain '+' of (1003+) on the same page. Same page, both verified: 'It is a conspicuous fact that the universal, relatively slow, genero-active speed which resistance has decelerated to 186,330 miles per second at the fourth octave of its journey from plane toward mass, is gradually appropriated by magnetism and applied to the radio-active speed from mass toward plane.' and 'In accumulated mass, when the tenth octave is reached, magnetism has developed a power to repel radio-active emanations from mass toward plane at the universal speed of 186,330 miles per second.' Contrast the printed 186,400 of C022.",
+    "related_element_names": [
+      "Tomium"
+    ]
+  },
+  {
+    "id": "C036",
+    "claim_type": "physical_property",
+    "quote_verbatim": "By a study of the table of the elements in Chapter VI. one will see that the melting point of the inert gas at the beginning of the fifth octave is −271° C. whereas the melting point of the substance in the first tone is +186° C., that of the second tone +1280° C., the third +2350° C. and the double tone +3600° C. Going back down the negative side of the scale, the melting point of the substance in the third tone is −210° C., that of the second −218° C., the first −223° C. and the master tone −271° C.",
+    "loc_index": 220,
+    "printed_page": "200-201",
+    "context_note": "Ch. Temperature—The Eighth Dimension. Sentence straddles pp.200/201 (LoC 0220 ends at 'C.,'; continuation verified on LoC 0221 incl. the comma after 'scale,'). Fifth-octave melting-point run: He −271, Li +186, Be +1280, B +2350, C +3600, N −210, O −218, F −223 — checkable against period data."
+  },
+  {
+    "id": "C037",
+    "claim_type": "spectral",
+    "quote_verbatim": "The three red lines of helium are the antecedents of hydrogen in octaves of the “unseen” universe, and other prominent lines tell the story of the six empty spaces which follow hydrogen.",
+    "loc_index": 223,
+    "printed_page": "203",
+    "context_note": "Spectroscopy chapter. 'unseen' printed WITH double quotation marks here. The post-hydrogen positions are 'six empty spaces' told only in spectral lines. Reused from R17 §5.6, now verified on the native image."
+  },
+  {
+    "id": "C038",
+    "claim_type": "spectral",
+    "quote_verbatim": "The unseen universe of the first three octaves and the greater part of the fourth is clearly written in hydrogen and helium.",
+    "loc_index": 223,
+    "printed_page": "203",
+    "context_note": "Same page, left column; 'unseen' WITHOUT quotation marks here. Continues: 'It is quite clearly recorded in the discharging elements, nickel, mercury and tungsten.'"
+  },
+  {
+    "id": "C039",
+    "claim_type": "spectral",
+    "quote_verbatim": "Every state of motion is indicated by its own particular color line, exactly as it is indicated by its own degrees of temperature, plane and pressure.",
+    "loc_index": 224,
+    "printed_page": "204",
+    "context_note": "Color—The Fifteenth Dimension. One-to-one color-line assignment claim for every state of motion (= every element/tone)."
+  },
+  {
+    "id": "C040",
+    "claim_type": "spectral",
+    "quote_verbatim": "The spectrum begins at the 0= position of the inertial plane with an absence of color.",
+    "loc_index": 224,
+    "printed_page": "204",
+    "context_note": "Assigns spectral position to the 0= master-tones: no color at the inertial plane; 'The beginning of resistance to integration is indicated in both directions by ultra-violet.' follows on the page."
+  },
+  {
+    "id": "C041",
+    "claim_type": "spectral",
+    "quote_verbatim": "All mass indicates its ability to generate by the color pressures indicated by genero-active lines on the red side of the spectrum, and its ability to radiate by radio-active lines on the blue side of the spectrum.",
+    "loc_index": 224,
+    "printed_page": "204",
+    "context_note": "Red side = generative, blue side = radiative; the general color-assignment rule for elements."
+  },
+  {
+    "id": "C042",
+    "claim_type": "spectral",
+    "quote_verbatim": "The most outstanding of these apparent contradictions is the characteristic yellow D line of sodium. If sodium were perfectly consistent with the law, its red line should be prominent and its yellow line weak, instead of which they are the reverse. The explanation is simple. Sodium (601+) is the first positive tone of the sixth octave.",
+    "loc_index": 225,
+    "printed_page": "205",
+    "context_note": "Concedes the sodium D line contradicts his color law and offers an octave-based explanation; concretely checkable spectroscopy."
+  },
+  {
+    "id": "C043",
+    "claim_type": "other_checkable",
+    "quote_verbatim": "If the above premises are well founded and the color of a state of motion indicates the condition or potential of that state of motion, then color is as dependable a dimension as miles, feet and inches, or degrees of temperature and plane.",
+    "loc_index": 226,
+    "printed_page": "206",
+    "context_note": "Color as a measurement dimension (conditional phrasing as printed)."
+  },
+  {
+    "id": "C044",
+    "claim_type": "element_prediction",
+    "quote_verbatim": "Hydrogen (401+) should be adopted as the unit of valency measurement of the fourth octave only. Lithium (501+) for the fifth octave, sodium (601+) for the sixth octave, potassium (701+) for the seventh octave, rubidium (801+) for the eighth octave, caesium (901+) for the ninth octave and the unknown element (1001+) preceding radium for the tenth octave.",
+    "loc_index": 266,
+    "printed_page": "246",
+    "context_note": "Predicts an unnamed element (1001+) preceding radium — the francium position — matching the tenth-octave table row 'Mate to 1− 1001+' (p.100, LoC 0120, cells empty; cf. C024). Two consecutive printed paragraphs."
+  },
+  {
+    "id": "C045",
+    "claim_type": "classification",
+    "quote_verbatim": "The inert gases have zero valency for they will not unite with any other element, although they will unite very readily with each other, not as compounds, but as interlocking substances.",
+    "loc_index": 266,
+    "printed_page": "246",
+    "context_note": "Checkable chemical claim: noble gases readily uniting with each other as 'interlocking substances'."
+  },
+  {
+    "id": "C046",
+    "claim_type": "other_checkable",
+    "quote_verbatim": "Tone is registered in sound as it is in color, plane, temperature and other dimensions. Every expression of energy has its own particular tonal sound just as it has its own color plane or degree of temperature.",
+    "loc_index": 267,
+    "printed_page": "247",
+    "context_note": "Tone—The Seventeenth Dimension (Chapter XXVII). Tone/sound assignment to every element/energy expression; pairs with the color assignments C039–C041 and the credo C018."
+  }
+]

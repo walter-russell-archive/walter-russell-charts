@@ -1,0 +1,2465 @@
+{
+ "source": {
+  "work": "Walter Russell, The Universal One (Brieger Press, New York, c1926), \"TABLE OF THE TEN OCTAVES OF THE VARYING STATES OF MOTION WHICH CREATE THE ILLUSION OF DIFFERENT SUBSTANCES KNOWN AS “THE ELEMENTS OF MATTER.”\", printed pp. 92, 94, 96, 98, 100",
+  "loc": "Library of Congress gdc.27004508, IIIF native JPEGs, images 0112/0114/0116/0118/0120",
+  "usp": "1974 University of Science and Philosophy reprint scan (photographic reproduction of the 1926 plates), PDF pages 110/112/114/116/118 extracted at native 2496x3488",
+  "chart": "supplementary witness only: octave-wheel plates LoC 0109 [p.89], 0111 [p.91], 0113 [p.93], 0115 [p.95], 0117 [p.97] and frontispiece chart LoC 0016"
+ },
+ "method": "Dual-witness transcription. Pass 1 (LoC scan) read first, by main-agent vision (anthropic/claude-fable-5) from native-resolution crops, tesseract 5 recorded as auxiliary. Pass 2 (USP scan) read second by an independent subagent context with no access to pass 1. Passes diffed cell-by-cell; disagreements re-examined at 4x native zoom; dash-length disputes settled by deterministic ink-run measurement. Chart labels recorded as supplementary witness, never primary. Full protocol and per-cell record: data/transcription_log_r11.md. NOTE ON INDEPENDENCE: the 1974 USP plates are photographic reproductions of the 1926 plates, so the two witnesses give scan-level independence only (independent imaging/OCR of one 1926 printing) — sufficient for what the book printed, not an independent edition.",
+ "witnesses": {
+  "loc": "vision anthropic/claude-fable-5 (main agent) + tesseract 5 auxiliary, read first",
+  "usp": "vision anthropic/claude-fable-5 (fresh subagent, blind to pass 1) + tesseract 5 auxiliary, read second",
+  "chart": "octave-wheel plate labels, verbatim capitals; UNKNOWN = chart prints an UNKNOWN box for that position; empty = no chart box found for that row"
+ },
+ "conventions": {
+  "empty_cell": "empty printed cell = \"\" (never omitted)",
+  "minus": "U+2212 − for the normal printed minus (sigils and negative melting points)",
+  "long_dash": "U+2014 — where the print shows a conspicuously long dash (Kr —169, Xe —140, Hg-row —39), confirmed by ink-run measurement in both witnesses",
+  "double_dagger": "U+2021 ‡",
+  "spacing": "position_col/position strings are space-free canonical; the print sets a loose quad space before the sigil on letter-suffixed rows (3A +, 903E −, etc.)",
+  "typography": "italic = italic name; caps = full-height capitals; smallcaps = small capitals; roman = ordinary roman type"
+ },
+ "counts": {
+  "row_cells_total": 959,
+  "agreed_first_pass": 874,
+  "resolved": 85,
+  "resolved_spacing_convention": 81,
+  "resolved_glyph_adjudication": 4,
+  "uncertain": 0
+ },
+ "page_title_p92_verbatim": [
+  "TABLE OF THE TEN OCTAVES OF THE VARYING STATES OF MOTION",
+  "WHICH CREATE THE ILLUSION OF DIFFERENT SUBSTANCES",
+  "KNOWN AS “THE ELEMENTS OF MATTER.”"
+ ],
+ "octaves": [
+  {
+   "octave": 1,
+   "page_printed": 92,
+   "loc_index": 112,
+   "usp_page": 110,
+   "title_verbatim": [
+    "FIRST OCTAVE WAVE",
+    "Beginning of the Cyclic Inhalation at Tomion."
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL INHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "100",
+     "sigil": "=",
+     "name": "Alphanon",
+     "typography": "italic",
+     "symbol": "An.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "0= | Alphanon | italic | 100= | An. |  | ",
+      "usp": "0= | Alphanon | italic | 100= | An. |  | ",
+      "chart": "ALPHANON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1+",
+     "position": "101",
+     "sigil": "+",
+     "name": "Irenon",
+     "typography": "roman",
+     "symbol": "Io",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "1+ | Irenon | roman | 101+ | Io |  | ",
+      "usp": "1+ | Irenon | roman | 101+ | Io |  | ",
+      "chart": "IRENON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "102",
+     "sigil": "+",
+     "name": "Vijaon",
+     "typography": "roman",
+     "symbol": "Vj",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "2+ | Vijaon | roman | 102+ | Vj |  | ",
+      "usp": "2+ | Vijaon | roman | 102+ | Vj |  | ",
+      "chart": "VIJAON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3+",
+     "position": "103",
+     "sigil": "+",
+     "name": "Marvaon",
+     "typography": "roman",
+     "symbol": "Mv",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3+ | Marvaon | roman | 103+ | Mv |  | ",
+      "usp": "3+ | Marvaon | roman | 103+ | Mv |  | ",
+      "chart": "MARVAON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "4‡",
+     "position": "104",
+     "sigil": "‡",
+     "name": "TOMION",
+     "typography": "caps",
+     "symbol": "Tn",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "4‡ | TOMION | caps | 104‡ | Tn |  | ",
+      "usp": "4‡ | TOMION | caps | 104‡ | Tn |  | ",
+      "chart": "TOMION"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3−",
+     "position": "103",
+     "sigil": "−",
+     "name": "Alberton",
+     "typography": "roman",
+     "symbol": "At.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3− | Alberton | roman | 103− | At. |  | ",
+      "usp": "3− | Alberton | roman | 103− | [uncertain:At.|At:] |  | ",
+      "chart": "ALBERTON"
+     },
+     "status": "resolved",
+     "resolution": "USP shows a speck above the period ([uncertain:At.|At:]); LoC prints clean 'At.'; same 1926 artwork, speck = USP scan/ink noise"
+    },
+    {
+     "position_col": "2−",
+     "position": "102",
+     "sigil": "−",
+     "name": "Blackton",
+     "typography": "roman",
+     "symbol": "Bn.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "2− | Blackton | roman | 102− | Bn. |  | ",
+      "usp": "2− | Blackton | roman | 102− | Bn. |  | ",
+      "chart": "BLACTON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1−",
+     "position": "101",
+     "sigil": "−",
+     "name": "Boston",
+     "typography": "roman",
+     "symbol": "Bt.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "1− | Boston | roman | 101− | Bt. |  | ",
+      "usp": "1− | Boston | roman | 101− | Bt. |  | ",
+      "chart": "BOSTON"
+     },
+     "status": "agreed"
+    }
+   ]
+  },
+  {
+   "octave": 2,
+   "page_printed": 92,
+   "loc_index": 112,
+   "usp_page": 110,
+   "title_verbatim": [
+    "SECOND OCTAVE WAVE"
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL INHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "200",
+     "sigil": "=",
+     "name": "Betanon",
+     "typography": "italic",
+     "symbol": "Bo.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "0= | Betanon | italic | 200= | Bo. |  | ",
+      "usp": "0= | Betanon | italic | 200= | Bo. |  | ",
+      "chart": "BETANON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1+",
+     "position": "201",
+     "sigil": "+",
+     "name": "Jamearnon",
+     "typography": "roman",
+     "symbol": "Jn.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "1+ | Jamearnon | roman | 201+ | Jn. |  | ",
+      "usp": "1+ | Jamearnon | roman | 201+ | Jn. |  | ",
+      "chart": "JAMEARNON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "202",
+     "sigil": "+",
+     "name": "Erneston",
+     "typography": "roman",
+     "symbol": "En.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "2+ | Erneston | roman | 202+ | En. |  | ",
+      "usp": "2+ | Erneston | roman | 202+ | En. |  | ",
+      "chart": "ERNESTON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3+",
+     "position": "203",
+     "sigil": "+",
+     "name": "Eykaon",
+     "typography": "roman",
+     "symbol": "Ek.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3+ | Eykaon | roman | 203+ | Ek. |  | ",
+      "usp": "3+ | Eykaon | roman | 203+ | Ek. |  | ",
+      "chart": "EYKAON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "4‡",
+     "position": "204",
+     "sigil": "‡",
+     "name": "ATHENON",
+     "typography": "smallcaps",
+     "symbol": "Ae.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "4‡ | ATHENON | smallcaps | 204‡ | Ae. |  | ",
+      "usp": "4‡ | ATHENON | smallcaps | 204‡ | Ae. |  | ",
+      "chart": "ATHENON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3−",
+     "position": "203",
+     "sigil": "−",
+     "name": "Barnardon",
+     "typography": "roman",
+     "symbol": "Bd.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3− | Barnardon | roman | 203− | Bd. |  | ",
+      "usp": "3− | Barnardon | roman | 203− | Bd. |  | ",
+      "chart": "BARNARDON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2−",
+     "position": "202",
+     "sigil": "−",
+     "name": "Delphanon",
+     "typography": "roman",
+     "symbol": "Dn.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "2− | Delphanon | roman | 202− | Dn. |  | ",
+      "usp": "2− | Delphanon | roman | 202− | Dn. |  | ",
+      "chart": "DELPHANON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1−",
+     "position": "201",
+     "sigil": "−",
+     "name": "Romanon",
+     "typography": "roman",
+     "symbol": "Rn.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "1− | Romanon | roman | 201− | Rn. |  | ",
+      "usp": "1− | Romanon | roman | 201− | Rn. |  | ",
+      "chart": "ROMANON"
+     },
+     "status": "agreed"
+    }
+   ]
+  },
+  {
+   "octave": 3,
+   "page_printed": 92,
+   "loc_index": 112,
+   "usp_page": 110,
+   "title_verbatim": [
+    "THIRD OCTAVE WAVE"
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL INHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "300",
+     "sigil": "=",
+     "name": "Gammanon",
+     "typography": "italic",
+     "symbol": "Gn.",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "0= | Gammanon | italic | 300= | Gn. |  | ",
+      "usp": "0= | Gammanon | italic | 300= | Gn. |  | ",
+      "chart": "GAMMANON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1+",
+     "position": "301",
+     "sigil": "+",
+     "name": "Marconium",
+     "typography": "roman",
+     "symbol": "Mc",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "1+ | Marconium | roman | 301+ | Mc |  | ",
+      "usp": "1+ | Marconium | roman | 301+ | Mc |  | ",
+      "chart": "MARCONIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "302",
+     "sigil": "+",
+     "name": "Penrynium",
+     "typography": "roman",
+     "symbol": "Pn",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "2+ | Penrynium | roman | 302+ | Pn |  | ",
+      "usp": "2+ | Penrynium | roman | 302+ | Pn |  | ",
+      "chart": "PENRYNIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3+",
+     "position": "303",
+     "sigil": "+",
+     "name": "Vinton",
+     "typography": "roman",
+     "symbol": "Vn",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3+ | Vinton | roman | 303+ | Vn |  | ",
+      "usp": "3+ | Vinton | roman | 303+ | Vn |  | ",
+      "chart": "VINTON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "4‡",
+     "position": "304",
+     "sigil": "‡",
+     "name": "QUENTIN",
+     "typography": "smallcaps",
+     "symbol": "Qn",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "4‡ | QUENTIN | smallcaps | 304‡ | Qn |  | ",
+      "usp": "4‡ | QUENTIN | smallcaps | 304‡ | Qn |  | ",
+      "chart": "QUENTIN"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3−",
+     "position": "303",
+     "sigil": "−",
+     "name": "Tracion",
+     "typography": "roman",
+     "symbol": "Tc",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3− | Tracion | roman | 303− | Tc |  | ",
+      "usp": "3− | Tracion | roman | 303− | Tc |  | ",
+      "chart": "TRACION"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2−",
+     "position": "302",
+     "sigil": "−",
+     "name": "Buzzeon",
+     "typography": "roman",
+     "symbol": "Bz",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "2− | Buzzeon | roman | 302− | Bz |  | ",
+      "usp": "2− | Buzzeon | roman | 302− | Bz |  | ",
+      "chart": "BUZZEON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1−",
+     "position": "301",
+     "sigil": "−",
+     "name": "Helenon",
+     "typography": "roman",
+     "symbol": "Hl",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "1− | Helenon | roman | 301− | Hl |  | ",
+      "usp": "1− | Helenon | roman | 301− | Hl |  | ",
+      "chart": "HELENINE"
+     },
+     "status": "agreed"
+    }
+   ]
+  },
+  {
+   "octave": 4,
+   "page_printed": 94,
+   "loc_index": 114,
+   "usp_page": 112,
+   "title_verbatim": [
+    "FOURTH OCTAVE WAVE"
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL INHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [
+    "*Approximate"
+   ],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "400",
+     "sigil": "=",
+     "name": "Hydron",
+     "typography": "italic",
+     "symbol": "Hy",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "0= | Hydron | italic | 400= | Hy |  | ",
+      "usp": "0= | Hydron | italic | 400= | Hy |  | ",
+      "chart": "HYDRON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1+",
+     "position": "401",
+     "sigil": "+",
+     "name": "Hydrogen",
+     "typography": "roman",
+     "symbol": "H",
+     "atomic_mass": "1.008",
+     "melting_point_c": "−259",
+     "witnesses": {
+      "loc": "1+ | Hydrogen | roman | 401+ | H | 1.008 | −259",
+      "usp": "1+ | Hydrogen | roman | 401+ | H | 1.008 | −259",
+      "chart": "HYDROGEN"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "402",
+     "sigil": "+",
+     "name": "Ethlogen",
+     "typography": "roman",
+     "symbol": "Eg",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "2+ | Ethlogen | roman | 402+ | Eg |  | ",
+      "usp": "2+ | Ethlogen | roman | 402+ | Eg |  | ",
+      "chart": "ETHLOGEN"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3+",
+     "position": "403",
+     "sigil": "+",
+     "name": "Bebegen",
+     "typography": "roman",
+     "symbol": "Bb",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3+ | Bebegen | roman | 403+ | Bb |  | ",
+      "usp": "3+ | Bebegen | roman | 403+ | Bb |  | ",
+      "chart": "BEBEGEN"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "4‡",
+     "position": "404",
+     "sigil": "‡",
+     "name": "CARBOGEN",
+     "typography": "smallcaps",
+     "symbol": "Cb",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "4‡ | CARBOGEN | smallcaps | 404‡ | Cb |  | ",
+      "usp": "4‡ | CARBOGEN | smallcaps | 404‡ | Cb |  | ",
+      "chart": "CARBOGEN"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3−",
+     "position": "403",
+     "sigil": "−",
+     "name": "Luminon",
+     "typography": "roman",
+     "symbol": "Ln",
+     "atomic_mass": "*2.92",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3− | Luminon | roman | 403− | Ln | *2.92 | ",
+      "usp": "3− | Luminon | roman | 403− | Ln | *2.92 | ",
+      "chart": "LUMINON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2−",
+     "position": "402",
+     "sigil": "−",
+     "name": "Halanon",
+     "typography": "roman",
+     "symbol": "Ha",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "2− | Halanon | roman | 402− | Ha |  | ",
+      "usp": "2− | Halanon | roman | 402− | Ha |  | ",
+      "chart": "HALANON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1−",
+     "position": "401",
+     "sigil": "−",
+     "name": "Helionon",
+     "typography": "roman",
+     "symbol": "Hi",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "1− | Helionon | roman | 401− | Hi |  | ",
+      "usp": "1− | Helionon | roman | 401− | Hi |  | ",
+      "chart": "HELIONON"
+     },
+     "status": "agreed"
+    }
+   ]
+  },
+  {
+   "octave": 5,
+   "page_printed": 94,
+   "loc_index": 114,
+   "usp_page": 112,
+   "title_verbatim": [
+    "FIFTH OCTAVE WAVE",
+    "Completing the Cyclic Inhalation at Carbon."
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL INHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [
+    "Observe the regularity of melting points rising with inhalation and falling with exhalation."
+   ],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "500",
+     "sigil": "=",
+     "name": "Helium",
+     "typography": "italic",
+     "symbol": "He.",
+     "atomic_mass": "4.0",
+     "melting_point_c": "−271",
+     "witnesses": {
+      "loc": "0= | Helium | italic | 500= | He. | 4.0 | −271",
+      "usp": "0= | Helium | italic | 500= | He. | 4.0 | —271",
+      "chart": "HELIUM"
+     },
+     "status": "resolved",
+     "resolution": "USP read long dash; ink-run measurement on same-scale 4x crops: this dash 145px vs 138-140px normal minus and 196-212px true long dashes (Kr/Xe/Hg) => normal minus"
+    },
+    {
+     "position_col": "1+",
+     "position": "501",
+     "sigil": "+",
+     "name": "Lithium",
+     "typography": "roman",
+     "symbol": "Li",
+     "atomic_mass": "7.03",
+     "melting_point_c": "186",
+     "witnesses": {
+      "loc": "1+ | Lithium | roman | 501+ | Li | 7.03 | 186",
+      "usp": "1+ | Lithium | roman | 501+ | Li | 7.03 | 186",
+      "chart": "LITHIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "502",
+     "sigil": "+",
+     "name": "Beryllium",
+     "typography": "roman",
+     "symbol": "Be",
+     "atomic_mass": "9.1",
+     "melting_point_c": "1280",
+     "witnesses": {
+      "loc": "2+ | Beryllium | roman | 502+ | Be | 9.1 | 1280",
+      "usp": "2+ | Beryllium | roman | 502+ | Be | 9.1 | 1280",
+      "chart": "BERYLIUM"
+     },
+     "status": "agreed",
+     "notes": "chart witness corrected to plate spelling BERYLIUM (single L) per R12 audit; crops data/audit_crops/chart_o5r3_berylium_*"
+    },
+    {
+     "position_col": "3+",
+     "position": "503",
+     "sigil": "+",
+     "name": "Boron",
+     "typography": "roman",
+     "symbol": "B",
+     "atomic_mass": "11.0",
+     "melting_point_c": "2350",
+     "witnesses": {
+      "loc": "3+ | Boron | roman | 503+ | B | 11.0 | 2350",
+      "usp": "3+ | Boron | roman | 503+ | B | 11.0 | 2350",
+      "chart": "BORON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "4‡",
+     "position": "504",
+     "sigil": "‡",
+     "name": "CARBON",
+     "typography": "caps",
+     "symbol": "C",
+     "atomic_mass": "12.0",
+     "melting_point_c": "3600",
+     "witnesses": {
+      "loc": "4‡ | CARBON | caps | 504‡ | C | 12.0 | 3600",
+      "usp": "4‡ | CARBON | caps | 504‡ | C | 12.0 | 3600",
+      "chart": "CARBON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3−",
+     "position": "503",
+     "sigil": "−",
+     "name": "Nitrogen",
+     "typography": "roman",
+     "symbol": "N",
+     "atomic_mass": "14.04",
+     "melting_point_c": "−210",
+     "witnesses": {
+      "loc": "3− | Nitrogen | roman | 503− | N | 14.04 | −210",
+      "usp": "3− | Nitrogen | roman | 503− | N | 14.04 | −210",
+      "chart": "NITROGEN"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2−",
+     "position": "502",
+     "sigil": "−",
+     "name": "Oxygen",
+     "typography": "roman",
+     "symbol": "O",
+     "atomic_mass": "16.00",
+     "melting_point_c": "−218",
+     "witnesses": {
+      "loc": "2− | Oxygen | roman | 502− | O | 16.00 | −218",
+      "usp": "2− | Oxygen | roman | 502− | O | 16.00 | −218",
+      "chart": "OXYGEN"
+     },
+     "status": "agreed",
+     "notes": "chart witness restored to OXYGEN 2026-09-11: the R12 BERYLIUM amendment had been applied to both octave-5 rows numbered 502; both blind chart passes read OXYGEN here (data/audit_work/pass_loc_chart.json, pass_usp_chart.json)"
+    },
+    {
+     "position_col": "1−",
+     "position": "501",
+     "sigil": "−",
+     "name": "Fluorine",
+     "typography": "roman",
+     "symbol": "F",
+     "atomic_mass": "19.0",
+     "melting_point_c": "−223",
+     "witnesses": {
+      "loc": "1− | Fluorine | roman | 501− | F | 19.0 | −223",
+      "usp": "1− | Fluorine | roman | 501− | F | 19.0 | −223",
+      "chart": "FLUORINE"
+     },
+     "status": "agreed"
+    }
+   ]
+  },
+  {
+   "octave": 6,
+   "page_printed": 94,
+   "loc_index": 114,
+   "usp_page": 112,
+   "title_verbatim": [
+    "SIXTH OCTAVE WAVE"
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL EXHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "600",
+     "sigil": "=",
+     "name": "Neon",
+     "typography": "italic",
+     "symbol": "Ne",
+     "atomic_mass": "19.9",
+     "melting_point_c": "−253",
+     "witnesses": {
+      "loc": "0= | Neon | italic | 600= | Ne | 19.9 | −253",
+      "usp": "0= | Neon | italic | 600= | Ne | 19.9 | —253",
+      "chart": "NEON"
+     },
+     "status": "resolved",
+     "resolution": "USP read long dash; ink-run measurement: 139px = normal minus width"
+    },
+    {
+     "position_col": "1+",
+     "position": "601",
+     "sigil": "+",
+     "name": "Sodium",
+     "typography": "roman",
+     "symbol": "Na",
+     "atomic_mass": "23.05",
+     "melting_point_c": "98",
+     "witnesses": {
+      "loc": "1+ | Sodium | roman | 601+ | Na | 23.05 | 98",
+      "usp": "1+ | Sodium | roman | 601+ | Na | 23.05 | 98",
+      "chart": "SODIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "602",
+     "sigil": "+",
+     "name": "Magnesium",
+     "typography": "roman",
+     "symbol": "Mg",
+     "atomic_mass": "24.1",
+     "melting_point_c": "651",
+     "witnesses": {
+      "loc": "2+ | Magnesium | roman | 602+ | Mg | 24.1 | 651",
+      "usp": "2+ | Magnesium | roman | 602+ | Mg | 24.1 | 651",
+      "chart": "MAGNESIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3+",
+     "position": "603",
+     "sigil": "+",
+     "name": "Aluminum",
+     "typography": "roman",
+     "symbol": "Al",
+     "atomic_mass": "27.0",
+     "melting_point_c": "659",
+     "witnesses": {
+      "loc": "3+ | Aluminum | roman | 603+ | Al | 27.0 | 659",
+      "usp": "3+ | Aluminum | roman | 603+ | Al | 27.0 | 659",
+      "chart": "ALUMINUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "4‡",
+     "position": "604",
+     "sigil": "‡",
+     "name": "SILICON",
+     "typography": "smallcaps",
+     "symbol": "Si",
+     "atomic_mass": "28.4",
+     "melting_point_c": "1420",
+     "witnesses": {
+      "loc": "4‡ | SILICON | smallcaps | 604‡ | Si | 28.4 | 1420",
+      "usp": "4‡ | SILICON | smallcaps | 604‡ | Si | 28.4 | 1420",
+      "chart": "SILICON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3−",
+     "position": "603",
+     "sigil": "−",
+     "name": "Phosphorus",
+     "typography": "roman",
+     "symbol": "P",
+     "atomic_mass": "31.4",
+     "melting_point_c": "725",
+     "witnesses": {
+      "loc": "3− | Phosphorus | roman | 603− | P | 31.4 | 725",
+      "usp": "3− | Phosphorus | roman | 603− | P | 31.4 | 725",
+      "chart": "PHOSPHORUS"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2−",
+     "position": "602",
+     "sigil": "−",
+     "name": "Sulphur",
+     "typography": "roman",
+     "symbol": "S",
+     "atomic_mass": "32.06",
+     "melting_point_c": "119",
+     "witnesses": {
+      "loc": "2− | Sulphur | roman | 602− | S | 32.06 | 119",
+      "usp": "2− | Sulphur | roman | 602− | S | 32.06 | 119",
+      "chart": "SULPHUR"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1−",
+     "position": "601",
+     "sigil": "−",
+     "name": "Chlorine",
+     "typography": "roman",
+     "symbol": "Cl",
+     "atomic_mass": "35.45",
+     "melting_point_c": "−102",
+     "witnesses": {
+      "loc": "1− | Chlorine | roman | 601− | Cl | 35.45 | −102",
+      "usp": "1− | Chlorine | roman | 601− | Cl | 35.45 | −102",
+      "chart": "CHLORINE"
+     },
+     "status": "agreed"
+    }
+   ],
+   "margin_anomaly": "top rotated label prints ENDOTHERMAL EXHALATION (not INHALATION) — misprint, independently confirmed by both witnesses at zoom"
+  },
+  {
+   "octave": 7,
+   "page_printed": 96,
+   "loc_index": 116,
+   "usp_page": 114,
+   "title_verbatim": [
+    "SEVENTH OCTAVE",
+    "With Ten Mid-Tones"
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL INHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [
+    "Observe irregularity of mid-tonal melting points."
+   ],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "700",
+     "sigil": "=",
+     "name": "Argon",
+     "typography": "italic",
+     "symbol": "Ar",
+     "atomic_mass": "39.09",
+     "melting_point_c": "−188",
+     "witnesses": {
+      "loc": "0= | Argon | italic | 700= | Ar | 39.09 | −188",
+      "usp": "0= | Argon | italic | 700= | Ar | 39.09 | −188",
+      "chart": "ARGON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1+",
+     "position": "701",
+     "sigil": "+",
+     "name": "Potassium",
+     "typography": "roman",
+     "symbol": "K",
+     "atomic_mass": "39.10",
+     "melting_point_c": "62.3",
+     "witnesses": {
+      "loc": "1+ | Potassium | roman | 701+ | K | 39.10 | 62.3",
+      "usp": "1+ | Potassium | roman | 701+ | K | 39.10 | 62.3",
+      "chart": "POTASSIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "702",
+     "sigil": "+",
+     "name": "Calcium",
+     "typography": "roman",
+     "symbol": "Ca",
+     "atomic_mass": "40.1",
+     "melting_point_c": "810",
+     "witnesses": {
+      "loc": "2+ | Calcium | roman | 702+ | Ca | 40.1 | 810",
+      "usp": "2+ | Calcium | roman | 702+ | Ca | 40.1 | 810",
+      "chart": "CALCIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3+",
+     "position": "703",
+     "sigil": "+",
+     "name": "Scandium",
+     "typography": "roman",
+     "symbol": "Sc",
+     "atomic_mass": "44.1",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3+ | Scandium | roman | 703+ | Sc | 44.1 | ",
+      "usp": "3+ | Scandium | roman | 703+ | Sc | 44.1 | ",
+      "chart": "SCANDIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3A+",
+     "position": "703A",
+     "sigil": "+",
+     "name": "Titanium",
+     "typography": "roman",
+     "symbol": "Ti",
+     "atomic_mass": "48.1",
+     "melting_point_c": "1800",
+     "witnesses": {
+      "loc": "3A+ | Titanium | roman | 703A+ | Ti | 48.1 | 1800",
+      "usp": "3A + | Titanium | roman | 703A+ | Ti | 48.1 | 1800",
+      "chart": "TITANIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3B+",
+     "position": "703B",
+     "sigil": "+",
+     "name": "Vanadium",
+     "typography": "roman",
+     "symbol": "V",
+     "atomic_mass": "51.4",
+     "melting_point_c": "1720",
+     "witnesses": {
+      "loc": "3B+ | Vanadium | roman | 703B+ | V | 51.4 | 1720",
+      "usp": "3B + | Vanadium | roman | 703B + | V | 51.4 | 1720",
+      "chart": "VANADIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3C+",
+     "position": "703C",
+     "sigil": "+",
+     "name": "Chromium",
+     "typography": "roman",
+     "symbol": "Cr",
+     "atomic_mass": "52.0",
+     "melting_point_c": "1615",
+     "witnesses": {
+      "loc": "3C+ | Chromium | roman | 703C+ | Cr | 52.0 | 1615",
+      "usp": "3C + | Chromium | roman | 703C + | Cr | 52.0 | 1615",
+      "chart": "CHROMIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3D+",
+     "position": "703D",
+     "sigil": "+",
+     "name": "Manganese",
+     "typography": "roman",
+     "symbol": "Mn",
+     "atomic_mass": "55.0",
+     "melting_point_c": "1230",
+     "witnesses": {
+      "loc": "3D+ | Manganese | roman | 703D+ | Mn | 55.0 | 1230",
+      "usp": "3D + | Manganese | roman | 703D + | Mn | 55.0 | 1230",
+      "chart": "MANGANESE"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3E+",
+     "position": "703E",
+     "sigil": "+",
+     "name": "Iron",
+     "typography": "roman",
+     "symbol": "Fe",
+     "atomic_mass": "55.9",
+     "melting_point_c": "1530",
+     "witnesses": {
+      "loc": "3E+ | Iron | roman | 703E+ | Fe | 55.9 | 1530",
+      "usp": "3E + | Iron | roman | 703E + | Fe | 55.9 | 1530",
+      "chart": "IRON"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "4‡",
+     "position": "704",
+     "sigil": "‡",
+     "name": "COBALT",
+     "typography": "smallcaps",
+     "symbol": "Co",
+     "atomic_mass": "58.97",
+     "melting_point_c": "1480",
+     "witnesses": {
+      "loc": "4‡ | COBALT | smallcaps | 704‡ | Co | 58.97 | 1480",
+      "usp": "4‡ | COBALT | smallcaps | 704‡ | Co | 58.97 | 1480",
+      "chart": "COBALT"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "4E−",
+     "position": "703E",
+     "sigil": "−",
+     "name": "Nickel",
+     "typography": "roman",
+     "symbol": "Ni",
+     "atomic_mass": "59",
+     "melting_point_c": "1452",
+     "witnesses": {
+      "loc": "4E− | Nickel | roman | 703E− | Ni | 59 | 1452",
+      "usp": "4E − | Nickel | roman | 703E − | Ni | 59 | 1452",
+      "chart": "NICKLE"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "4D−",
+     "position": "703D",
+     "sigil": "−",
+     "name": "Copper",
+     "typography": "roman",
+     "symbol": "Cu",
+     "atomic_mass": "63.57",
+     "melting_point_c": "1083",
+     "witnesses": {
+      "loc": "4D− | Copper | roman | 703D− | Cu | 63.57 | 1083",
+      "usp": "4D − | Copper | roman | 703D− | Cu | 63.57 | 1083",
+      "chart": "COPPER"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "4C−",
+     "position": "703C",
+     "sigil": "−",
+     "name": "Zinc",
+     "typography": "roman",
+     "symbol": "Zn",
+     "atomic_mass": "65.37",
+     "melting_point_c": "419",
+     "witnesses": {
+      "loc": "4C− | Zinc | roman | 703C− | Zn | 65.37 | 419",
+      "usp": "4C − | Zinc | roman | 703C− | Zn | 65.37 | 419",
+      "chart": "ZINC"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "4B−",
+     "position": "703B",
+     "sigil": "−",
+     "name": "Gallium",
+     "typography": "roman",
+     "symbol": "Ga",
+     "atomic_mass": "70.1",
+     "melting_point_c": "30",
+     "witnesses": {
+      "loc": "4B− | Gallium | roman | 703B− | Ga | 70.1 | 30",
+      "usp": "4B − | Gallium | roman | 703B − | Ga | 70.1 | 30",
+      "chart": "GALLIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "4A−",
+     "position": "703A",
+     "sigil": "−",
+     "name": "Germanium",
+     "typography": "roman",
+     "symbol": "Ge",
+     "atomic_mass": "72.5",
+     "melting_point_c": "958",
+     "witnesses": {
+      "loc": "4A− | Germanium | roman | 703A− | Ge | 72.5 | 958",
+      "usp": "4A− | Germanium | roman | 703A− | Ge | 72.5 | 958",
+      "chart": "GERMANIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3−",
+     "position": "703",
+     "sigil": "−",
+     "name": "Arsenic",
+     "typography": "roman",
+     "symbol": "As",
+     "atomic_mass": "74.96",
+     "melting_point_c": "850",
+     "witnesses": {
+      "loc": "3− | Arsenic | roman | 703− | As | 74.96 | 850",
+      "usp": "3− | Arsenic | roman | 703− | As | 74.96 | 850",
+      "chart": "ARSENIC"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2−",
+     "position": "702",
+     "sigil": "−",
+     "name": "Selenium",
+     "typography": "roman",
+     "symbol": "Se",
+     "atomic_mass": "79.2",
+     "melting_point_c": "217",
+     "witnesses": {
+      "loc": "2− | Selenium | roman | 702− | Se | 79.2 | 217",
+      "usp": "2− | Selenium | roman | 702− | Se | 79.2 | 217",
+      "chart": "SELENIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1−",
+     "position": "701",
+     "sigil": "−",
+     "name": "Bromine",
+     "typography": "roman",
+     "symbol": "Br",
+     "atomic_mass": "79.92",
+     "melting_point_c": "−7.3",
+     "witnesses": {
+      "loc": "1− | Bromine | roman | 701− | Br | 79.92 | −7.3",
+      "usp": "1− | Bromine | roman | 701− | Br | 79.92 | −7.3",
+      "chart": "BROMINE"
+     },
+     "status": "agreed"
+    }
+   ]
+  },
+  {
+   "octave": 8,
+   "page_printed": 96,
+   "loc_index": 116,
+   "usp_page": 114,
+   "title_verbatim": [
+    "EIGHTH OCTAVE",
+    "With Ten Mid-Tones"
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL INHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [
+    "* Note.—The calculation of the atomic weight of iodine, or tellurium, or of both, appears to be incorrect. The mass of iodine must exceed that of tellurium."
+   ],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "800",
+     "sigil": "=",
+     "name": "Krypton",
+     "typography": "italic",
+     "symbol": "Kr.",
+     "atomic_mass": "82.92",
+     "melting_point_c": "—169",
+     "witnesses": {
+      "loc": "0= | Krypton | italic | 800= | Kr. | 82.92 | —169",
+      "usp": "0= | Krypton | italic | 800= | Kr. | 82.92 | —169",
+      "chart": "KRYPTON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1+",
+     "position": "801",
+     "sigil": "+",
+     "name": "Rubidium",
+     "typography": "roman",
+     "symbol": "Rb.",
+     "atomic_mass": "85.45",
+     "melting_point_c": "38",
+     "witnesses": {
+      "loc": "1+ | Rubidium | roman | 801+ | Rb. | 85.45 | 38",
+      "usp": "1+ | Rubidium | roman | 801+ | Rb. | 85.45 | 38",
+      "chart": "RUBIDIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "802",
+     "sigil": "+",
+     "name": "Strontium",
+     "typography": "roman",
+     "symbol": "Sr.",
+     "atomic_mass": "87.65",
+     "melting_point_c": "830",
+     "witnesses": {
+      "loc": "2+ | Strontium | roman | 802+ | Sr. | 87.65 | 830",
+      "usp": "2+ | Strontium | roman | 802+ | Sr. | 87.65 | 830",
+      "chart": "STRONTIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3+",
+     "position": "803",
+     "sigil": "+",
+     "name": "Yttrium",
+     "typography": "roman",
+     "symbol": "Yt.",
+     "atomic_mass": "89.33",
+     "melting_point_c": "1490",
+     "witnesses": {
+      "loc": "3+ | Yttrium | roman | 803+ | Yt. | 89.33 | 1490",
+      "usp": "3+ | Yttrium | roman | 803+ | Yt. | 89.33 | 1490",
+      "chart": "YTTRIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3A+",
+     "position": "803A",
+     "sigil": "+",
+     "name": "Zirconium",
+     "typography": "roman",
+     "symbol": "Zr.",
+     "atomic_mass": "90.6",
+     "melting_point_c": "1700",
+     "witnesses": {
+      "loc": "3A+ | Zirconium | roman | 803A+ | Zr. | 90.6 | 1700",
+      "usp": "3A+ | Zirconium | roman | 803A+ | Zr. | 90.6 | 1700",
+      "chart": "ZIRCONIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3B+",
+     "position": "803B",
+     "sigil": "+",
+     "name": "Niobium",
+     "typography": "roman",
+     "symbol": "Nb",
+     "atomic_mass": "94.0",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3B+ | Niobium | roman | 803B+ | Nb | 94.0 | ",
+      "usp": "3B + | Niobium | roman | 803B + | Nb | 94.0 | ",
+      "chart": "NIOBIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3C+",
+     "position": "803C",
+     "sigil": "+",
+     "name": "Molybdenum",
+     "typography": "roman",
+     "symbol": "Mo",
+     "atomic_mass": "96.0",
+     "melting_point_c": "2550",
+     "witnesses": {
+      "loc": "3C+ | Molybdenum | roman | 803C+ | Mo | 96.0 | 2550",
+      "usp": "3C + | Molybdenum | roman | 803C + | Mo | 96.0 | 2550",
+      "chart": "MOLYBDENUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3D+",
+     "position": "803D",
+     "sigil": "+",
+     "name": "Mate to 3D−",
+     "typography": "roman",
+     "symbol": "",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3D+ | Mate to 3D− | roman | 803D+ |  |  | ",
+      "usp": "3D + | Mate to 3D− | roman | 803D + |  |  | ",
+      "chart": "UNKNOWN"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3E+",
+     "position": "803E",
+     "sigil": "+",
+     "name": "Ruthenium",
+     "typography": "roman",
+     "symbol": "Ru",
+     "atomic_mass": "101.7",
+     "melting_point_c": "2450",
+     "witnesses": {
+      "loc": "3E+ | Ruthenium | roman | 803E+ | Ru | 101.7 | 2450",
+      "usp": "3E + | Ruthenium | roman | 803E + | Ru | 101.7 | 2450",
+      "chart": "RUTHENIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "4‡",
+     "position": "804",
+     "sigil": "‡",
+     "name": "RHODIUM",
+     "typography": "smallcaps",
+     "symbol": "Rh",
+     "atomic_mass": "103.0",
+     "melting_point_c": "1950",
+     "witnesses": {
+      "loc": "4‡ | RHODIUM | smallcaps | 804‡ | Rh | 103.0 | 1950",
+      "usp": "4‡ | RHODIUM | smallcaps | 804‡ | Rh | 103.0 | 1950",
+      "chart": "RHODIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3E−",
+     "position": "803E",
+     "sigil": "−",
+     "name": "Palladium",
+     "typography": "roman",
+     "symbol": "Pd",
+     "atomic_mass": "106.5",
+     "melting_point_c": "1549",
+     "witnesses": {
+      "loc": "3E− | Palladium | roman | 803E− | Pd | 106.5 | 1549",
+      "usp": "3E − | Palladium | roman | 803E − | Pd | 106.5 | 1549",
+      "chart": "PALLADIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3D−",
+     "position": "803D",
+     "sigil": "−",
+     "name": "Silver",
+     "typography": "roman",
+     "symbol": "Ag",
+     "atomic_mass": "107.88",
+     "melting_point_c": "961",
+     "witnesses": {
+      "loc": "3D− | Silver | roman | 803D− | Ag | 107.88 | 961",
+      "usp": "3D− | Silver | roman | 803D− | Ag | 107.88 | 961",
+      "chart": "SILVER"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3C−",
+     "position": "803C",
+     "sigil": "−",
+     "name": "Cadmium",
+     "typography": "roman",
+     "symbol": "Cd",
+     "atomic_mass": "112.40",
+     "melting_point_c": "321",
+     "witnesses": {
+      "loc": "3C− | Cadmium | roman | 803C− | Cd | 112.40 | 321",
+      "usp": "3C− | Cadmium | roman | 803C− | Cd | 112.40 | 321",
+      "chart": "CADMIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3B−",
+     "position": "803B",
+     "sigil": "−",
+     "name": "Indium",
+     "typography": "roman",
+     "symbol": "In",
+     "atomic_mass": "114.8",
+     "melting_point_c": "155",
+     "witnesses": {
+      "loc": "3B− | Indium | roman | 803B− | In | 114.8 | 155",
+      "usp": "3B − | Indium | roman | 803B − | In | 114.8 | 155",
+      "chart": "INDIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3A−",
+     "position": "803A",
+     "sigil": "−",
+     "name": "Tin",
+     "typography": "roman",
+     "symbol": "Sn",
+     "atomic_mass": "118.7",
+     "melting_point_c": "232",
+     "witnesses": {
+      "loc": "3A− | Tin | roman | 803A− | Sn | 118.7 | 232",
+      "usp": "3A− | Tin | roman | 803A − | Sn | 118.7 | 232",
+      "chart": "TIN"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3−",
+     "position": "803",
+     "sigil": "−",
+     "name": "Antimony",
+     "typography": "roman",
+     "symbol": "Sb",
+     "atomic_mass": "120.2",
+     "melting_point_c": "630",
+     "witnesses": {
+      "loc": "3− | Antimony | roman | 803− | Sb | 120.2 | 630",
+      "usp": "3− | Antimony | roman | 803− | Sb | 120.2 | 630",
+      "chart": "ANTIMONY"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2−",
+     "position": "802",
+     "sigil": "−",
+     "name": "Tellurium",
+     "typography": "roman",
+     "symbol": "Te",
+     "atomic_mass": "*127.5",
+     "melting_point_c": "446",
+     "witnesses": {
+      "loc": "2− | Tellurium | roman | 802− | Te | *127.5 | 446",
+      "usp": "2− | Tellurium | roman | 802− | Te | *127.5 | 446",
+      "chart": "TELLURIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1−",
+     "position": "801",
+     "sigil": "−",
+     "name": "Iodine",
+     "typography": "roman",
+     "symbol": "I",
+     "atomic_mass": "*126.92",
+     "melting_point_c": "114",
+     "witnesses": {
+      "loc": "1− | Iodine | roman | 801− | I | *126.92 | 114",
+      "usp": "1− | Iodine | roman | 801− | I | *126.92 | 114",
+      "chart": "IODINE"
+     },
+     "status": "agreed"
+    }
+   ]
+  },
+  {
+   "octave": 9,
+   "page_printed": 98,
+   "loc_index": 118,
+   "usp_page": 116,
+   "title_verbatim": [
+    "NINTH OCTAVE",
+    "With Twenty-six Mid-Tones"
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL INHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [
+    "Note. Mid-tones begin in the seventh octave. In the ninth octave the struggle to hold advancing positions forces the construction of new pressure walls in many split tonal positions. In the tenth octave there is such a multitude of split tonal pressure walls that only the conspicuous ones are herein tabulated."
+   ],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "900",
+     "sigil": "=",
+     "name": "Xenon",
+     "typography": "italic",
+     "symbol": "Xe",
+     "atomic_mass": "130.2",
+     "melting_point_c": "—140",
+     "witnesses": {
+      "loc": "0= | Xenon | italic | 900= | Xe | 130.2 | —140",
+      "usp": "0= | Xenon | italic | 900= | Xe | 130.2 | —140",
+      "chart": "XENON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1+",
+     "position": "901",
+     "sigil": "+",
+     "name": "Caesium",
+     "typography": "roman",
+     "symbol": "Cs",
+     "atomic_mass": "132.81",
+     "melting_point_c": "26",
+     "witnesses": {
+      "loc": "1+ | Caesium | roman | 901+ | Cs | 132.81 | 26",
+      "usp": "1+ | Caesium | roman | 901+ | Cs | 132.81 | 26",
+      "chart": "CAESIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "902",
+     "sigil": "+",
+     "name": "Barium",
+     "typography": "roman",
+     "symbol": "Ba",
+     "atomic_mass": "137.37",
+     "melting_point_c": "850",
+     "witnesses": {
+      "loc": "2+ | Barium | roman | 902+ | Ba | 137.37 | 850",
+      "usp": "2+ | Barium | roman | 902+ | Ba | 137.37 | 850",
+      "chart": "BARIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3+",
+     "position": "903",
+     "sigil": "+",
+     "name": "Lanthanum",
+     "typography": "roman",
+     "symbol": "La",
+     "atomic_mass": "139",
+     "melting_point_c": "810",
+     "witnesses": {
+      "loc": "3+ | Lanthanum | roman | 903+ | La | 139 | 810",
+      "usp": "3+ | Lanthanum | roman | 903+ | La | 139 | 810",
+      "chart": "LANTHANUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3A+",
+     "position": "903A",
+     "sigil": "+",
+     "name": "Cerium",
+     "typography": "roman",
+     "symbol": "Ce",
+     "atomic_mass": "140.25",
+     "melting_point_c": "640",
+     "witnesses": {
+      "loc": "3A+ | Cerium | roman | 903A+ | Ce | 140.25 | 640",
+      "usp": "3A + | Cerium | roman | 903A + | Ce | 140.25 | 640",
+      "chart": "CERIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3B+",
+     "position": "903B",
+     "sigil": "+",
+     "name": "Praseodymium",
+     "typography": "roman",
+     "symbol": "Pr",
+     "atomic_mass": "140.9",
+     "melting_point_c": "940",
+     "witnesses": {
+      "loc": "3B+ | Praseodymium | roman | 903B+ | Pr | 140.9 | 940",
+      "usp": "3B + | Praseodymium | roman | 903B + | Pr | 140.9 | 940",
+      "chart": "PRASEODYMIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3C+",
+     "position": "903C",
+     "sigil": "+",
+     "name": "Neodymium",
+     "typography": "roman",
+     "symbol": "Nd",
+     "atomic_mass": "144.3",
+     "melting_point_c": "840",
+     "witnesses": {
+      "loc": "3C+ | Neodymium | roman | 903C+ | Nd | 144.3 | 840",
+      "usp": "3C + | Neodymium | roman | 903C + | Nd | 144.3 | 840",
+      "chart": "NEODYMIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3D+",
+     "position": "903D",
+     "sigil": "+",
+     "name": "Mate to 3D−",
+     "typography": "roman",
+     "symbol": "",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3D+ | Mate to 3D− | roman | 903D+ |  |  | ",
+      "usp": "3D + | Mate to 3D− | roman | 903D + |  |  | ",
+      "chart": "UNKNOWN"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3E+",
+     "position": "903E",
+     "sigil": "+",
+     "name": "Samarium",
+     "typography": "roman",
+     "symbol": "Sa",
+     "atomic_mass": "150.4",
+     "melting_point_c": "1350",
+     "witnesses": {
+      "loc": "3E+ | Samarium | roman | 903E+ | Sa | 150.4 | 1350",
+      "usp": "3E + | Samarium | roman | 903E + | [uncertain:Sa|Sa.] | 150.4 | 1350",
+      "chart": "SAMARIUM"
+     },
+     "status": "resolved",
+     "resolution": "USP shows an ink blot after 'Sa' ([uncertain:Sa|Sa.]); LoC prints clean 'Sa'; blot = USP scan/ink noise"
+    },
+    {
+     "position_col": "3F+",
+     "position": "903F",
+     "sigil": "+",
+     "name": "Europium",
+     "typography": "roman",
+     "symbol": "Eu",
+     "atomic_mass": "152.0",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3F+ | Europium | roman | 903F+ | Eu | 152.0 | ",
+      "usp": "3F + | Europium | roman | 903F + | Eu | 152.0 | ",
+      "chart": "EUROPIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3G+",
+     "position": "903G",
+     "sigil": "+",
+     "name": "Gadolinium",
+     "typography": "roman",
+     "symbol": "Gd",
+     "atomic_mass": "157.3",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3G+ | Gadolinium | roman | 903G+ | Gd | 157.3 | ",
+      "usp": "3G + | Gadolinium | roman | 903G + | Gd | 157.3 | ",
+      "chart": "GADOLINIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3H+",
+     "position": "903H",
+     "sigil": "+",
+     "name": "Terbium",
+     "typography": "roman",
+     "symbol": "Tb",
+     "atomic_mass": "159.2",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3H+ | Terbium | roman | 903H+ | Tb | 159.2 | ",
+      "usp": "3H+ | Terbium | roman | 903H + | Tb | 159.2 | ",
+      "chart": "TERBIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3I+",
+     "position": "903I",
+     "sigil": "+",
+     "name": "Disbrossium",
+     "typography": "roman",
+     "symbol": "Dy",
+     "atomic_mass": "162.5",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3I+ | Disbrossium | roman | 903 I + | Dy | 162.5 | ",
+      "usp": "3I + | Disbrossium | roman | 903 I + | Dy | 162.5 | ",
+      "chart": "DISBROSSIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3J+",
+     "position": "903J",
+     "sigil": "+",
+     "name": "Holmium",
+     "typography": "roman",
+     "symbol": "Ho",
+     "atomic_mass": "163.5",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3J+ | Holmium | roman | 903 J + | Ho | 163.5 | ",
+      "usp": "3J + | Holmium | roman | 903 J + | Ho | 163.5 | ",
+      "chart": "HOLMIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3K+",
+     "position": "903K",
+     "sigil": "+",
+     "name": "Erbium",
+     "typography": "roman",
+     "symbol": "Er",
+     "atomic_mass": "167.7",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3K+ | Erbium | roman | 903K+ | Er | 167.7 | ",
+      "usp": "3K + | Erbium | roman | 903K + | Er | 167.7 | ",
+      "chart": "ERBIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3L+",
+     "position": "903L",
+     "sigil": "+",
+     "name": "Thulium",
+     "typography": "roman",
+     "symbol": "Tm",
+     "atomic_mass": "168.5",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3L+ | Thulium | roman | 903L+ | Tm | 168.5 | ",
+      "usp": "3L + | Thulium | roman | 903L + | Tm | 168.5 | ",
+      "chart": "THULIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3M+",
+     "position": "903M",
+     "sigil": "+",
+     "name": "Ytterbium",
+     "typography": "roman",
+     "symbol": "Yb",
+     "atomic_mass": "173.5",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3M+ | Ytterbium | roman | 903M+ | Yb | 173.5 | ",
+      "usp": "3M+ | Ytterbium | roman | 903M+ | Yb | 173.5 | ",
+      "chart": "YTTERBIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "4‡",
+     "position": "904",
+     "sigil": "‡",
+     "name": "LUTECIUM",
+     "typography": "smallcaps",
+     "symbol": "Lu",
+     "atomic_mass": "175.0",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "4‡ | LUTECIUM | smallcaps | 904‡ | Lu | 175.0 | ",
+      "usp": "4‡ | LUTECIUM | smallcaps | 904‡ | Lu | 175.0 | ",
+      "chart": "LUTECIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3M−",
+     "position": "903M",
+     "sigil": "−",
+     "name": "Mate to 3M+",
+     "typography": "roman",
+     "symbol": "",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3M− | Mate to 3M+ | roman | 903M− |  |  | ",
+      "usp": "3M− | Mate to 3M+ | roman | 903M− |  |  | ",
+      "chart": "UNKNOWN"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3L−",
+     "position": "903L",
+     "sigil": "−",
+     "name": "Mate to 3L+",
+     "typography": "roman",
+     "symbol": "Ta",
+     "atomic_mass": "181.5",
+     "melting_point_c": "2900",
+     "witnesses": {
+      "loc": "3L− | Mate to 3L+ | roman | 903L− | Ta | 181.5 | 2900",
+      "usp": "3L − | Mate to 3L+ | roman | 903L − | Ta | 181.5 | 2900",
+      "chart": ""
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3K−",
+     "position": "903K",
+     "sigil": "−",
+     "name": "Tantalum",
+     "typography": "roman",
+     "symbol": "W",
+     "atomic_mass": "184.0",
+     "melting_point_c": "3400",
+     "witnesses": {
+      "loc": "3K− | Tantalum | roman | 903K− | W | 184.0 | 3400",
+      "usp": "3K − | Tantalum | roman | 903K − | W | 184.0 | 3400",
+      "chart": "TANTALUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3J−",
+     "position": "903J",
+     "sigil": "−",
+     "name": "Tungsten",
+     "typography": "roman",
+     "symbol": "",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3J− | Tungsten | roman | 903 J − |  |  | ",
+      "usp": "3J − | Tungsten | roman | 903J − |  |  | ",
+      "chart": "TUNGSTEN"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3I−",
+     "position": "903I",
+     "sigil": "−",
+     "name": "Mate to 3I+",
+     "typography": "roman",
+     "symbol": "Os",
+     "atomic_mass": "190.9",
+     "melting_point_c": "2700",
+     "witnesses": {
+      "loc": "3I− | Mate to 3I+ | roman | 903 I − | Os | 190.9 | 2700",
+      "usp": "3I − | Mate to 3I+ | roman | 903 I − | Os | 190.9 | 2700",
+      "chart": "UNKNOWN"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3H−",
+     "position": "903H",
+     "sigil": "−",
+     "name": "Osmium",
+     "typography": "roman",
+     "symbol": "Ir",
+     "atomic_mass": "193.1",
+     "melting_point_c": "2250",
+     "witnesses": {
+      "loc": "3H− | Osmium | roman | 903H− | Ir | 193.1 | 2250",
+      "usp": "3H − | Osmium | roman | 903H − | Ir | 193.1 | 2250",
+      "chart": "OSMIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3G−",
+     "position": "903G",
+     "sigil": "−",
+     "name": "Iridium",
+     "typography": "roman",
+     "symbol": "Pt",
+     "atomic_mass": "195.2",
+     "melting_point_c": "1755",
+     "witnesses": {
+      "loc": "3G− | Iridium | roman | 903G− | Pt | 195.2 | 1755",
+      "usp": "3G − | Iridium | roman | 903G − | Pt | 195.2 | 1755",
+      "chart": "IRIDIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3F−",
+     "position": "903F",
+     "sigil": "−",
+     "name": "Platinum",
+     "typography": "roman",
+     "symbol": "Au",
+     "atomic_mass": "197.2",
+     "melting_point_c": "1063",
+     "witnesses": {
+      "loc": "3F− | Platinum | roman | 903F− | Au | 197.2 | 1063",
+      "usp": "3F − | Platinum | roman | 903F − | Au | 197.2 | 1063",
+      "chart": "PLATINUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3E−",
+     "position": "903E",
+     "sigil": "−",
+     "name": "Mate to 3E+",
+     "typography": "roman",
+     "symbol": "Hg",
+     "atomic_mass": "200.6",
+     "melting_point_c": "—39",
+     "witnesses": {
+      "loc": "3E− | Mate to 3E+ | roman | 903E− | Hg | 200.6 | —39",
+      "usp": "3E − | Mate to 3E+ | roman | 903E − | Hg | 200.6 | —39",
+      "chart": ""
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3D−",
+     "position": "903D",
+     "sigil": "−",
+     "name": "Gold",
+     "typography": "roman",
+     "symbol": "Tl",
+     "atomic_mass": "204.0",
+     "melting_point_c": "302",
+     "witnesses": {
+      "loc": "3D− | Gold | roman | 903D− | Tl | 204.0 | 302",
+      "usp": "3D − | Gold | roman | 903D − | Tl | 204.0 | 302",
+      "chart": "GOLD"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3C−",
+     "position": "903C",
+     "sigil": "−",
+     "name": "Mercury",
+     "typography": "roman",
+     "symbol": "Pb",
+     "atomic_mass": "207.2",
+     "melting_point_c": "327",
+     "witnesses": {
+      "loc": "3C− | Mercury | roman | 903C− | Pb | 207.2 | 327",
+      "usp": "3C − | Mercury | roman | 903C − | Pb | 207.2 | 327",
+      "chart": "MERCURY"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3B−",
+     "position": "903B",
+     "sigil": "−",
+     "name": "Thallium",
+     "typography": "roman",
+     "symbol": "",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3B− | Thallium | roman | 903B− |  |  | ",
+      "usp": "3B − | Thallium | roman | 903B − |  |  | ",
+      "chart": "THALLIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3A−",
+     "position": "903A",
+     "sigil": "−",
+     "name": "Lead",
+     "typography": "roman",
+     "symbol": "",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3A− | Lead | roman | 903A− |  |  | ",
+      "usp": "3A − | Lead | roman | 903A − |  |  | ",
+      "chart": "LEAD"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3−",
+     "position": "903",
+     "sigil": "−",
+     "name": "Bismuth",
+     "typography": "roman",
+     "symbol": "Bi",
+     "atomic_mass": "208.0",
+     "melting_point_c": "271",
+     "witnesses": {
+      "loc": "3− | Bismuth | roman | 903− | Bi | 208.0 | 271",
+      "usp": "3− | Bismuth | roman | 903− | Bi | 208.0 | 271",
+      "chart": "BISMUTH"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2−",
+     "position": "902",
+     "sigil": "−",
+     "name": "Polonium",
+     "typography": "roman",
+     "symbol": "Po",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "2− | Polonium | roman | 902− | Po |  | ",
+      "usp": "2− | Polonium | roman | 902− | Po |  | ",
+      "chart": "POLONIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1−",
+     "position": "901",
+     "sigil": "−",
+     "name": "Mate to 1+",
+     "typography": "roman",
+     "symbol": "",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "1− | Mate to 1+ | roman | 901− |  |  | ",
+      "usp": "1− | Mate to 1+ | roman | 901− |  |  | ",
+      "chart": "UNKNOWN"
+     },
+     "status": "agreed"
+    }
+   ],
+   "layout_anomaly": "symbol/mass/melting-point entries on the exhalation side sit one row displaced from the element names as printed (e.g. Ta 181.5 2900 on the 'Mate to 3L+' row, W 184.0 3400 on the 'Tantalum' row); transcribed row-wise exactly as printed"
+  },
+  {
+   "octave": 10,
+   "page_printed": 100,
+   "loc_index": 120,
+   "usp_page": 118,
+   "title_verbatim": [
+    "TENTH OCTAVE",
+    "With Innumerable Mid-tones",
+    "Ending of the Cyclic Exhalation at Tomium and Beginning of the Inhalation."
+   ],
+   "margin_labels": [
+    "ENDOTHERMAL INHALATION",
+    "EXOTHERMAL EXHALATION"
+   ],
+   "footnotes": [
+    "101 − 102 − and 103 − are tonal mates of 1001 + 1002 + and 1003 +, also they are tonal mates of 101 + 102 + and 103 +."
+   ],
+   "rows": [
+    {
+     "position_col": "0=",
+     "position": "1000",
+     "sigil": "=",
+     "name": "Niton",
+     "typography": "italic",
+     "symbol": "Nt",
+     "atomic_mass": "222.4",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "0= | Niton | italic | 1000= | Nt | 222.4 | ",
+      "usp": "0= | Niton | italic | 1000= | Nt | 222.4 | ",
+      "chart": "NITON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "1+",
+     "position": "1001",
+     "sigil": "+",
+     "name": "Mate to 1−",
+     "typography": "roman",
+     "symbol": "",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "1+ | Mate to 1− | roman | 1001+ |  |  | ",
+      "usp": "1+ | Mate to 1− | roman | 1001+ |  |  | ",
+      "chart": "UNKNOWN"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "2+",
+     "position": "1002",
+     "sigil": "+",
+     "name": "Radium",
+     "typography": "roman",
+     "symbol": "Ra",
+     "atomic_mass": "226.0",
+     "melting_point_c": "700",
+     "witnesses": {
+      "loc": "2+ | Radium | roman | 1002+ | Ra | 226.0 | 700",
+      "usp": "2+ | Radium | roman | 1002+ | Ra | 226.0 | 700",
+      "chart": "RADIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3+",
+     "position": "1003",
+     "sigil": "+",
+     "name": "Actinium",
+     "typography": "roman",
+     "symbol": "Ac",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3+ | Actinium | roman | 1003+ | Ac |  | ",
+      "usp": "3+ | Actinium | roman | 1003+ | Ac |  | ",
+      "chart": "ACTINIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3A+",
+     "position": "1003A",
+     "sigil": "+",
+     "name": "Thorium",
+     "typography": "roman",
+     "symbol": "Th",
+     "atomic_mass": "232.15",
+     "melting_point_c": "1700",
+     "witnesses": {
+      "loc": "3A+ | Thorium | roman | 1003A+ | Th | 232.15 | 1700",
+      "usp": "3A+ | Thorium | roman | 1003A+ | Th | 232.15 | 1700",
+      "chart": "THORIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3B+",
+     "position": "1003B",
+     "sigil": "+",
+     "name": "Uranium XII",
+     "typography": "roman",
+     "symbol": "UrXII",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3B+ | Uranium XII | roman | 1003B+ | UrXII |  | ",
+      "usp": "3B + | Uranium XII | roman | 1003B + | UrXII |  | ",
+      "chart": "URANIUM XII"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3C+",
+     "position": "1003C",
+     "sigil": "+",
+     "name": "Uranium",
+     "typography": "roman",
+     "symbol": "Ur",
+     "atomic_mass": "238.2",
+     "melting_point_c": "1850",
+     "witnesses": {
+      "loc": "3C+ | Uranium | roman | 1003C+ | Ur | 238.2 | 1850",
+      "usp": "3C+ | Uranium | roman | 1003C + | Ur | 238.2 | 1850",
+      "chart": "URANIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3D+",
+     "position": "1003D",
+     "sigil": "+",
+     "name": "Uridium",
+     "typography": "roman",
+     "symbol": "Um",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3D+ | Uridium | roman | 1003D+ | Um |  | ",
+      "usp": "3D+ | Uridium | roman | 1003D+ | Um |  | ",
+      "chart": "URIDIUM"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3E+",
+     "position": "1003E",
+     "sigil": "+",
+     "name": "Urium",
+     "typography": "roman",
+     "symbol": "Uu",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3E+ | Urium | roman | 1003E+ | Uu |  | ",
+      "usp": "3E + | Urium | roman | 1003E + | Uu |  | ",
+      "chart": "URIUM"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "4‡",
+     "position": "104",
+     "sigil": "‡",
+     "name": "TOMIUM",
+     "typography": "caps",
+     "symbol": "Tn",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "4‡ | TOMIUM | caps | 104‡ | Tn |  | ",
+      "usp": "4‡ | TOMIUM | caps | 104‡ | Tn |  | ",
+      "chart": "TOMION"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3E−",
+     "position": "103E",
+     "sigil": "−",
+     "name": "Whitnion",
+     "typography": "roman",
+     "symbol": "Wn",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3E− | Whitnion | roman | 103E− | Wn |  | ",
+      "usp": "3E − | Whitnion | roman | 103E − | Wn |  | ",
+      "chart": "WHITNION"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3D−",
+     "position": "103D",
+     "sigil": "−",
+     "name": "Alphonson",
+     "typography": "roman",
+     "symbol": "Ap",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3D− | Alphonson | roman | 103D− | Ap |  | ",
+      "usp": "3D− | Alphonson | roman | 103D− | Ap |  | ",
+      "chart": "ALPHONSON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3C−",
+     "position": "103C",
+     "sigil": "−",
+     "name": "Georgeon",
+     "typography": "roman",
+     "symbol": "Gg",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3C− | Georgeon | roman | 103C− | Gg |  | ",
+      "usp": "3C− | Georgeon | roman | 103C− | Gg |  | ",
+      "chart": "GEORGEON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "3B−",
+     "position": "103B",
+     "sigil": "−",
+     "name": "Victoron",
+     "typography": "roman",
+     "symbol": "V",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3B− | Victoron | roman | 103B− | V |  | ",
+      "usp": "3B − | Victoron | roman | 103B − | V |  | ",
+      "chart": "VICTORON"
+     },
+     "status": "resolved",
+     "resolution": "spacing only: print sets a loose quad space before the sigil on letter-suffixed rows; glyph content identical in both witnesses; canonical form is space-free"
+    },
+    {
+     "position_col": "3A−",
+     "position": "103A",
+     "sigil": "−",
+     "name": "Lipton",
+     "typography": "roman",
+     "symbol": "Ln",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "3A− | Lipton | roman | 103A− | Ln |  | ",
+      "usp": "3A− | Lipton | roman | 103A− | Ln |  | ",
+      "chart": "LIPTON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "+3−",
+     "position": "+103",
+     "sigil": "−",
+     "name": "Alberton",
+     "typography": "roman",
+     "symbol": "At",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "+3− | Alberton | roman | +103− | At |  | ",
+      "usp": "+3− | Alberton | roman | +103− | At |  | ",
+      "chart": "ALBERTON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "+2−",
+     "position": "+102",
+     "sigil": "−",
+     "name": "Blackton",
+     "typography": "roman",
+     "symbol": "Bn",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "+2− | Blackton | roman | +102− | Bn |  | ",
+      "usp": "+2− | Blackton | roman | +102− | Bn |  | ",
+      "chart": "BLACTON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "+1−",
+     "position": "+101",
+     "sigil": "−",
+     "name": "Boston",
+     "typography": "roman",
+     "symbol": "Bt",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "+1− | Boston | roman | +101− | Bt |  | ",
+      "usp": "+1− | Boston | roman | +101− | Bt |  | ",
+      "chart": "BOSTON"
+     },
+     "status": "agreed"
+    },
+    {
+     "position_col": "0=",
+     "position": "100",
+     "sigil": "=",
+     "name": "Omeganon",
+     "typography": "roman",
+     "symbol": "",
+     "atomic_mass": "",
+     "melting_point_c": "",
+     "witnesses": {
+      "loc": "0= | Omeganon | roman | 100= |  |  | ",
+      "usp": "0= | Omeganon | roman | 100= |  |  | ",
+      "chart": "OMEGANON"
+     },
+     "status": "agreed"
+    }
+   ],
+   "layout_anomaly": "TOMIUM row prints number 104‡ (not 1004‡); all exhalation-side numbers print in the 103x/10x form (103E− etc.), and Alberton/Blackton/Boston print +103− +102− +101−; Omeganon prints 100=",
+   "trailing_lines": [
+    "the end, which is",
+    "Alphanon, the beginning."
+   ]
+  }
+ ]
+}

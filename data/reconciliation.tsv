@@ -1,0 +1,138 @@
+octave	position	russell_name	russell_symbol	russell_mass	russell_mp	modern_symbol	modern_name	classification	mass_delta_abs	mass_delta_pct	mp_delta_c	note
+1	100=	Alphanon	An.					nonexistent				invented name, no real element
+1	101+	Irenon	Io					nonexistent				invented name, no real element
+1	102+	Vijaon	Vj					nonexistent				invented name, no real element
+1	103+	Marvaon	Mv					nonexistent				invented name, no real element
+1	104‡	TOMION	Tn					nonexistent				invented name, no real element
+1	103−	Alberton	At.					nonexistent				invented name, no real element
+1	102−	Blackton	Bn.					nonexistent				invented name, no real element
+1	101−	Boston	Bt.					nonexistent				invented name, no real element
+2	200=	Betanon	Bo.					nonexistent				invented name, no real element
+2	201+	Jamearnon	Jn.					nonexistent				invented name, no real element
+2	202+	Erneston	En.					nonexistent				invented name, no real element
+2	203+	Eykaon	Ek.					nonexistent				invented name, no real element
+2	204‡	ATHENON	Ae.					nonexistent				invented name, no real element
+2	203−	Barnardon	Bd.					nonexistent				invented name, no real element
+2	202−	Delphanon	Dn.					nonexistent				invented name, no real element
+2	201−	Romanon	Rn.					nonexistent				invented name, no real element
+3	300=	Gammanon	Gn.					nonexistent				invented name, no real element
+3	301+	Marconium	Mc					nonexistent				invented name, no real element
+3	302+	Penrynium	Pn					nonexistent				invented name, no real element
+3	303+	Vinton	Vn					nonexistent				invented name, no real element
+3	304‡	QUENTIN	Qn					nonexistent				invented name, no real element
+3	303−	Tracion	Tc					nonexistent				invented name, no real element
+3	302−	Buzzeon	Bz					nonexistent				invented name, no real element
+3	301−	Helenon	Hl					nonexistent				invented name, no real element
+4	400=	Hydron	Hy					nonexistent				invented name, no real element
+4	401+	Hydrogen	H	1.008	−259	H	hydrogen	matched	+0.000	+0.00	+0.2	position test n/a: octave anchored on invented inert tone
+4	402+	Ethlogen	Eg					nonexistent				invented name, no real element
+4	403+	Bebegen	Bb					nonexistent				invented name, no real element
+4	404‡	CARBOGEN	Cb					nonexistent				invented name, no real element
+4	403−	Luminon	Ln	*2.92				nonexistent				invented name, no real element; only invented tone printed with a mass value (*2.92, footnote *Approximate; C020)
+4	402−	Halanon	Ha					nonexistent				invented name, no real element
+4	401−	Helionon	Hi					nonexistent				invented name, no real element
+5	500=	Helium	He.	4.0	−271	He	helium	matched	-0.003	-0.06		no modern normal melting point exists (No melting point at 101.325 kPa: helium does not solidify at any temperature at atmospheric pressure (solidifies only above ~2.5 MPa))
+5	501+	Lithium	Li	7.03	186	Li	lithium	matched	+0.090	+1.30	+5.5	
+5	502+	Beryllium	Be	9.1	1280	Be	beryllium	matched	+0.088	+0.97	-7.0	
+5	503+	Boron	B	11.0	2350	B	boron	matched	+0.190	+1.76	+273.0	
+5	504‡	CARBON	C	12.0	3600	C	carbon	matched	-0.011	-0.09		no modern normal melting point exists (No liquid phase at 101.325 kPa: graphite sublimes at 3825 °C (sp, CRC); the solid–liquid–gas triple point is 4489 °C at 10.3 MPa (CRC))
+5	503−	Nitrogen	N	14.04	−210	N	nitrogen	matched	+0.033	+0.24	+0.0	
+5	502−	Oxygen	O	16.00	−218	O	oxygen	matched	+0.001	+0.01	+0.8	
+5	501−	Fluorine	F	19.0	−223	F	fluorine	matched	+0.002	+0.01	-3.3	
+6	600=	Neon	Ne	19.9	−253	Ne	neon	matched	-0.280	-1.39	-4.4	
+6	601+	Sodium	Na	23.05	98	Na	sodium	matched	+0.060	+0.26	+0.2	
+6	602+	Magnesium	Mg	24.1	651	Mg	magnesium	matched	-0.205	-0.84	+1.0	
+6	603+	Aluminum	Al	27.0	659	Al	aluminium	matched	+0.018	+0.07	-1.3	accepted variant spelling of aluminium
+6	604‡	SILICON	Si	28.4	1420	Si	silicon	matched	+0.315	+1.12	+6.0	
+6	603−	Phosphorus	P	31.4	725	P	phosphorus	matched	+0.426	+1.38	+680.9	modern mp caveat: White phosphorus (CRC also lists red P, tm 579.2 °C at elevated pressure/triple point).
+6	602−	Sulphur	S	32.06	119	S	sulfur	matched	+0.000	+0.00	+3.8	joined by printed symbol S, corroborated by slot claim Z=16 and printed mass 32.06; accepted variant spelling of sulfur
+6	601−	Chlorine	Cl	35.45	−102	Cl	chlorine	matched	+0.000	+0.00	-0.5	
+7	700=	Argon	Ar	39.09	−188	Ar	argon	matched	-0.860	-2.15	+1.3	
+7	701+	Potassium	K	39.10	62.3	K	potassium	matched	+0.002	+0.01	-1.2	
+7	702+	Calcium	Ca	40.1	810	Ca	calcium	matched	+0.022	+0.05	-32.0	
+7	703+	Scandium	Sc	44.1		Sc	scandium	matched	-0.856	-1.90		
+7	703A+	Titanium	Ti	48.1	1800	Ti	titanium	matched	+0.233	+0.49	+130.0	
+7	703B+	Vanadium	V	51.4	1720	V	vanadium	matched	+0.458	+0.90	-190.0	
+7	703C+	Chromium	Cr	52.0	1615	Cr	chromium	matched	+0.004	+0.01	-292.0	
+7	703D+	Manganese	Mn	55.0	1230	Mn	manganese	matched	+0.062	+0.11	-16.0	
+7	703E+	Iron	Fe	55.9	1530	Fe	iron	matched	+0.055	+0.10	-8.0	
+7	704‡	COBALT	Co	58.97	1480	Co	cobalt	matched	+0.037	+0.06	-15.0	
+7	703E−	Nickel	Ni	59	1452	Ni	nickel	matched	+0.307	+0.52	-3.0	
+7	703D−	Copper	Cu	63.57	1083	Cu	copper	matched	+0.024	+0.04	-1.6	
+7	703C−	Zinc	Zn	65.37	419	Zn	zinc	matched	-0.010	-0.02	-0.5	
+7	703B−	Gallium	Ga	70.1	30	Ga	gallium	matched	+0.377	+0.54	+0.2	
+7	703A−	Germanium	Ge	72.5	958	Ge	germanium	matched	-0.130	-0.18	+19.8	
+7	703−	Arsenic	As	74.96	850	As	arsenic	matched	+0.038	+0.05	+33.0	modern mp caveat: Gray arsenic; 817 °C is the triple-point temperature at 3.70 MPa
+7	702−	Selenium	Se	79.2	217	Se	selenium	matched	+0.229	+0.29	-3.8	
+7	701−	Bromine	Br	79.92	−7.3	Br	bromine	matched	+0.016	+0.02	-0.1	
+8	800=	Krypton	Kr.	82.92	—169	Kr	krypton	matched	-0.878	-1.05	-11.6	
+8	801+	Rubidium	Rb.	85.45	38	Rb	rubidium	matched	-0.018	-0.02	-1.3	
+8	802+	Strontium	Sr.	87.65	830	Sr	strontium	matched	+0.030	+0.03	+53.0	
+8	803+	Yttrium	Yt.	89.33	1490	Y	yttrium	matched	+0.424	+0.48	-32.0	printed symbol Yt. is the period symbol (modern Y)
+8	803A+	Zirconium	Zr.	90.6	1700	Zr	zirconium	matched	-0.622	-0.68	-154.0	
+8	803B+	Niobium	Nb	94.0		Nb	niobium	matched	+1.094	+1.18		
+8	803C+	Molybdenum	Mo	96.0	2550	Mo	molybdenum	matched	+0.050	+0.05	-72.0	
+8	803D+	Mate to 3D−						nonexistent				unnamed placeholder slot (printed 'Mate to 3D−'); slot claim Z=43 = technetium (then undiscovered; discovered 1937)
+8	803E+	Ruthenium	Ru	101.7	2450	Ru	ruthenium	matched	+0.630	+0.62	+117.0	
+8	804‡	RHODIUM	Rh	103.0	1950	Rh	rhodium	matched	+0.090	+0.09	-13.0	
+8	803E−	Palladium	Pd	106.5	1549	Pd	palladium	matched	+0.080	+0.08	-5.8	
+8	803D−	Silver	Ag	107.88	961	Ag	silver	matched	+0.010	+0.01	-0.8	
+8	803C−	Cadmium	Cd	112.40	321	Cd	cadmium	matched	-0.010	-0.01	-0.1	
+8	803B−	Indium	In	114.8	155	In	indium	matched	-0.020	-0.02	-1.6	
+8	803A−	Tin	Sn	118.7	232	Sn	tin	matched	-0.010	-0.01	+0.1	
+8	803−	Antimony	Sb	120.2	630	Sb	antimony	matched	-1.560	-1.28	-0.6	
+8	802−	Tellurium	Te	*127.5	446	Te	tellurium	matched	-0.100	-0.08	-3.5	
+8	801−	Iodine	I	*126.92	114	I	iodine	matched	+0.020	+0.02	+0.3	
+9	900=	Xenon	Xe	130.2	—140	Xe	xenon	matched	-1.090	-0.83	-28.2	
+9	901+	Caesium	Cs	132.81	26	Cs	caesium	matched	-0.100	-0.08	-2.5	
+9	902+	Barium	Ba	137.37	850	Ba	barium	matched	+0.040	+0.03	+123.0	
+9	903+	Lanthanum	La	139	810	La	lanthanum	matched	+0.090	+0.06	-110.0	
+9	903A+	Cerium	Ce	140.25	640	Ce	cerium	matched	+0.130	+0.09	-159.0	
+9	903B+	Praseodymium	Pr	140.9	940	Pr	praseodymium	matched	-0.010	-0.01	+9.0	
+9	903C+	Neodymium	Nd	144.3	840	Nd	neodymium	matched	+0.060	+0.04	-176.0	
+9	903D+	Mate to 3D−						nonexistent				unnamed placeholder slot (printed 'Mate to 3D−'); slot claim Z=61 = promethium (then undiscovered; discovered 1945)
+9	903E+	Samarium	Sa	150.4	1350	Sm	samarium	matched	+0.040	+0.03	+278.0	printed symbol Sa is the period symbol (modern Sm)
+9	903F+	Europium	Eu	152.0		Eu	europium	matched	+0.040	+0.03		
+9	903G+	Gadolinium	Gd	157.3		Gd	gadolinium	matched	+0.050	+0.03		
+9	903H+	Terbium	Tb	159.2		Tb	terbium	matched	+0.270	+0.17		
+9	903I+	Disbrossium	Dy	162.5		Dy	dysprosium	renamed	+0.000	+0.00		1926 name for dysprosium; joined by printed symbol Dy, corroborated by slot claim Z=66 and printed mass 162.5
+9	903J+	Holmium	Ho	163.5		Ho	holmium	matched	-1.430	-0.87		
+9	903K+	Erbium	Er	167.7		Er	erbium	matched	+0.440	+0.26		
+9	903L+	Thulium	Tm	168.5		Tm	thulium	matched	-0.430	-0.25		
+9	903M+	Ytterbium	Yb	173.5		Yb	ytterbium	matched	+0.450	+0.26		
+9	904‡	LUTECIUM	Lu	175.0		Lu	lutetium	renamed	+0.030	+0.02		1926 name for lutetium
+9	903M−	Mate to 3M+						nonexistent				unnamed placeholder slot (printed 'Mate to 3M+'); one of two placeholder slots between LUTECIUM and Tantalum where modern periodicity has a single element (hafnium, Z=72, discovered 1923, absent from the table); the extra slot pushes Ta-Pt one position late
+9	903L−	Mate to 3L+						nonexistent				unnamed placeholder slot (printed 'Mate to 3L+'); printed cells on this line (Ta 181.5 2900) belong to tantalum per o9 layout_anomaly; the slot itself is empty; one of two placeholder slots between LUTECIUM and Tantalum where modern periodicity has a single element (hafnium, Z=72, discovered 1923, absent from the table); the extra slot pushes Ta-Pt one position late
+9	903K−	Tantalum	Ta	181.5	2900	Ta	tantalum	misplaced	+0.550	+0.30	-117.0	slot implies Z=72 but tantalum is Z=73; o9 layout_anomaly: symbol/mass/mp taken from the 903L− line where 'Ta 181.5 2900' prints; this row's own printed cells (W 184.0 3400) belong to tungsten
+9	903J−	Tungsten	W	184.0	3400	W	tungsten	misplaced	+0.160	+0.09	-14.0	slot implies Z=73 but tungsten is Z=74; o9 layout_anomaly: symbol/mass/mp taken from the 903K− line where 'W 184.0 3400' prints; this row's own cells print empty
+9	903I−	Mate to 3I+						nonexistent				unnamed placeholder slot (printed 'Mate to 3I+'); printed cells on this line (Os 190.9 2700) belong to osmium per o9 layout_anomaly; the slot itself is empty; placeholder between Tungsten and Osmium; the real gap here is rhenium (Z=75, discovered 1925, absent from the table)
+9	903H−	Osmium	Os	190.9	2700	Os	osmium	misplaced	+0.670	+0.35	-333.0	slot implies Z=75 but osmium is Z=76; o9 layout_anomaly: symbol/mass/mp taken from the 903I− line where 'Os 190.9 2700' prints; this row's own printed cells (Ir 193.1 2250) belong to iridium
+9	903G−	Iridium	Ir	193.1	2250	Ir	iridium	misplaced	+0.880	+0.46	-196.0	slot implies Z=76 but iridium is Z=77; o9 layout_anomaly: symbol/mass/mp taken from the 903H− line where 'Ir 193.1 2250' prints; this row's own printed cells (Pt 195.2 1755) belong to platinum
+9	903F−	Platinum	Pt	195.2	1755	Pt	platinum	misplaced	+0.120	+0.06	-13.2	slot implies Z=77 but platinum is Z=78; o9 layout_anomaly: symbol/mass/mp taken from the 903G− line where 'Pt 195.2 1755' prints; this row's own printed cells (Au 197.2 1063) belong to gold
+9	903E−	Mate to 3E+						nonexistent				unnamed placeholder slot (printed 'Mate to 3E+'); printed cells on this line (Hg 200.6 —39) belong to mercury per o9 layout_anomaly; the slot itself is empty; placeholder between Platinum and Gold where modern periodicity has no element; spurious slot
+9	903D−	Gold	Au	197.2	1063	Au	gold	matched	+0.230	+0.12	-1.2	o9 layout_anomaly: symbol/mass/mp taken from the 903F− line where 'Au 197.2 1063' prints; this row's own printed cells (Tl 204.0 302) belong to thallium
+9	903C−	Mercury	Hg	200.6	—39	Hg	mercury	matched	+0.010	+0.00	-0.2	o9 layout_anomaly: symbol/mass/mp taken from the 903E− line where 'Hg 200.6 —39' prints; this row's own printed cells (Pb 207.2 327) belong to lead
+9	903B−	Thallium	Tl	204.0	302	Tl	thallium	matched	-0.380	-0.19	-2.0	o9 layout_anomaly: symbol/mass/mp taken from the 903D− line where 'Tl 204.0 302' prints; this row's own cells print empty
+9	903A−	Lead	Pb	207.2	327	Pb	lead	matched	+0.000	+0.00	-0.5	o9 layout_anomaly: symbol/mass/mp taken from the 903C− line where 'Pb 207.2 327' prints; this row's own cells print empty
+9	903−	Bismuth	Bi	208.0	271	Bi	bismuth	matched	-0.980	-0.47	-0.4	
+9	902−	Polonium	Po			Po	polonium	matched				
+9	901−	Mate to 1+						nonexistent				unnamed placeholder slot (printed 'Mate to 1+'); slot claim Z=85 = astatine (then undiscovered; discovered 1940)
+10	1000=	Niton	Nt	222.4		Rn	radon	renamed	+0.400	+0.18		1926 name for radon; modern mass is the bracketed NUBASE2020 mass number [222] (no CIAAW standard atomic weight exists)
+10	1001+	Mate to 1−						nonexistent				unnamed placeholder slot (printed 'Mate to 1−'); slot claim Z=87 = francium (then undiscovered; discovered 1939); also asserted in prose: 'the unknown element (1001+) preceding radium' (p.246, C044)
+10	1002+	Radium	Ra	226.0	700	Ra	radium	matched	+0.000	+0.00	+4.0	modern mass is the bracketed NUBASE2020 mass number [226] (no CIAAW standard atomic weight exists)
+10	1003+	Actinium	Ac			Ac	actinium	matched				
+10	1003A+	Thorium	Th	232.15	1700	Th	thorium	matched	+0.110	+0.05	-50.0	
+10	1003B+	Uranium XII	UrXII			Pa	protactinium	designation				period radioelement designation UX2 (= 234mPa, a uranium-series decay member), not an element name (claims_notes SS3, C027); slot claim Z=91 coincides with protactinium; printed cells empty
+10	1003C+	Uranium	Ur	238.2	1850	U	uranium	matched	+0.170	+0.07	+715.0	printed symbol Ur is the period symbol (modern U)
+10	1003D+	Uridium	Um					nonexistent				invented name, no real element; slot arithmetic implies Z=93, the position later filled by neptunium (discovered 1940)
+10	1003E+	Urium	Uu					nonexistent				invented name, no real element; slot arithmetic implies Z=94, the position later filled by plutonium (discovered 1940)
+10	104‡	TOMIUM	Tn					nonexistent				invented name, no real element; text equates 1004‡ with 104‡ = TOMION (C023); prints 104‡ per o10 layout_anomaly
+10	103E−	Whitnion	Wn					nonexistent				invented name, no real element
+10	103D−	Alphonson	Ap					nonexistent				invented name, no real element
+10	103C−	Georgeon	Gg					nonexistent				invented name, no real element
+10	103B−	Victoron	V					nonexistent				invented name, no real element
+10	103A−	Lipton	Ln					nonexistent				invented name, no real element
+10	+103−	Alberton	At					nonexistent				invented name, no real element; repeat of the octave-1 name (overlap row, not a distinct entity; claims_notes SS3)
+10	+102−	Blackton	Bn					nonexistent				invented name, no real element; repeat of the octave-1 name (overlap row, not a distinct entity; claims_notes SS3)
+10	+101−	Boston	Bt					nonexistent				invented name, no real element; repeat of the octave-1 name (overlap row, not a distinct entity; claims_notes SS3)
+10	100=	Omeganon						nonexistent				invented name, no real element; text: 'the end, which is Alphanon, the beginning' (C028) — same entity as Alphanon

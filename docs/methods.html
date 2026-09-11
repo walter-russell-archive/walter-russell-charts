@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Methods — the Russell chart edition</title>
+<meta name="description" content="Methods — the Russell chart edition.">
+<link rel="canonical" href="https://charts.walterrussellarchive.org/methods.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Methods — the Russell chart edition">
+<meta property="og:description" content="Methods — the Russell chart edition.">
+<meta property="og:url" content="https://charts.walterrussellarchive.org/methods.html">
+<meta property="og:image" content="https://charts.walterrussellarchive.org/assets/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/site.css">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="wordmark" href="index.html">Walter Russell Archive</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="chart.html">The chart</a>
+      <a href="dataset.html">The dataset</a>
+      <a href="scoreboard.html">The scoreboard</a>
+      <a href="methods.html" aria-current="page">Methods</a>
+      <a href="faq.html">FAQ</a>
+      <a href="reading-order.html">Reading order</a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false"
+              aria-label="Switch to the dark theme" title="Switch to the dark theme">
+        <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.6"/><path d="M12 1.4v2.4M12 20.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M1.4 12h2.4M20.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+<main>
+<div class="title-block">
+  <p class="kicker">Methods</p>
+  <h1>Methods</h1>
+  <p class="subtitle"></p>
+  <div class="toolbar"></div>
+</div>
+<article class="prose">
+<nav class="callout toc" aria-label="Contents">
+  <h2>Contents</h2>
+  <ul>
+    <li><a href="#sources">Sources</a></li>
+    <li><a href="#the-dual-source-protocol">The dual-source protocol</a></li>
+    <li><a href="#machine-assistance">Machine assistance</a></li>
+    <li><a href="#the-disagreement-log">The disagreement log</a></li>
+    <li><a href="#re-derive-it-yourself">Re-derive it yourself</a></li>
+    <li><a href="#checksums">Checksums</a></li>
+  </ul>
+</nav>
+<p>Where the images come from, how the data was read, what the machines did, and how to re-derive every artifact on this site.</p>
+<h2 id="sources">Sources</h2>
+<p>Every published image derives from one digitization. The Library of Congress scanned <em>The Universal One</em> (New York: Brieger Press, Inc., c1926) as item <a href="https://www.loc.gov/item/27004508/" rel="noopener">27004508</a>. The scan holds 290 page images. Each image is served over IIIF at this URL pattern:</p>
+<pre><code>https://tile.loc.gov/image-services/iiif/public:gdc:27004508:NNNN/full/full/0/default.jpg</code></pre>
+<p><code>NNNN</code> is the zero-padded image index, <code>0001</code>–<code>0290</code>. The map from image index to printed folio is <code>data/loc_page_map.tsv</code>. All fetches and rights checks in this project were made on 2026-09-11.</p>
+<p>The Library states the rights plainly. Its item record says, verbatim:</p>
+<blockquote><p>The books in this collection are in the public domain and are free to use and reuse.</p>
+<p>Credit Line: Library of Congress</p></blockquote>
+<p>Source: <code>https://www.loc.gov/item/27004508/?fo=json</code>, field <code>item.rights</code>, retrieved 2026-09-11. The full capture, with the collection and legal pages, is in <code>verification/loc_rights.md</code>.</p>
+<p>Each facsimile plate carries the short credit "Library of Congress". Front matter carries the fuller credit:</p>
+<blockquote><p>Reproduced from Walter Russell, <em>The Universal One</em> (New York: Brieger Press, Inc., c1926), Library of Congress, General Collections, call number Q173 .R85, digitized copy at https://www.loc.gov/item/27004508/. The Library of Congress states that the books in its Selected Digitized Books collection "are in the public domain and are free to use and reuse." Credit Line: Library of Congress.</p></blockquote>
+<h3 id="the-second-witness">The second witness</h3>
+<p>A 1974 University of Science and Philosophy reprint scan served as a second transcription witness. It is a reading source only. No pixel from it appears in any published image, and none ever will.</p>
+<p>The two witnesses are independent only at the scan level. The 1974 plates are photographic reproductions of the 1926 plates. Reading both scans therefore reads one 1926 printing, imaged twice, by independent readers. That establishes what the book printed. It is not independence across editions, and this project never claims that. (Finding R5; restated in <code>verification/transcription_audit.md</code>.)</p>
+<h2 id="the-dual-source-protocol">The dual-source protocol</h2>
+<p>The dataset <a href="dataset.html"><code>data/russell_1926_elements.json</code></a> records 137 element rows with 7 fields each: 959 cells.</p>
+<p>Transcription ran as two blind passes. Pass 1 read the Library of Congress scan. Pass 2 read the 1974 scan in a separate context, blind to pass 1. The comparison rules were declared before the passes were compared. The full protocol, every disagreement, and every resolution are in <code>data/transcription_log_r11.md</code>.</p>
+<p>The frozen dataset was then audited from scratch by four fresh witnesses. Four new blind readers re-read the plates: LoC table, 1974 table, LoC chart, 1974 chart. Each reader worked under an explicit forbidden-file list. None saw the dataset, the transcription log, or any other reader's output. A deterministic diff (<code>tools/audit_diff.py</code>) classified every cell. An adjudicator, who was none of the four readers, re-examined every non-agreed cell at 4× zoom in both scans. The full audit is <code>verification/transcription_audit.md</code>.</p>
+<p>The audit counts:</p>
+<div class="table-wrap"><table><thead><tr><th>Table cells (137 rows × 7 fields)</th><th>n</th></tr></thead><tbody><tr><td>total</td><td>959</td></tr><tr><td>agreed</td><td>956</td></tr><tr><td>resolved by adjudication</td><td>3</td></tr><tr><td>left uncertain</td><td>0</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Chart-witness cells (supplementary, one per row)</th><th>n</th></tr></thead><tbody><tr><td>total</td><td>137</td></tr><tr><td>agreed</td><td>134</td></tr><tr><td>resolved by adjudication</td><td>3</td></tr><tr><td>chart-illegible</td><td>0</td></tr></tbody></table></div>
+<p>No glyph in any of the 959 table cells differs between the dataset and either fresh witness. The three adjudicated table cells differ only in a printed space before a sign; the glyphs are identical.</p>
+<p>One chart-witness correction came out of the audit, and we disclose it here. In the octave-5 chart label the plates print <code>BERYLIUM</code>, with a single L, in both scans. The audit verified this letter by letter at 4×. The first transcription pass had recorded <code>BERYLLIUM</code>, so the dataset was amended once, after the audit, to the plate spelling. The table cells for that row are unaffected: the table prints <code>Beryllium</code> in both witnesses. A later check found that the same amendment had also been written to the other octave-5 row numbered 502, whose chart label reads <code>OXYGEN</code>. That row was restored, and the derived TSV was regenerated from the dataset so that both files agree. Both amendments are logged in <code>data/transcription_log_r11.md</code>, and the audit evidence is in <code>data/disagreements.tsv</code> and the audit file.</p>
+<h2 id="machine-assistance">Machine assistance</h2>
+<p>This project used machine readers and discloses exactly where.</p>
+<p><strong>Transcription.</strong> Vision language models read the plates from zoomed crops. Tesseract 5 OCR ran on the same images as a cross-check. Readings from the two scans were compared mechanically. An adjudicating agent ruled every disagreement from the pixels, at 4× zoom, in both scans. Every ruling and its evidence crop is on file. No reading entered the dataset unexamined.</p>
+<p><strong>Image restoration.</strong> The facsimile cleanup is deterministic from end to end. The pipeline (<code>tools/restore.py</code>, parameters chosen by the study in <code>verification/restoration_study.md</code>) performs, in order:</p>
+<ol><li>Background estimation: grayscale morphological closing, window 101 px.</li><li>Flattening: divide the scan by the estimated background.</li><li>Binarization: global Otsu threshold on the flattened image.</li><li>Despeckle: remove ink components of area ≤ 8 px.</li><li>Frame removal: drop ink components touching the image boundary.</li><li>Stroke repair: none.</li></ol>
+<p>What was <strong>not</strong> done: no generative or diffusion enhancement, no learned upscaling, no inpainting, no synthesis of any pixel, no manual retouching, no resampling. Every output pixel is a deterministic function of the input scan.</p>
+<p><strong>Geometry.</strong> The redraw is generated from measurements, not traced. <code>tools/measure_geometry.py</code> measures the chart's rings, spiral, sector dividers, and label clusters from the LoC scan. It uses only recorded deterministic algorithms: Otsu thresholding, connected components, gradient-vote center accumulation, polar resampling, ridge tracking, trimmed least-squares circle fits, and linear pitch fits. <code>tools/render_chart.py</code> then draws the SVG from the frozen dataset plus the measured geometry. Of its 137 element placements, 117 snap to measured label clusters and 20 come from the recorded placement model. Each SVG group declares which, in a <code>data-placement</code> attribute.</p>
+<h2 id="the-disagreement-log">The disagreement log</h2>
+<p>Every disagreement in the project is logged with its evidence.</p>
+<ul><li>Transcription (two-pass): 874 of 959 cells agreed first-pass. 85 were resolved: 81 were a documented spacing convention of the metal type, and 4 were glyph adjudications. 0 remained uncertain. Log: <code>data/transcription_log_r11.md</code>.</li><li>Audit (four-witness): 3 table cells and 3 chart-witness cells went to adjudication. All 3 table cells and 2 chart cells ruled dataset-correct. 1 chart cell was the <code>BERYLIUM</code> error, corrected in the dataset as described above. 0 remained uncertain. Log: <code>data/disagreements.tsv</code>, one row per cell, with the crop paths for both witnesses.</li></ul>
+<h2 id="re-derive-it-yourself">Re-derive it yourself</h2>
+<p>The commands below rebuild the published artifacts from the public scan. Dependencies: Python 3.11, numpy, Pillow; Inkscape only for the optional overlay proof. The Library asks automated clients to stay under 10 requests per minute; honor that.</p>
+<pre><code># 1. Fetch the source plates from the Library of Congress
+curl -s "https://tile.loc.gov/image-services/iiif/public:gdc:27004508:0016/full/full/0/default.jpg" \
+     -o source_scans/loc/full/p0016.jpg
+curl -s "https://tile.loc.gov/image-services/iiif/public:gdc:27004508:0113/full/full/0/default.jpg" \
+     -o source_scans/loc/full/p0113.jpg
+
+# 2. Facsimile cleanup (raw scan -&gt; cleaned bitonal plate)
+python3 tools/restore.py source_scans/loc/full/p0016.jpg --outdir data/restoration_study/final
+
+# 3. Chart geometry (raw scans -&gt; measured geometry JSON + overlay proofs)
+python3 tools/measure_geometry.py
+
+# 4. Redraw (frozen dataset + measured geometry -&gt; charts/russell_periodic.svg)
+python3 tools/render_chart.py
+
+# 5. Scoreboard validation (schema + referential integrity + rule checks)
+python3 tools/validate_scoreboard.py data/scoreboard.json</code></pre>
+<p>Verify your fetched plates against the checksums below before running the pipeline.</p>
+<p>Byte-determinism, as verified:</p>
+<ul><li><code>tools/restore.py</code>: re-run on 2026-09-11; all five outputs matched the recorded outputs byte for byte.</li><li><code>tools/render_chart.py</code>: re-run on 2026-09-11; <a href="charts/russell_periodic.svg"><code>charts/russell_periodic.svg</code></a> came out byte-identical (same SHA256 as below).</li><li><code>tools/measure_geometry.py</code>: the R13 record verified byte-identical geometry files on re-run from the same scans.</li><li><code>tools/validate_scoreboard.py</code> is read-only and deterministic; it exits 0 only when every check passes.</li></ul>
+<h2 id="checksums">Checksums</h2>
+<p>SHA256 of every published artifact, its sources, and the tools that build them. The same list, machine-readable, is <code>verification/checksums.tsv</code>.</p>
+<div class="table-wrap"><table><thead><tr><th>File</th><th>Bytes</th><th>SHA256</th></tr></thead><tbody><tr><td><a href="dataset.html"><code>data/russell_1926_elements.json</code></a></td><td>74175</td><td><code>ca2a21cb5439d287a89a8cff4f2751b36b107d9305d70a7c8560190b2162b950</code></td></tr><tr><td><code>data/russell_1926_elements.tsv</code></td><td>21330</td><td><code>0e92525a24efb36f34cbb4253127d2818f619622627d5e3b4f996df3ec839544</code></td></tr><tr><td><code>data/claims.json</code></td><td>30256</td><td><code>cd28aeb70aa52ca1010b07e5f145410d2aa37d97cd612805ed6e2b7de4522da9</code></td></tr><tr><td><code>data/modern_elements.json</code></td><td>220571</td><td><code>621a70cf5633c5a67755874a163b905c5ffe6a940d6c1e2d72692da935153102</code></td></tr><tr><td><code>data/reconciliation.tsv</code></td><td>14615</td><td><code>cec97d3d928cfab397c710bda84cda7338ac8b127c2c4b3b952579da947e3104</code></td></tr><tr><td><a href="scoreboard.html"><code>data/scoreboard.json</code></a></td><td>117743</td><td><code>989d3a9671fd4bacca1b5af08b5027edcf306870438780945132e62b50160a44</code></td></tr><tr><td><code>data/disagreements.tsv</code></td><td>1361</td><td><code>8b516019f22770de72e3c6bfb12baf795200fc0f75f7ad3fbb832859d13b552d</code></td></tr><tr><td><code>data/chart_geometry.json</code></td><td>604864</td><td><code>3bc443f6166d81df2785a2d72799d2b56f6aa1ffda83d1decdecda1ccc12a598</code></td></tr><tr><td><code>data/wheel_geometry.json</code></td><td>110463</td><td><code>62951162611d2c9cc2c8321e6da8899f07edf4d0baf84dcf0c610e4f6956efbc</code></td></tr><tr><td><a href="scoreboard.html"><code>data/scoreboard_schema.json</code></a></td><td>40480</td><td><code>1cec72a43c9d500306f8427c990ecf57be737deee55f0014f124164902989bf5</code></td></tr><tr><td><code>data/verdict_taxonomy.md</code></td><td>26558</td><td><code>06ae4ccba1ac3055dbbcaeb8c021a852e3e543bfd1faefab42f9e287f12e6502</code></td></tr><tr><td><code>data/loc_page_map.tsv</code></td><td>18464</td><td><code>ca63777d2fb0df82ed5249953ca2d8e2f1e5c724b0220cf0b65702ff11fb8a91</code></td></tr><tr><td><code>data/transcription_log_r11.md</code></td><td>15935</td><td><code>f5ce73d04a2be816bb2118b12e35ecafd82a1452e011de5f347ac54c8a267d76</code></td></tr><tr><td><code>data/editorial_standards_public.md</code></td><td>2970</td><td><code>622bb1fc455b82635b9c068bb7a36042a0c6394383b2667f252061b084055c05</code></td></tr><tr><td><a href="charts/russell_periodic.svg"><code>charts/russell_periodic.svg</code></a></td><td>122550</td><td><code>2e43c1834b058005303f14b649709385e7300c00606e74fe22fcc04871416d71</code></td></tr><tr><td><code>verification/transcription_audit.md</code></td><td>13066</td><td><code>5a8cd7a4eb46e5f840838d9b1b42d144265f344ce47e5422e466c63ba4ac2d95</code></td></tr><tr><td><code>verification/restoration_study.md</code></td><td>16938</td><td><code>f6124faf10a7fe2c803bce1944e48bce8ff34804cb830566643f1865be8c8691</code></td></tr><tr><td><code>verification/loc_rights.md</code></td><td>5996</td><td><code>3b5a53fc9808037c9b44b0a041f0bc158e61656b315e43269632400124bf2494</code></td></tr><tr><td><code>verification/deuterium_negative.md</code></td><td>17578</td><td><code>a0b0e870a4f337e4edbe4cfa305bb04b55e92de0dc1f4bdb3ac09b199d055303</code></td></tr><tr><td><code>verification/image_provenance.tsv</code></td><td>8725</td><td><code>6b1f730badf830502e24fc09131ab099a6b5d47d701dc2b611f65add0c7f98ac</code></td></tr><tr><td><code>source_scans/loc/full/p0016.jpg</code></td><td>1409306</td><td><code>b718e70c57942324cc191ba42d63d5aacd0fcd249f3cae2a9b488b61b7726e37</code></td></tr><tr><td><code>source_scans/loc/full/p0112.jpg</code></td><td>655191</td><td><code>bf32acd2c03157b5695740dd3f33d1592dd811271c12e9b4ca3055f67064bbe8</code></td></tr><tr><td><code>source_scans/loc/full/p0113.jpg</code></td><td>620077</td><td><code>cce0990a61133affc4a908d4f6b3002df0d9b547a24395a82a473eca5d9979f0</code></td></tr><tr><td><code>tools/restore.py</code></td><td>12287</td><td><code>be860d5ac9896976fe10eb1d97d59cffc155f37b50cc9a399424cc803fb89ee4</code></td></tr><tr><td><code>tools/measure_geometry.py</code></td><td>40385</td><td><code>00b3f090aa0ffd670962fff2f50463ee90093de7bac0cc761550e883a5a12ec0</code></td></tr><tr><td><code>tools/render_chart.py</code></td><td>34623</td><td><code>e58960e30fa04758759351f4b250951d0ea7ea3267f824fa44c709f88e017b53</code></td></tr><tr><td><code>tools/elements_json_to_tsv.py</code></td><td>1400</td><td><code>4a36ffc2d08b7b1b9cbf41a68a1980d9ccff9726756134fb7459bf8f948e3697</code></td></tr><tr><td><code>tools/validate_scoreboard.py</code></td><td>5192</td><td><code>1b6b21cc21918b885a0887d7d6cf70c7d656b288d59f486e9c6fc5798eaf46a8</code></td></tr><tr><td><code>tools/audit_diff.py</code></td><td>10230</td><td><code>1045e88650d381ac4ef985a956b09cabdffbb653612ecee6b2c0ed25c9c2571f</code></td></tr><tr><td><code>tools/make_image_provenance.py</code></td><td>23230</td><td><code>87db69a457385ec92368b11aa394c9014c5ea916a4437c3f0978af787392598a</code></td></tr><tr><td><code>tools/check_image_provenance.py</code></td><td>7216</td><td><code>6e52c05e65bc4f718cfea3d0068afb3dbd0e7ae5c237b54bb14d56884444fcab</code></td></tr><tr><td><code>tools/make_checksums.py</code></td><td>4657</td><td><code>05725a72f404becb58b3999d8637652ba553faafb2488dc989ba6314b89c7ba4</code></td></tr></tbody></table></div>
+<p>The table above and <code>verification/checksums.tsv</code> come from one list in <code>tools/make_checksums.py</code>, so they cannot disagree. Regenerate both from the repository root:</p>
+<pre><code>python3 tools/make_checksums.py</code></pre>
+<p>To verify without writing anything, which is what the site build runs:</p>
+<pre><code>python3 tools/make_checksums.py --check</code></pre>
+<p>To check any single file: <code>shasum -a 256 &lt;file&gt;</code> on macOS, or <code>sha256sum &lt;file&gt;</code> on Linux.</p>
+</article>
+</main>
+<footer class="site">
+  <div class="footer-inner">
+    <p>Original work on this site is licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC BY-NC 4.0</a>. The 1926 facsimile plates are in the public domain. We claim no copyright over them. Credit Line: Library of Congress. Copyright holders with concerns may <a href="https://github.com/walter-russell-archive/charts/issues" rel="noopener">open an issue</a> in the repository. We correct demonstrated factual errors promptly.</p>
+    <p>This site is an independent archive project. It has no affiliation with the University of Science and Philosophy, with the Walter Russell estate, or with any successor organization. The name of the author and the title of the book identify the subject of study only.</p>
+    <p>Source scan: Walter Russell, <em>The Universal One</em> (Brieger Press, New York, 1926),
+       Library of Congress, <a href="https://www.loc.gov/item/27004508/" rel="noopener">item 27004508</a>.
+       This edition is part of the <a href="https://walterrussellarchive.org" rel="noopener">Walter Russell Archive</a>.</p>
+    <p>Contact: <a href="mailto:contact@walterrussellarchive.org">contact@walterrussellarchive.org</a>
+       &middot; The pages are generated from the repository data by <code>tools/build_site.py</code>.</p>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

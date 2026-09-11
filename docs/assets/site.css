@@ -1,0 +1,437 @@
+/* Chart-edition static site styles. Adapted from the Dube Verdict site
+   (russell-coil-dube-verdict, CC BY 4.0). No framework, no web fonts. */
+
+/* Light is the default. Dark applies only when a reader asks for it, through the
+   masthead toggle, which stores the choice in localStorage. */
+:root {
+  --bg: #fbfaf7;
+  --bg-sunk: #f2efe8;
+  --ink: #1b1a17;
+  --ink-soft: #4a4740;
+  --rule: #d8d2c4;
+  --accent: #7a2e1d;
+  --accent-soft: #f0e5df;
+  --measure: 36rem;
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  --bg: #16171a;
+  --bg-sunk: #1e2024;
+  --ink: #e7e4dd;
+  --ink-soft: #a9a49a;
+  --rule: #363a40;
+  --accent: #e0866c;
+  --accent-soft: #2a2320;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 18px/1.62 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { background: var(--accent-soft); }
+
+code, pre {
+  font-family: "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+code { font-size: 0.86em; background: var(--bg-sunk); padding: 0.08em 0.28em; border-radius: 2px; }
+a code { background: transparent; }
+pre {
+  background: var(--bg-sunk);
+  border: 1px solid var(--rule);
+  padding: 0.8rem 1rem;
+  overflow-x: auto;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+pre code { background: transparent; padding: 0; font-size: 1em; }
+
+u.src-underline { text-decoration: underline; text-underline-offset: 2px; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- chrome ---------- */
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.masthead-inner {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 0.55rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  align-items: baseline;
+}
+.masthead .wordmark {
+  font-size: 0.82rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-decoration: none;
+  margin-right: auto;
+}
+.masthead nav { display: flex; gap: 1.1rem; flex-wrap: wrap; }
+.masthead nav a {
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink-soft);
+}
+.masthead nav a[aria-current="page"] { color: var(--ink); border-bottom: 2px solid var(--accent); }
+
+/* The toggle needs a script to work, so it appears only when scripting runs.
+   The moon offers dark, the sun offers light, and CSS picks which one shows. */
+.theme-toggle { display: none; }
+html.js .theme-toggle { display: inline-flex; }
+.theme-toggle {
+  align-items: center;
+  justify-content: center;
+  color: var(--ink-soft);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 0.3rem;
+  cursor: pointer;
+  line-height: 0;
+}
+.theme-toggle .icon {
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.theme-toggle .icon-moon { fill: currentColor; stroke: none; }
+.theme-toggle .icon-sun { display: none; }
+html[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+html[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+.theme-toggle:hover { color: var(--accent); border-color: var(--accent); }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+main { max-width: 62rem; margin: 0 auto; padding: 0 1.25rem 5rem; }
+
+.prose { max-width: var(--measure); margin: 0 auto; }
+.prose > * + * { margin-top: 1.05em; }
+.prose h2 {
+  margin: 2.6em 0 0.2em;
+  font-size: 1.42rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+.prose h3 { margin: 2em 0 0.2em; font-size: 1.12rem; }
+.prose h4 { margin: 1.8em 0 0.2em; font-size: 1rem; }
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.6em auto;
+  width: 8rem;
+}
+.prose blockquote {
+  margin: 1.4em 0;
+  padding: 0.1em 0 0.1em 1.1rem;
+  border-left: 3px solid var(--rule);
+  color: var(--ink);
+}
+.prose blockquote p { margin: 0.6em 0; }
+.prose ol, .prose ul { padding-left: 1.4rem; }
+.prose li + li { margin-top: 0.35em; }
+
+.prose-wide { max-width: 62rem; margin: 0 auto; }
+.prose-wide > * + * { margin-top: 1.05em; }
+.prose-wide h2 { margin: 2.6em 0 0.2em; font-size: 1.42rem; line-height: 1.25; }
+.prose-wide h3 { margin: 2em 0 0.2em; font-size: 1.12rem; }
+.prose-wide h4 { margin: 1.8em 0 0.2em; font-size: 1rem; }
+.prose-wide ol, .prose-wide ul { padding-left: 1.4rem; }
+.prose-wide li + li { margin-top: 0.35em; }
+.prose-wide blockquote {
+  margin: 1.4em 0;
+  padding: 0.1em 0 0.1em 1.1rem;
+  border-left: 3px solid var(--rule);
+}
+
+.toc h2 {
+  margin: 0 0 0.4rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.toc ul { margin: 0; padding-left: 1.2rem; }
+.toc li + li { margin-top: 0.2em; }
+
+.lede { font-size: 1.06rem; color: var(--ink-soft); font-style: italic; }
+
+/* ---------- title block ---------- */
+
+.title-block {
+  max-width: var(--measure);
+  margin: 3.2rem auto 2.4rem;
+}
+.kicker {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 0.9rem;
+}
+.title-block h1 {
+  font-size: 2.55rem;
+  line-height: 1.06;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+}
+.title-block .subtitle {
+  font-size: 1.15rem;
+  line-height: 1.4;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.title-block .toolbar { margin-top: 1.4rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.toolbar a {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid var(--rule);
+  padding: 0.4rem 0.7rem;
+  border-radius: 2px;
+  color: var(--ink-soft);
+}
+.toolbar a:hover { border-color: var(--accent); color: var(--accent); background: var(--bg); }
+
+/* ---------- tables ---------- */
+
+.table-wrap { overflow-x: auto; margin: 1.6em 0; }
+table { border-collapse: collapse; font-size: 0.86rem; width: 100%; }
+caption {
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.02rem;
+  padding: 0.4em 0;
+}
+caption .octave-sub { display: block; font-weight: 400; font-size: 0.86rem; color: var(--ink-soft); }
+th, td { border-bottom: 1px solid var(--rule); padding: 0.42em 0.6em; text-align: left; vertical-align: top; }
+th { font-weight: 600; letter-spacing: 0.02em; }
+tbody tr:hover { background: var(--bg-sunk); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+td.sigil { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.name-italic { font-style: italic; }
+.name-caps { text-transform: none; letter-spacing: 0.04em; }
+.name-smallcaps { font-variant: small-caps; }
+.table-note { font-size: 0.82rem; color: var(--ink-soft); margin: 0.4em 0 2.2em; }
+.table-note p { margin: 0.3em 0; }
+
+/* ---------- figures ---------- */
+
+figure { margin: 2.2em 0; }
+figure img { display: block; max-width: 100%; height: auto; }
+figcaption {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-top: 0.6em;
+}
+.figure-wide { max-width: 62rem; margin-left: auto; margin-right: auto; }
+.plate-frame { background: #fff; border: 1px solid var(--rule); padding: 0.4rem; }
+
+/* ---------- chart viewer ---------- */
+
+.viewer { max-width: 62rem; margin: 2rem auto; }
+
+/* The facsimile/redraw toggle is a radio pair. CSS alone switches the panes,
+   so the toggle works without scripting. Arrow keys move between the radios. */
+.viewer > input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+.view-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.view-toggle .group-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.view-toggle label {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--rule);
+  padding: 0.4rem 0.7rem;
+  border-radius: 2px;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+#view-facsimile:checked ~ .view-toggle label[for="view-facsimile"],
+#view-redraw:checked ~ .view-toggle label[for="view-redraw"] {
+  color: var(--ink);
+  border-color: var(--accent);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+#view-facsimile:focus-visible ~ .view-toggle label[for="view-facsimile"],
+#view-redraw:focus-visible ~ .view-toggle label[for="view-redraw"] {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Both panes share one viewport. */
+.pane {
+  background: #fff;
+  border: 1px solid var(--rule);
+  height: min(78vh, 46rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pane img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+html.js .pane img { position: absolute; top: 0; left: 0; max-width: none; max-height: none; transform-origin: 0 0; }
+.pane:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+html.js .pane { cursor: grab; touch-action: none; }
+html.js .pane.dragging { cursor: grabbing; }
+
+#view-facsimile:checked ~ .pane-redraw { display: none; }
+#view-redraw:checked ~ .pane-facsimile { display: none; }
+
+.viewer-help {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin: 0.5rem 0 0;
+  display: none;
+}
+html.js .viewer-help { display: block; }
+.pane-caption { font-size: 0.82rem; line-height: 1.45; color: var(--ink-soft); margin-top: 0.6rem; }
+
+/* ---------- scoreboard ---------- */
+
+.verdict {
+  display: inline-block;
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 0.1em 0.45em;
+  white-space: nowrap;
+}
+.entry {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.6rem;
+  margin-top: 3rem;
+  scroll-margin-top: 4rem;
+}
+.entry h2 { margin: 0 0 0.35rem; font-size: 1.3rem; line-height: 1.25; }
+.entry .verdict-sentence { font-size: 1.02rem; }
+.entry-meta {
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  font-size: 0.84rem;
+  color: var(--ink-soft);
+}
+.entry-meta li + li { margin-top: 0.15rem; }
+.entry-meta b { color: var(--ink); font-weight: 600; }
+.evidence-quote {
+  margin: 1em 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+  font-size: 0.92rem;
+}
+.evidence-quote p { margin: 0.4em 0; }
+.evidence-cite { font-size: 0.8rem; color: var(--ink-soft); }
+
+/* ---------- callouts ---------- */
+
+.callout {
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.2rem;
+  margin: 2rem 0;
+  background: var(--bg-sunk);
+  font-size: 0.92rem;
+}
+.callout h2, .callout h3 { margin-top: 0; }
+.callout p:last-child { margin-bottom: 0; }
+
+/* ---------- footer ---------- */
+
+footer.site {
+  border-top: 1px solid var(--rule);
+  margin-top: 4rem;
+  padding: 1.6rem 1.25rem 3rem;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+footer.site .footer-inner { max-width: 62rem; margin: 0 auto; display: grid; gap: 0.4rem; }
+
+@media (max-width: 46rem) {
+  body { font-size: 17px; }
+  .title-block h1 { font-size: 2rem; }
+  .pane { height: min(70vh, 34rem); }
+  /* A finger needs more than a 28 px square. */
+  .theme-toggle { padding: 0.55rem; }
+  .theme-toggle .icon { width: 1.1rem; height: 1.1rem; }
+}
+
+@media print {
+  /* Print on paper, whichever theme the reader is using on screen. */
+  :root, html[data-theme="dark"] {
+    --bg: #fff;
+    --bg-sunk: #f4f4f4;
+    --ink: #000;
+    --ink-soft: #333;
+    --rule: #bbb;
+    --accent: #000;
+    --accent-soft: transparent;
+    color-scheme: light;
+  }
+  .masthead, .toolbar, .view-toggle, .viewer-help { display: none; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  /* On paper the toggle is meaningless: print both panes, contained. */
+  .pane { height: auto; overflow: visible; border: 1px solid #bbb; page-break-inside: avoid; }
+  html.js .pane img { position: static; max-width: 100%; max-height: none; transform: none !important; }
+  #view-facsimile:checked ~ .pane-redraw, #view-redraw:checked ~ .pane-facsimile { display: flex; }
+  tbody tr:hover { background: transparent; }
+}

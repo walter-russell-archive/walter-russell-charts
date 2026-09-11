@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>The chart — the Russell Periodic Chart of Atomic Weights, 1926</title>
+<meta name="description" content="Russell&#x27;s 1926 periodic chart in two fidelities: the restored Library of Congress plate and a measured vector redraw, with a keyboard-accessible toggle and pan-zoom viewer.">
+<link rel="canonical" href="https://charts.walterrussellarchive.org/chart.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The chart — the Russell Periodic Chart of Atomic Weights, 1926">
+<meta property="og:description" content="Russell&#x27;s 1926 periodic chart in two fidelities: the restored Library of Congress plate and a measured vector redraw, with a keyboard-accessible toggle and pan-zoom viewer.">
+<meta property="og:url" content="https://charts.walterrussellarchive.org/chart.html">
+<meta property="og:image" content="https://charts.walterrussellarchive.org/assets/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/site.css">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="wordmark" href="index.html">Walter Russell Archive</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="chart.html" aria-current="page">The chart</a>
+      <a href="dataset.html">The dataset</a>
+      <a href="scoreboard.html">The scoreboard</a>
+      <a href="methods.html">Methods</a>
+      <a href="faq.html">FAQ</a>
+      <a href="reading-order.html">Reading order</a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false"
+              aria-label="Switch to the dark theme" title="Switch to the dark theme">
+        <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.6"/><path d="M12 1.4v2.4M12 20.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M1.4 12h2.4M20.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+<main>
+<div class="title-block">
+  <p class="kicker">The chart</p>
+  <h1>The Russell Periodic Chart of Atomic Weights</h1>
+  <p class="subtitle">The 1926 plate, restored, beside a redraw measured from it. One viewer, two fidelities.</p>
+  <div class="toolbar"><a href="dataset.html">The dataset</a><a href="assets/facsimile.png">Full facsimile image</a><a href="charts/russell_periodic.svg">Redraw SVG</a><a href="https://www.loc.gov/item/27004508/" rel="noopener">LoC source scan</a></div>
+</div>
+<div class="prose">
+<p>Every label on this chart is transcribed in <a href="dataset.html">the dataset
+table</a>. The table is the citable record; the images are the witness.</p>
+</div>
+<div class="viewer">
+  <input type="radio" name="view" id="view-facsimile" checked>
+  <input type="radio" name="view" id="view-redraw">
+  <div class="view-toggle" role="group" aria-label="Chart view">
+    <span class="group-label" aria-hidden="true">View</span>
+    <label for="view-facsimile">Facsimile</label>
+    <label for="view-redraw">Redraw</label>
+  </div>
+  <div class="pane pane-facsimile" data-panzoom tabindex="0" role="group"
+       aria-label="Facsimile viewer. Zoomable image.">
+    <img src="assets/facsimile.png" alt="Restored 1926 plate: concentric octave rings of element names around a central spiral, with hand-lettered labels." width="2712" height="3264">
+  </div>
+  <div class="pane pane-redraw" data-panzoom tabindex="0" role="group"
+       aria-label="Redraw viewer. Zoomable image.">
+    <img src="charts/russell_periodic.svg" alt="Vector redraw of the same chart: the measured rings and all 137 element labels, in clean type." width="2314" height="2314" decoding="async">
+  </div>
+  <p class="viewer-help">Keyboard: Tab to the image, then + and &minus; zoom, arrow keys
+  pan, 0 resets. Mouse: scroll zooms, drag pans, double-click zooms in.</p>
+  <p class="pane-caption"><b>Facsimile.</b> The 1926 plate, cleaned. Source: Library of
+  Congress, <a href="https://www.loc.gov/item/27004508/" rel="noopener">item 27004508</a>, image 0016.
+  Credit Line: Library of Congress. The image above is the full-resolution file
+  (2712&times;3264).
+  <b>Redraw.</b> Generated from the measured plate geometry and the transcribed table.
+  License: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC BY-NC 4.0</a>.</p>
+</div>
+<div class="prose">
+<h2 id="how-the-facsimile-was-made">How the facsimile was made</h2>
+<p>Restoration is deterministic. Every output pixel is a function of the Library of
+Congress scan. The full pipeline is on <a href="methods.html">the methods page</a>. The steps, in order:</p>
+<ol>
+  <li>Estimate the page background by grayscale closing, window 101&nbsp;px.</li>
+  <li>Divide the scan by the background to flatten illumination.</li>
+  <li>Binarize with one global Otsu threshold (value 166 on this scan).</li>
+  <li>Remove ink specks of 8&nbsp;px or less.</li>
+  <li>Drop components that touch the image border (the scanner frame).</li>
+</ol>
+<p>Not done: no inpainting, no learned enhancement, no manual retouching. The unmodified
+scan remains available from the
+<a href="https://www.loc.gov/item/27004508/" rel="noopener">Library of Congress</a> at full resolution.</p>
+
+<h2 id="how-the-redraw-was-made">How the redraw was made</h2>
+<p>The redraw places 117 element labels at positions measured on the scan. Twenty more
+placements are computed from the measured ring geometry. The renderer reads the
+<a href="dataset.html">transcribed dataset</a> and the measured geometry, and its output
+is byte-deterministic. Prose ring texts and marginal annotations of the plate are not
+element data and are not reproduced. The SVG labels use the Oswald typeface when
+installed and fall back to a system sans-serif.</p>
+</div>
+</main>
+<footer class="site">
+  <div class="footer-inner">
+    <p>Original work on this site is licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC BY-NC 4.0</a>. The 1926 facsimile plates are in the public domain. We claim no copyright over them. Credit Line: Library of Congress. Copyright holders with concerns may <a href="https://github.com/walter-russell-archive/charts/issues" rel="noopener">open an issue</a> in the repository. We correct demonstrated factual errors promptly.</p>
+    <p>This site is an independent archive project. It has no affiliation with the University of Science and Philosophy, with the Walter Russell estate, or with any successor organization. The name of the author and the title of the book identify the subject of study only.</p>
+    <p>Source scan: Walter Russell, <em>The Universal One</em> (Brieger Press, New York, 1926),
+       Library of Congress, <a href="https://www.loc.gov/item/27004508/" rel="noopener">item 27004508</a>.
+       This edition is part of the <a href="https://walterrussellarchive.org" rel="noopener">Walter Russell Archive</a>.</p>
+    <p>Contact: <a href="mailto:contact@walterrussellarchive.org">contact@walterrussellarchive.org</a>
+       &middot; The pages are generated from the repository data by <code>tools/build_site.py</code>.</p>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

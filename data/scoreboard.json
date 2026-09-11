@@ -1,0 +1,2153 @@
+{
+ "title": "R18 verdict scoreboard for the checkable claims of The Universal One (1926)",
+ "generated": "2026-09-11",
+ "taxonomy": "data/verdict_taxonomy.md",
+ "entries": [
+  {
+   "entry_id": "V001",
+   "title": "Folklore: Russell predicted deuterium and tritium in The Universal One (1926)",
+   "claim_ids": [],
+   "claim_scope": "single",
+   "verdict": "never claimed",
+   "folklore_provenance": {
+    "statement": "Walter Russell predicted deuterium and tritium in The Universal One (1926).",
+    "provenance": "Community folklore circulating in Russell-adjacent spaces; guardrail item 5 of data/editorial_standards_public.md; stated as the claim under test in verification/deuterium_negative.md §1."
+   },
+   "absence_verification": {
+    "document": "verification/deuterium_negative.md",
+    "method_summary": "13 term variants (deuterium, tritium, heavy hydrogen, isotope, stems, hyphenated forms, heavy water, protium) at 0 hits in both independent OCR witnesses (LoC fulltext; USP 1974 text layer), OCR-corruption sweep (every *tium*/*deut* token), positive controls (hydrogen 55/54, helium 17/16), and native-resolution visual reads of every page where isotope language would have to occur. Witness independence is scan-level only (the 1974 plates are photographic reproductions of the 1926 plates)."
+   },
+   "evidence_1926": [
+    {
+     "claim_id": "C008",
+     "quote_verbatim": "The cycle begins with the highest note and descends the scale sequentially through man's unseen universe until hydrogen, the first element perceivable to man, is reached.",
+     "printed_page": "6",
+     "loc_index": 24,
+     "note": "What the text says instead: the tones before hydrogen are \"man's unseen universe\"; hydrogen is the first perceivable element."
+    },
+    {
+     "claim_id": "C030",
+     "quote_verbatim": "Hydron (400=) the master-tone of its octave, is a non-inflammable inert gas which is in every way superior for transportation to hydrogen because it is much lighter, absolutely non-injurious and easier to produce. It has all of the safety qualities of helium and its carrying capacity exceeds that of helium by eight times and is double that of hydrogen.",
+     "printed_page": "100",
+     "loc_index": 120,
+     "note": "What the text says instead: Hydron, the tone immediately preceding hydrogen, is \"much lighter\" than hydrogen — deuterium and tritium are heavier."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "H.C. Urey, F.G. Brickwedde, G.M. Murphy, \"A Hydrogen Isotope of Mass 2 and its Concentration\", Phys. Rev. 40, 1–15 (1932)",
+     "url": "https://doi.org/10.1103/PhysRev.40.1",
+     "retrieved": "2026-09-11",
+     "note": "Deuterium discovered 1931–32; the word did not exist in 1926."
+    },
+    {
+     "name": "M.L. Oliphant, P. Harteck, E. Rutherford, \"Transmutation Effects Observed with Heavy Hydrogen\", Proc. R. Soc. A 144, 692–703 (1934)",
+     "url": "https://royalsocietypublishing.org/rspa/article/144/853/692/3593/Transmutation-effects-observed-with-heavy-hydrogen",
+     "retrieved": "2026-09-11",
+     "note": "Tritium first produced 1934."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "The 1926 text contains the words deuterium, tritium, heavy hydrogen, isotope, or an equivalent designation of a heavier hydrogen variant.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "0/0 hits for all 13 term variants in both witnesses (R17 §3)."
+    },
+    {
+     "role": "assertion",
+     "statement": "The 1926 text describes some substance as a heavier form of hydrogen.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "The entities at and below hydrogen's position are distinct undiscovered elements with blank mass cells; the one weight-characterized, Hydron (400=), is stated to be \"much lighter\" than hydrogen; the closest retro-fit candidates (Ethlogen, Bebegen, Luminon) are never linked to hydrogen chemically or by name (R17 §5–6)."
+    }
+   ],
+   "analysis": "The folklore claim is tested against the settled R17 negative, which is cited and not re-derived. Both of its factual predicates fail: the words are absent from both witnesses (expected, since they postdate the book by 6–8 years), and no substance in the 1926 text is described as a heavier form of hydrogen — the text's scheme has no isotope concept, its ordering rule makes every pre-hydrogen tone lighter than hydrogen, and its one explicit weight characterization (Hydron) says \"much lighter\". This note makes no claim about other Russell works or later editions.",
+   "verdict_sentence": "The claim that \"The Universal One\" (1926) predicted deuterium and tritium is unsupported by the 1926 text: the terms are absent from both witnesses, and the substances the text places at and below hydrogen's position are presented as distinct undiscovered elements, the only weight-characterized one as \"much lighter\" than hydrogen.",
+   "uncertainty_flags": [
+    {
+     "description": "A simultaneous OCR miss in both witnesses is conceivable in principle.",
+     "resolution": "verdict-stable",
+     "note": "Closed by native-resolution visual reads of all pages where isotope language would have to occur (R17 §4)."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V002",
+   "title": "Elemental tone and colour assignments (colour law, red/blue rule, tonal sound)",
+   "claim_ids": [
+    "C039",
+    "C040",
+    "C041",
+    "C042",
+    "C043",
+    "C046"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "unfalsifiable",
+   "evidence_1926": [
+    {
+     "claim_id": "C039",
+     "quote_verbatim": "Every state of motion is indicated by its own particular color line, exactly as it is indicated by its own degrees of temperature, plane and pressure.",
+     "printed_page": "204",
+     "loc_index": 224
+    },
+    {
+     "claim_id": "C041",
+     "quote_verbatim": "All mass indicates its ability to generate by the color pressures indicated by genero-active lines on the red side of the spectrum, and its ability to radiate by radio-active lines on the blue side of the spectrum.",
+     "printed_page": "204",
+     "loc_index": 224
+    },
+    {
+     "claim_id": "C046",
+     "quote_verbatim": "Tone is registered in sound as it is in color, plane, temperature and other dimensions. Every expression of energy has its own particular tonal sound just as it has its own color plane or degree of temperature.",
+     "printed_page": "247",
+     "loc_index": 267
+    },
+    {
+     "claim_id": "C042",
+     "quote_verbatim": "The most outstanding of these apparent contradictions is the characteristic yellow D line of sodium. If sodium were perfectly consistent with the law, its red line should be prominent and its yellow line weak, instead of which they are the reverse. The explanation is simple. Sodium (601+) is the first positive tone of the sixth octave.",
+     "printed_page": "205",
+     "loc_index": 225,
+     "note": "The diagnostic passage: the one consequence the book derives from the colour law is stated as an observed contradiction and absorbed by an octave-position exception on the same page (p.205)."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "NIST Atomic Spectra Database (Na I D lines: D2 5889.951 Å, D1 5895.924 Å — the strongest features of the sodium spectrum)",
+     "url": "https://physics.nist.gov/PhysRefData/ASD/lines_form.html",
+     "retrieved": "2026-09-11",
+     "note": "Optional under the dual-evidence rule (unfalsifiable verdict); supplied to ground the sodium-concession analysis."
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "Elements have characteristic spectral lines.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Standard since Kirchhoff and Bunsen (1860); not creditable (premise rule §3.1)."
+    },
+    {
+     "role": "assertion",
+     "statement": "Every state of motion (element/tone) has its own particular colour line indicating its \"condition or potential\" as a measurement dimension (C039, C043).",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "No element→wavelength assignment is printed anywhere in the book; the sole quantitative spectral assignment (He 4922.1 → luminon) is scored separately at V004, where it is refuted."
+    },
+    {
+     "role": "assertion",
+     "statement": "Genero-active ability shows as lines on the red side of the spectrum, radio-active ability on the blue side (C041).",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "\"Genero-active\"/\"radio-active [colour pressure]\" are given no measurable definition; the one consequence the book derives (sodium: red prominent, yellow weak) it concedes fails and retains by exception (C042)."
+    },
+    {
+     "role": "assertion",
+     "statement": "Every expression of energy has its own particular tonal sound (C046).",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "No element→pitch assignment is printed anywhere in the book."
+    }
+   ],
+   "analysis": "The book asserts that per-element colour and tone assignments exist but never states one, and its assignment terms carry no measurable definition. The decisive evidence for unfalsifiability rather than refutation is the sodium D-line passage (C042, p.205): the law's sole derived consequence — sodium's red line prominent, yellow weak — is presented by the book itself as contradicted by observation (\"instead of which they are the reverse\") and immediately absorbed (\"The explanation is simple. Sodium (601+) is the first positive tone of the sixth octave.\"). The book never asserts the false consequence, so there is no printed false component to refute; a law whose only stated test is conceded and retained by amendment leaves no checkable content standing. Distinct folklore variant for the scoreboard: the claim that Russell gave each element its true frequency would be `never claimed` — the book asserts assignments exist but states none.",
+   "verdict_sentence": "The claim that every element carries its own colour line and tonal sound, with genero-activity on the red side and radio-activity on the blue, is unfalsifiable as printed: no assignment is ever stated, the assignment terms have no measurable definition, and the single consequence the book derives from the law (the sodium red-line expectation) is conceded on p.205 to fail and is retained by an octave-position exception.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V003",
+   "title": "The unknown element (1001+) preceding radium (the francium position)",
+   "claim_ids": [
+    "C044"
+   ],
+   "related_claim_ids": [
+    "C024",
+    "C015"
+   ],
+   "claim_scope": "single",
+   "verdict": "confirmed",
+   "novelty_1926": "period-standard",
+   "evidence_1926": [
+    {
+     "claim_id": "C044",
+     "quote_verbatim": "Hydrogen (401+) should be adopted as the unit of valency measurement of the fourth octave only. Lithium (501+) for the fifth octave, sodium (601+) for the sixth octave, potassium (701+) for the seventh octave, rubidium (801+) for the eighth octave, caesium (901+) for the ninth octave and the unknown element (1001+) preceding radium for the tenth octave.",
+     "printed_page": "246",
+     "loc_index": 266,
+     "note": "The 1+ series named (hydrogen, lithium, sodium, potassium, rubidium, caesium) is the alkali column; the frozen R11 table prints exactly one empty slot (\"Mate to 1−\", 1001+, all data cells blank) between Niton (radon, 222.4) and Radium (226.0) — cf. C024."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "CRC Handbook of Chemistry and Physics, 97th ed. (2016), Sec. 4, \"The Elements\" (C.R. Hammond)",
+     "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+     "retrieved": "2026-09-11",
+     "note": "Francium, Z=87, discovered 1939 by Marguerite Perey (Institut du Radium, Paris); primary announcement M. Perey, C. R. Acad. Sci. (Paris) 208, 97–99 (1939). Via the frozen data/modern_elements.json francium record."
+    },
+    {
+     "name": "IUPAC Periodic Table of the Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "retrieved": "2026-09-11",
+     "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "An element, unknown in 1926, exists in the single position between Niton (radon) and radium.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Francium (Z=87, Perey 1939). Period-standard: the Z=87 gap (\"eka-caesium\") was fixed by Moseley's X-ray sequence in 1913–14 and carried in standard interwar tables (essay/comparison.md §1.4)."
+    },
+    {
+     "role": "assertion",
+     "statement": "That element is the valency-one (1+) homolog of the series hydrogen, lithium, sodium, potassium, rubidium, caesium.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Francium is a group-1 alkali metal, valence 1."
+    }
+   ],
+   "class_base_rate": {
+    "class_description": "Starred/placeholder class of C015/C024: 40 named invented elements plus 8 unnamed \"Mate to …\" placeholder slots; this entry adjudicates 1 of the 8 unnamed slots.",
+    "class_size": 8,
+    "hits": 6,
+    "misses": 2,
+    "note": "Positional matches: 803D+ (Mo–Ru) → Tc (1937); 903D+ (Nd–Sm) → Pm (1945); one of 903M−/903L− (Lu–Ta) → Hf (already discovered 1923); 903I− (W–Os) → Re (already discovered 1925); 901− (after Po) → At (1940); 1001+ (Nt–Ra) → Fr (1939). Misses: the second Lu–Ta slot (only Hf exists there) and 903E− (Pt–Au: no gap exists). Every match was a Moseley-known gap or an already-discovered element. The 40 named inventions match 0 of the 118 modern elements."
+   },
+   "analysis": "Selection audit (rule §3.4, no cherry-picking): Uridium/Urium (C027) was examined and rejected as the lead confirmed case — elements beyond uranium exist (Np, Pu, 1940), but the printed content beyond continuation is a count-and-terminus (two tones, then the cycle ends at Tomium) that the 26 known transuranics refute; expected `partially confirmed` at best when scored. The starred-name class is refuted-dominated (0/40). The inert-gas claims lean refuted (C007: none of the 3½ octaves of \"missing\" inert gases exists; C045: no gas–gas \"interlocking\" chemistry of the noble gases exists — the 1962-onward noble-gas compounds are fluorides/oxides). C044 is the strongest: both checkable components are confirmed by francium. Under §3.3 step 2 (no novel components — both are period-standard), the verdict aggregates over all assertion components → confirmed, with the novelty axis and class base rate disclosed. This entry credits no priority and transfers nothing to the octave scheme: the ten-octave structure conflicts with the modern period lengths (essay/comparison.md §3), and the row prints no mass or melting point that could have been checked.",
+   "verdict_sentence": "The claim that an unknown element (1001+) precedes radium as the tenth row's valency-one position is confirmed by the discovery of francium (Z=87, Perey 1939) — with the qualification that a gap at that position was standard knowledge from Moseley's 1913–14 sequence, so the confirmation records no location not already in the period literature.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V004",
+   "title": "Luminon and the helium 4922.1 line (cold-light element between hydrogen and helium)",
+   "claim_ids": [
+    "C013",
+    "C020",
+    "C032"
+   ],
+   "related_claim_ids": [
+    "C014",
+    "C029"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C013",
+     "quote_verbatim": "Element 403− is a negative, expanding gas which becomes highly luminous upon impact with a recharging, or regenerating higher potential. This gas will be the chemical basis of the cold light of the future. It is the secret of the fireflies “phosphorescence”. The spectrum of helium, wave length 4922.1 tells the existence of luminon.",
+     "printed_page": "[89]",
+     "loc_index": 109
+    },
+    {
+     "claim_id": "C020",
+     "quote_verbatim": "*2.92 … *Approximate",
+     "printed_page": "94",
+     "loc_index": 114,
+     "note": "Luminon (403−) is assigned atomic mass 2.92, footnote \"*Approximate\" — the only novel mass value printed anywhere in the ten-octave tables."
+    },
+    {
+     "claim_id": "C032",
+     "quote_verbatim": "Luminon (403−), is the basis of the cold light of the future. Luminosity of better color can be produced by regenerative excitation of this radiative gas at about one forty-thousandth of the expenditure of energy necessary to produce the same degree of luminosity by the use of a tungsten filament. Luminon can also be produced by transmutation at a negligible expenditure.",
+     "printed_page": "100",
+     "loc_index": 120
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "NIST Handbook of Basic Atomic Spectroscopic Data, helium tables (He I 4921.9313 Å; transition 1s2p ¹P° – 1s4d ¹D, singlet system)",
+     "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/heliumtable3_a.htm",
+     "retrieved": "2026-09-11",
+     "note": "The line Russell cites is a classified transition of neutral helium itself."
+    },
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "Helium has a spectral line at wave length ≈4922 (printed 4922.1).",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "He I 4921.93 Å is real; the printed 4922.1 is 0.17 Å off the modern value. Verified but not creditable (premise rule §3.1); the verdict does not rest on the wavelength precision."
+    },
+    {
+     "role": "assertion",
+     "statement": "The helium line at 4922.1 tells the existence of an undiscovered element, luminon (403−).",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "The line is a classified transition of neutral helium (1s2p ¹P° – 1s4d ¹D), fully accounted for by helium's own two-electron structure; it evidences no other substance."
+    },
+    {
+     "role": "assertion",
+     "statement": "An element of atomic mass ≈2.92 exists between hydrogen and helium.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "No element exists between Z=1 and Z=2 (Moseley). The mass-≈3 nuclides ³H and ³He are isotopes of hydrogen and helium, not new elements — and the 1926 scheme has no isotope concept (verification/deuterium_negative.md §6)."
+    },
+    {
+     "role": "assertion",
+     "statement": "Luminon is the (chemical) basis of the cold light of the future, at about 1/40,000 of the energy of a tungsten filament.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "Efficient non-incandescent lighting exists (discharge, fluorescent, LED) and involves no such element; the efficiency figure attaches to a substance that does not exist. Scored as printed: the claim ties cold light to luminon as its basis."
+    }
+   ],
+   "analysis": "The claim has genuinely checkable content — a specific wavelength, an approximate mass, a chemical role — and every checkable assertion fails against the modern record. The verified premise (helium really has a line there) is exactly what the premise rule §3.1 exists for: citing a real line confirms nothing about the element asserted on top of it. Aggregation (§3.3): all novel assertions refuted, none confirmed → refuted.",
+   "verdict_sentence": "The claim that the helium line at wave length 4922.1 tells the existence of a distinct element luminon is refuted: the line is a classified transition of neutral helium itself, no element exists between hydrogen and helium, and cold light arrived with no such substance as its basis.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C013",
+     "description": "Hand-lettered comma after \"helium\"; order of closing quote and period after \"phosphorescence\" — typography-only.",
+     "resolution": "verdict-stable",
+     "note": "No component rests on these marks (rule §4.5 with §4.3)."
+    },
+    {
+     "description": "Printed 4922.1 vs modern 4921.93 Å (0.17 Å difference).",
+     "resolution": "verdict-stable",
+     "note": "The verdict does not rest on the wavelength precision; the premise is granted as verified."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V005",
+   "title": "\"Uranium XII\" (1003B+, symbol UrXII) between thorium and uranium",
+   "claim_ids": [
+    "C027"
+   ],
+   "claim_scope": "split",
+   "scope_note": "Adjudicates only the \"Uranium XII\" row documented in C027; the Uridium/Urium rows of the same claim id are a separate scoreboard question (see V003 analysis).",
+   "verdict": "terminology only",
+   "reading_adopted": {
+    "reading": "\"Uranium XII\" is the period radioelement designation Uranium X II (UX₂), not an invented element name.",
+    "evidence_for": [
+     "The printed symbol \"UrXII\" is Russell's uranium symbol \"Ur\" + \"XII\", matching the UX₂ designation pattern; his coinages elsewhere are proper names (Uridium, Urium, Whitnion), never roman-numeral designators.",
+     "The row position between Thorium (1003A+, 232.15) and Uranium (1003C+, 238.2) matches the period placement of UX₂ by atomic weight (≈234).",
+     "Designations of exactly this form (UX₁, UX₂) were standard in the 1913–1926 radiochemical literature (Fajans and Göhring, 1913, \"brevium\")."
+    ],
+    "alternatives": [
+     {
+      "reading": "An invented Russell element named \"Uranium XII\".",
+      "consequence": "The row would join the 40-name invented class with zero confirmations. Under neither reading does the row yield credit, so the adopted reading is not outcome-driven (rule §4.6 no-special-pleading check)."
+     }
+    ]
+   },
+   "evidence_1926": [
+    {
+     "claim_id": "C027",
+     "quote_verbatim": "Uridium 1003D+ Um / Urium 1003E+ Uu",
+     "printed_page": "100",
+     "loc_index": 120,
+     "note": "The same frozen claim record documents the adjacent row: between Thorium and Uranium the table prints \"Uranium XII\" (1003B+, symbol UrXII, cells empty); row verified at native resolution and present in data/russell_1926_elements.json (octave 10, position 1003B)."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "IUPAC CIAAW element page: protactinium",
+     "url": "https://ciaaw.org/protactinium.htm",
+     "retrieved": "2026-09-11",
+     "note": "UX₂ = ²³⁴ᵐPa, identified 1913 by Fajans and Göhring and named \"brevium\"; protactinium (Z=91) lies between thorium (90) and uranium (92). Via the frozen data/modern_elements.json protactinium record and its aliases_1926."
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "The designation \"Uranium XII\"/\"UrXII\" denotes the period radioelement Uranium X II (UX₂ = ²³⁴ᵐPa).",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Identification under the adopted reading; the referent is an isotope of protactinium, not a distinct element. No assertion components exist: every data cell of the row is printed blank."
+    }
+   ],
+   "analysis": "The printed glyphs are certain (both OCR witnesses and the native image agree); only the reading is interpretive, and claims.json flags exactly that. Under the adopted reading the row records nomenclature of the period radiochemical literature — a decay-series designation that modern usage resolves to ²³⁴ᵐPa — and asserts nothing of the author's own: no name he coined, no property, no prediction (all cells blank). Under the alternative reading it would be one more never-observed invented name. The credit total is identical either way, so the classification is stable in the only respect that matters for the scoreboard; the adopted reading is the better-evidenced one on the printed pattern and position.",
+   "verdict_sentence": "The printed row \"Uranium XII\" (1003B+, UrXII) is read as the period radioelement designation Uranium X II (UX₂ = ²³⁴ᵐPa), recorded as nomenclature of the 1913–1926 radiochemical literature rather than an assertion by the author; the row itself prints no checkable content.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C027",
+     "description": "The printed text \"Uranium XII\" is certain; its interpretation as UX₂ is a reading (flagged [uncertain] in claims.json).",
+     "resolution": "verdict-stable",
+     "note": "Handled under the interpretation rule §4.6: both admissible readings yield zero credit; reading stated with its evidence."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V006",
+   "title": "“Nothing at all is known” of the inert gases (the 1926 state of knowledge)",
+   "claim_ids": [
+    "C001"
+   ],
+   "related_claim_ids": [
+    "C004",
+    "C005",
+    "C045"
+   ],
+   "claim_scope": "single",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C001",
+     "quote_verbatim": "And of those most important of the elements, which man calls the “inert gases,” nothing at all is known except that they will not combine with any other elements. O the pity of it!",
+     "printed_page": "none (Prelude, 3rd leaf)",
+     "loc_index": 13
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "The Nobel Prize in Chemistry 1904, awarded to William Ramsay for the discovery of the inert gaseous elements in air and the determination of their place in the periodic system",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1904/summary/",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "CRC Handbook of Chemistry and Physics, 97th ed. (2016), Sec. 4, \"The Elements\" (C.R. Hammond)",
+     "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+     "retrieved": "2026-09-11",
+     "note": "Francium, Z=87, discovered 1939 by Marguerite Perey (Institut du Radium, Paris); primary announcement M. Perey, C. R. Acad. Sci. (Paris) 208, 97–99 (1939). Via the frozen data/modern_elements.json francium record."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "Nothing is known of the inert gases beyond their refusal to combine with other elements.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "The Nobel Prize in Chemistry 1904, awarded to William Ramsay for the discovery of the inert gaseous elements in air and the determination of their place in the periodic system",
+       "url": "https://www.nobelprize.org/prizes/chemistry/1904/summary/",
+       "retrieved": "2026-09-11"
+      }
+     ],
+     "note": "By 1926 the record held the gases' discovery histories (1894–1898), atomic weights, densities and spectra; helium was found spectroscopically in 1868. The book's own tables print noble-gas weights and melting points, including helium's −271 °C (C036)."
+    },
+    {
+     "role": "premise",
+     "statement": "The inert gases resist chemical combination.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "True as the 1926 record stood; no noble-gas compound was known before 1962. Verified, not creditable (§3.1)."
+    }
+   ],
+   "analysis": "The Prelude states that only the gases' refusal to combine is known. The period record held far more. Ramsay and co-workers isolated the gases between 1894 and 1898 and fixed their weights; the 1904 Nobel Prize recognized that work. Helium had been identified in the solar spectrum in 1868. The book's own tables reprint noble-gas atomic weights and melting points. The claim fails against the record it invokes.",
+   "verdict_sentence": "The claim that nothing at all is known of the inert gases except their refusal to combine is refuted: their weights, spectra and discovery histories stood in the period record, and the book's own tables reprint their measured values.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V007",
+   "title": "Transmutation at will: granite to gold, carbon to gold, cheap hydron and helium",
+   "claim_ids": [
+    "C002",
+    "C009",
+    "C012",
+    "C031"
+   ],
+   "related_claim_ids": [
+    "C030"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C002",
+     "quote_verbatim": "With truth comes knowledge; and with knowledge power to transmute at will, and simply, plentiful substances of matter into those which are the rarest, to meet the needs of man.",
+     "printed_page": "none (Prelude, 3rd leaf)",
+     "loc_index": 13
+    },
+    {
+     "claim_id": "C009",
+     "quote_verbatim": "The granite rock may become gold, or radium, at the will of man.",
+     "printed_page": "[9]",
+     "loc_index": 27
+    },
+    {
+     "claim_id": "C012",
+     "quote_verbatim": "All that he lacks is the knowledge of dimension in order that he may transmute that state of potential energy locked up in a state of motion called carbon into that other state of motion called gold; and he may have all that he desires at the cost of a very slight effort.",
+     "printed_page": "37",
+     "loc_index": 55
+    },
+    {
+     "claim_id": "C031",
+     "quote_verbatim": "Both hydron and helium can be produced by transmutation in unlimited quantities at an expense which is negligible while helium, of a sufficient quantity to fill a dirigible, produced by the present methods now costs three-quarters of a million dollars. The control of the production of this gas by any nation would insure the peace of the world.",
+     "printed_page": "100",
+     "loc_index": 120
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "E. Rutherford, \"Collision of α particles with light atoms. IV. An anomalous effect in nitrogen\", Phil. Mag. ser. 6, 37 (1919) 581–587",
+     "url": "https://doi.org/10.1080/14786440608635919",
+     "retrieved": "2026-09-11",
+     "note": "First artificial transmutation: nitrogen to oxygen under alpha bombardment. DOI resolution and title verified via Crossref API on 2026-09-11."
+    },
+    {
+     "name": "R. Sherr, K.T. Bainbridge and H.H. Anderson, \"Transmutation of Mercury by Fast Neutrons\", Phys. Rev. 60, 473–479 (1941)",
+     "url": "https://doi.org/10.1103/PhysRev.60.473",
+     "retrieved": "2026-09-11",
+     "note": "Gold produced from mercury by neutron bombardment, in trace radiochemical quantities. DOI resolution and title verified via Crossref API on 2026-09-11."
+    },
+    {
+     "name": "K. Aleklett, D.J. Morrissey, W. Loveland, P.L. McGaughey and G.T. Seaborg, \"Energy dependence of ²⁰⁹Bi fragmentation in relativistic nuclear collisions\", Phys. Rev. C 23, 1044–1046 (1981)",
+     "url": "https://doi.org/10.1103/PhysRevC.23.1044",
+     "retrieved": "2026-09-11",
+     "note": "Gold nuclides produced from bismuth at accelerator energies, in atom-scale yields. DOI resolution and title verified via Crossref API on 2026-09-11."
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "Elements can be transmuted into other elements.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "E. Rutherford, \"Collision of α particles with light atoms. IV. An anomalous effect in nitrogen\", Phil. Mag. ser. 6, 37 (1919) 581–587",
+       "url": "https://doi.org/10.1080/14786440608635919",
+       "retrieved": "2026-09-11",
+       "note": "First artificial transmutation: nitrogen to oxygen under alpha bombardment. DOI resolution and title verified via Crossref API on 2026-09-11."
+      }
+     ],
+     "note": "Artificial transmutation stood in the record before the book: Rutherford converted nitrogen to oxygen in 1919. Verified, not creditable (§3.1)."
+    },
+    {
+     "role": "assertion",
+     "statement": "Transmutation into any desired substance — granite or carbon to gold — is simple and costs a very slight effort.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "R. Sherr, K.T. Bainbridge and H.H. Anderson, \"Transmutation of Mercury by Fast Neutrons\", Phys. Rev. 60, 473–479 (1941)",
+       "url": "https://doi.org/10.1103/PhysRev.60.473",
+       "retrieved": "2026-09-11",
+       "note": "Gold produced from mercury by neutron bombardment, in trace radiochemical quantities. DOI resolution and title verified via Crossref API on 2026-09-11."
+      },
+      {
+       "name": "K. Aleklett, D.J. Morrissey, W. Loveland, P.L. McGaughey and G.T. Seaborg, \"Energy dependence of ²⁰⁹Bi fragmentation in relativistic nuclear collisions\", Phys. Rev. C 23, 1044–1046 (1981)",
+       "url": "https://doi.org/10.1103/PhysRevC.23.1044",
+       "retrieved": "2026-09-11",
+       "note": "Gold nuclides produced from bismuth at accelerator energies, in atom-scale yields. DOI resolution and title verified via Crossref API on 2026-09-11."
+      }
+     ],
+     "note": "Gold has been made from mercury (1941) and from bismuth (1981), by nuclear bombardment, in trace and atom-scale quantities. No simple or cheap route exists; chemical-scale conversion of rock to gold has never been performed."
+    },
+    {
+     "role": "assertion",
+     "statement": "Hydron and helium can be produced by transmutation in unlimited quantities at negligible expense.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "Hydron does not exist (V020). Helium synthesis by transmutation yields atom-scale quantities; industrial helium still comes from natural gas separation, not transmutation."
+    },
+    {
+     "role": "assertion",
+     "statement": "Man, as mind, may change any state of motion into any other at will.",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "The mind-control mechanism receives no measurable definition in the book."
+    }
+   ],
+   "analysis": "The text promises transmutation at will, simply and cheaply, into any desired substance. Transmutation itself was already real: Rutherford converted nitrogen to oxygen in 1919. That component is period-standard and earns no credit (§3.1, §3.3). The novel content is the ease and the economics. Gold has been made from mercury (1941) and from bismuth (1981) — by nuclear bombardment, in trace and atom-scale quantities. The mind-as-agent mechanism is unfalsifiable residue. The p.100 helium price is a period cost statement about industry; it is recorded as scene-setting and not scored. Aggregation over the novel assertions gives refuted.",
+   "verdict_sentence": "The claim that plentiful substances may be transmuted simply and at will into the rarest is refuted: transmutation is real but proceeds by nuclear bombardment at trace yields, nothing like the simple, nearly free process the text asserts.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C009",
+     "description": "A comma-versus-semicolon mark earlier in the same caption block is ambiguous on the native image.",
+     "resolution": "verdict-stable",
+     "note": "Typography only (§4.3); no component rests on the mark."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V008",
+   "title": "Ten octaves of seven tones: the octave structure against the modern periods",
+   "claim_ids": [
+    "C003",
+    "C010",
+    "C011",
+    "C018",
+    "C023",
+    "C025"
+   ],
+   "related_claim_ids": [
+    "C027",
+    "C028"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C003",
+     "quote_verbatim": "It runs the gamut of periodic and opposing deceleration and acceleration in six full tones, one double tone, and a master-tone, to each of ten lowering octaves, and a variable number of mid-tones in each of the last four octaves.",
+     "printed_page": "4",
+     "loc_index": 22
+    },
+    {
+     "claim_id": "C010",
+     "quote_verbatim": "All states of motion, no matter how complex, are reducible to ten octaves of seven tones each, plus their mid-tones and their master-tones.",
+     "printed_page": "36",
+     "loc_index": 54
+    },
+    {
+     "claim_id": "C011",
+     "quote_verbatim": "All creation is reducible to about a hundred and forty elements",
+     "printed_page": "36",
+     "loc_index": 54
+    },
+    {
+     "claim_id": "C018",
+     "quote_verbatim": "There are four units to each octave. There are seven tones to each octave.",
+     "printed_page": "[93]",
+     "loc_index": 113
+    },
+    {
+     "claim_id": "C023",
+     "quote_verbatim": "The cycle ends between 1003+ and 1003−, therefore 1004 ‡ equals 104 ‡",
+     "printed_page": "[97]",
+     "loc_index": 117
+    },
+    {
+     "claim_id": "C025",
+     "quote_verbatim": "Mid-tones begin in the seventh octave.",
+     "printed_page": "98",
+     "loc_index": 118
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "IUPAC Periodic Table of the Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "retrieved": "2026-09-11",
+     "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+    },
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "The known elements, ordered by atomic weight, recur periodically.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Standard since Mendeleev. The tables carry 77 matched real elements in the period weight order; matched-mass median error 0.077% (data/reconciliation.tsv). Verified, not creditable (§3.1)."
+    },
+    {
+     "role": "assertion",
+     "statement": "The elements form ten octaves of six full tones, one double tone and a master-tone each.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      }
+     ],
+     "note": "The modern table has seven periods of lengths 2, 8, 8, 18, 18, 32 and 32, set by 2n² shell capacities. No uniform eight-position octave fits them."
+    },
+    {
+     "role": "assertion",
+     "statement": "All creation reduces to about 140 elements, including octaves before hydrogen.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      },
+      {
+       "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+       "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+       "retrieved": "2026-09-11",
+       "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+      }
+     ],
+     "note": "118 elements are confirmed. Atomic number is nuclear charge and begins at 1; the scheme's pre-hydrogen octaves have no place in the sequence (V012)."
+    },
+    {
+     "role": "assertion",
+     "statement": "The tenth octave ends the cycle and overlaps the first (1004‡ equals 104‡).",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      }
+     ],
+     "note": "The sequence continues beyond uranium through 26 transuranic elements (V019). It neither terminates at a tenth octave nor returns to its start."
+    },
+    {
+     "role": "assertion",
+     "statement": "Mid-tones, confined to the last four octaves, reconcile the octave scheme with the known elements.",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "Mid-tones are defined only by position inside the octave scheme; the book gives them no independent measurable property."
+    }
+   ],
+   "analysis": "The octave scheme is the book's central structure: ten octaves of seven tones plus a master-tone, mid-tones from the seventh octave on, about 140 elements, and a cycle that ends by rejoining its start. The modern table answers each point. There are seven periods, of lengths 2, 8, 8, 18, 18, 32 and 32. 118 elements are confirmed. Atomic number starts at 1, so no octave precedes hydrogen. The sequence runs past uranium through 26 transuranic elements without terminus or return. The scheme does carry the real elements in their standard weight order: the reconciliation matches 77 rows at a median mass error of 0.077% (data/reconciliation.tsv). That order was the period record's own, and it earns no credit for the structure imposed on it.",
+   "verdict_sentence": "The claim that the elements form ten octaves of seven tones plus a master-tone is refuted: the modern table has seven periods of lengths 2, 8, 8, 18, 18, 32 and 32, holds 118 elements, and admits nothing below hydrogen.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C018",
+     "description": "A stray period-like mark in the credo box reads “a.unit.” on the scan; transcribed “a unit.”",
+     "resolution": "verdict-stable",
+     "note": "Typography only (§4.3)."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V009",
+   "title": "The inert gases as master-tones to be removed from the elements",
+   "claim_ids": [
+    "C004",
+    "C005"
+   ],
+   "related_claim_ids": [
+    "C001",
+    "C007",
+    "C045"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C004",
+     "quote_verbatim": "The master-tone of each octave is the inheritance of the original motion of the thinking process of Mind. These master-tones are the “inert gases” which are classified in the zero group of the Mendeléef table.",
+     "printed_page": "4",
+     "loc_index": 22
+    },
+    {
+     "claim_id": "C005",
+     "quote_verbatim": "The inert gases should not be included in the elements. They have no place there.",
+     "printed_page": "4",
+     "loc_index": 22
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "IUPAC Periodic Table of the Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "retrieved": "2026-09-11",
+     "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+    },
+    {
+     "name": "ACS National Historic Chemical Landmark, \"Neil Bartlett and the Reactive Noble Gases\" (first noble-gas compound, Xe⁺[PtF₆]⁻, 1962)",
+     "url": "https://www.acs.org/education/whatischemistry/landmarks/bartlettnoblegases.html",
+     "retrieved": "2026-09-11"
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "The zero-group gases stood apart in period tables and resisted combination.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Period tables carried a zero group; no noble-gas compound was known before 1962. Verified, not creditable (§3.1)."
+    },
+    {
+     "role": "assertion",
+     "statement": "The inert gases are not elements and should be removed from the table of elements.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      },
+      {
+       "name": "ACS National Historic Chemical Landmark, \"Neil Bartlett and the Reactive Noble Gases\" (first noble-gas compound, Xe⁺[PtF₆]⁻, 1962)",
+       "url": "https://www.acs.org/education/whatischemistry/landmarks/bartlettnoblegases.html",
+       "retrieved": "2026-09-11"
+      }
+     ],
+     "note": "Each noble gas holds a fixed place by atomic number (2, 10, 18, 36, 54, 86, 118). Xenon forms isolable compounds (Bartlett 1962). The modern table keeps the gases as group 18."
+    },
+    {
+     "role": "assertion",
+     "statement": "The master-tones are the inheritance of the original motion of the thinking process of Mind, a registration of all the elements as white is of the colors.",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "The analogy asserts nothing measurable."
+    }
+   ],
+   "analysis": "The book identifies the zero-group gases with its master-tones and orders them out of the elements. The premise kernel is real: 1926 chemistry knew no noble-gas compound, and the zero group stood apart in period tables. The demotion itself fails. Each noble gas occupies a fixed place by atomic number. Xenon forms isolable compounds — Bartlett's Xe⁺[PtF₆]⁻ in 1962, then the xenon fluorides — and the modern table keeps the gases as group 18. The white-to-colors analogy is recorded as unfalsifiable residue.",
+   "verdict_sentence": "The claim that the inert gases should be removed from the elements is refuted: each noble gas holds a fixed place by atomic number, and xenon chemistry since 1962 shows ordinary element behavior.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V010",
+   "title": "“There is no eighth group”: the Mendeléef table called wrongly arranged",
+   "claim_ids": [
+    "C006"
+   ],
+   "related_claim_ids": [
+    "C021"
+   ],
+   "claim_scope": "single",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C006",
+     "quote_verbatim": "It is correct only in the orderly periodicity of atomic weight, which is mass dimension. In all other dimensions and periodicities it is wrongly arranged. There is no eighth group.",
+     "printed_page": "[5]",
+     "loc_index": 23
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "IUPAC Periodic Table of the Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "retrieved": "2026-09-11",
+     "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+    },
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "There is no eighth group.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      }
+     ],
+     "note": "The Group VIII triads — iron, cobalt, nickel; ruthenium, rhodium, palladium; osmium, iridium, platinum — are real elements. The modern table carries them as groups 8–10."
+    },
+    {
+     "role": "assertion",
+     "statement": "The Mendeléef table is correct only in atomic-weight periodicity and wrongly arranged in every other dimension.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+       "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+       "retrieved": "2026-09-11",
+       "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+      },
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      }
+     ],
+     "note": "The correction history ran the other way. Atomic weight was the flawed axis: the Te–I, Ar–K and Co–Ni inversions break weight order, and atomic number replaced it (Moseley 1913). The group arrangement survived into the modern table."
+    }
+   ],
+   "analysis": "The caption rejects the Mendeléef arrangement and denies its Group VIII. The elements of that group exist; the modern table carries them as groups 8–10. The criticism also inverts the correction history. The weight axis, which the caption endorses as the table's one correct feature, is what later failed: the Te–I, Ar–K and Co–Ni inversions break weight order, and atomic number replaced weight in 1913. The group arrangement, which the caption rejects, survived. The same tellurium–iodine inversion is disputed by the book at C021 (V015).",
+   "verdict_sentence": "The claim that the Mendeléef table has no eighth group and errs in all but atomic weight is refuted: the eighth-group elements exist as modern groups 8–10, and atomic weight, not the arrangement, was the axis later corrected.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V011",
+   "title": "“3½ octaves are missing”: the predicted undiscovered inert gases",
+   "claim_ids": [
+    "C007"
+   ],
+   "related_claim_ids": [
+    "C015",
+    "C017",
+    "C019",
+    "C030"
+   ],
+   "claim_scope": "single",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C007",
+     "quote_verbatim": "The inert gases of the zero group are incomplete and 3½ octaves are missing.",
+     "printed_page": "[5]",
+     "loc_index": 23
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "IUPAC CIAAW element page: helium",
+     "url": "https://ciaaw.org/helium.htm",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "IUPAC Periodic Table of the Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "retrieved": "2026-09-11",
+     "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+    },
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "Three and a half octaves of inert gases remain undiscovered (Alphanon, Betanon, Gammanon, Hydron).",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC CIAAW element page: helium",
+       "url": "https://ciaaw.org/helium.htm",
+       "retrieved": "2026-09-11"
+      },
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      }
+     ],
+     "note": "Helium (Z=2) is the lightest noble gas. Atomic number admits no element below Z=1, so no noble gas can precede hydrogen. None of the four names matches any of the 118 elements."
+    }
+   ],
+   "class_base_rate": {
+    "class_description": "Four of the 40 named invented elements (the predicted inert-gas master-tones); the full named class is scored at V013.",
+    "class_size": 40,
+    "hits": 0,
+    "misses": 40,
+    "note": "The 40 named inventions match 0 of the 118 elements of the modern record."
+   },
+   "analysis": "The caption asserts undiscovered inert gases filling 3½ octaves, named elsewhere Alphanon, Betanon, Gammanon and Hydron. Helium, Z=2, is the lightest noble gas, and no element exists below Z=1. Nothing lighter than helium can be a noble gas, and no octave of gases precedes hydrogen. None of the four names corresponds to any of the 118 elements. The printed fraction was garbled by both OCR witnesses; the native image fixes 3½. No admissible reading of the fraction changes the verdict.",
+   "verdict_sentence": "The claim that 3½ octaves of inert gases are missing is refuted: helium is the lightest noble gas, no element exists below hydrogen, and none of the four named gases appears in the modern record.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C007",
+     "description": "Both OCR witnesses garble the printed fraction (“31/4”/“31”); the native-image read establishes 3½.",
+     "resolution": "verdict-stable",
+     "note": "Under 3½ or 3¼ the verdict is identical: no missing inert-gas octaves exist."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V012",
+   "title": "The unseen octaves before hydrogen and the six elements between hydrogen and helium",
+   "claim_ids": [
+    "C008",
+    "C014",
+    "C037",
+    "C038"
+   ],
+   "related_claim_ids": [
+    "C007",
+    "C013"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C008",
+     "quote_verbatim": "The cycle begins with the highest note and descends the scale sequentially through man's unseen universe until hydrogen, the first element perceivable to man, is reached.",
+     "printed_page": "6",
+     "loc_index": 24
+    },
+    {
+     "claim_id": "C014",
+     "quote_verbatim": "This is the second element within the visible range. The intervening six have been unknown and the evidence of their existence which is clearly shown in the spectrum of helium(500=)has been ignored because unrecognized.",
+     "printed_page": "[89]",
+     "loc_index": 109
+    },
+    {
+     "claim_id": "C037",
+     "quote_verbatim": "The three red lines of helium are the antecedents of hydrogen in octaves of the “unseen” universe, and other prominent lines tell the story of the six empty spaces which follow hydrogen.",
+     "printed_page": "203",
+     "loc_index": 223
+    },
+    {
+     "claim_id": "C038",
+     "quote_verbatim": "The unseen universe of the first three octaves and the greater part of the fourth is clearly written in hydrogen and helium.",
+     "printed_page": "203",
+     "loc_index": 223
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    },
+    {
+     "name": "N. Bohr, \"On the Constitution of Atoms and Molecules\", Phil. Mag. ser. 6, 26 (1913) 1–25",
+     "url": "https://doi.org/10.1080/14786441308634955",
+     "retrieved": "2026-09-11",
+     "note": "The hydrogen spectrum derived from the one-electron atom. DOI resolution and title verified via Crossref API on 2026-09-11."
+    },
+    {
+     "name": "NIST Handbook of Basic Atomic Spectroscopic Data, helium tables (He I 4921.9313 Å; transition 1s2p ¹P° – 1s4d ¹D, singlet system)",
+     "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/heliumtable3_a.htm",
+     "retrieved": "2026-09-11",
+     "note": "The line Russell cites is a classified transition of neutral helium itself."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "Octaves of elements precede hydrogen, forming man's unseen universe.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+       "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+       "retrieved": "2026-09-11",
+       "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+      }
+     ],
+     "note": "Atomic number is integral nuclear charge beginning at Z=1. Hydrogen is the lightest element; nothing precedes it."
+    },
+    {
+     "role": "assertion",
+     "statement": "Six undiscovered elements lie between hydrogen and helium.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+       "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+       "retrieved": "2026-09-11",
+       "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+      }
+     ],
+     "note": "No element exists between Z=1 and Z=2."
+    },
+    {
+     "role": "assertion",
+     "statement": "The hydrogen and helium spectra evidence those unseen elements.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "N. Bohr, \"On the Constitution of Atoms and Molecules\", Phil. Mag. ser. 6, 26 (1913) 1–25",
+       "url": "https://doi.org/10.1080/14786441308634955",
+       "retrieved": "2026-09-11",
+       "note": "The hydrogen spectrum derived from the one-electron atom. DOI resolution and title verified via Crossref API on 2026-09-11."
+      },
+      {
+       "name": "NIST Handbook of Basic Atomic Spectroscopic Data, helium tables (He I 4921.9313 Å; transition 1s2p ¹P° – 1s4d ¹D, singlet system)",
+       "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/heliumtable3_a.htm",
+       "retrieved": "2026-09-11",
+       "note": "The line Russell cites is a classified transition of neutral helium itself."
+      }
+     ],
+     "note": "Hydrogen's lines follow the one-electron Bohr–Rydberg series. Every classified helium line belongs to helium's own two-electron structure (NIST). The lines evidence no other substance."
+    },
+    {
+     "role": "premise",
+     "statement": "Helium shows prominent visible lines, including lines in the red.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "NIST Handbook of Basic Atomic Spectroscopic Data, helium tables (He I 4921.9313 Å; transition 1s2p ¹P° – 1s4d ¹D, singlet system)",
+       "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/heliumtable3_a.htm",
+       "retrieved": "2026-09-11",
+       "note": "The line Russell cites is a classified transition of neutral helium itself."
+      }
+     ],
+     "note": "He I 6678.15 Å and 7065.19 Å lie at the red end of the visible range. Verified, not creditable (§3.1)."
+    }
+   ],
+   "analysis": "Three passages place undiscovered octaves before hydrogen; a plate annotation adds six unknown elements between hydrogen and helium, read from the helium spectrum. Moseley's law makes atomic number integral nuclear charge. The sequence starts at hydrogen, Z=1, and no element lies between Z=1 and Z=2. The spectra hide no elements: hydrogen's lines follow the one-electron Bohr–Rydberg series, and every classified helium line belongs to helium's own structure. The premise that helium shows red lines is true and earns no credit. The claim fails at every checkable point. The specific luminon identification of the 4922.1 line is scored at V004.",
+   "verdict_sentence": "The claim that unseen elements precede hydrogen and fill six spaces between hydrogen and helium, written in their spectra, is refuted: no element exists below Z=1 or between Z=1 and Z=2, and both spectra are fully assigned to hydrogen and helium themselves.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V013",
+   "title": "The starred undiscovered elements: 40 invented names against the modern record",
+   "claim_ids": [
+    "C015",
+    "C017",
+    "C019",
+    "C028"
+   ],
+   "related_claim_ids": [
+    "C020",
+    "C023",
+    "C027"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C015",
+     "quote_verbatim": "★ STARS INDICATE UNDISCOVERED ELEMENTS LOCATED BY THE AUTHOR",
+     "printed_page": "[91]",
+     "loc_index": 111
+    },
+    {
+     "claim_id": "C017",
+     "quote_verbatim": "TABLE OF THE TEN OCTAVES OF THE VARYING STATES OF MOTION WHICH CREATE THE ILLUSION OF DIFFERENT SUBSTANCES KNOWN AS “THE ELEMENTS OF MATTER.”",
+     "printed_page": "92",
+     "loc_index": 112,
+     "note": "Octaves 1–3: all 24 rows bear invented names; every mass and melting cell is printed empty."
+    },
+    {
+     "claim_id": "C019",
+     "quote_verbatim": "FOURTH OCTAVE WAVE — rows: Hydron 400= Hy; Hydrogen 401+ H 1.008 −259; Ethlogen 402+ Eg; Bebegen 403+ Bb; CARBOGEN 404‡ Cb; Luminon 403− Ln *2.92; Halanon 402− Ha; Helionon 401− Hi.",
+     "printed_page": "94",
+     "loc_index": 114,
+     "note": "Seven invented tones surround hydrogen, the octave's only known element."
+    },
+    {
+     "claim_id": "C028",
+     "quote_verbatim": "TOMIUM 104‡ Tn / Whitnion 103E− Wn / Alphonson 103D− Ap / Georgeon 103C− Gg / Victoron 103B− V / Lipton 103A− Ln",
+     "printed_page": "100",
+     "loc_index": 120,
+     "note": "Tenth-octave exhalation rows; all data cells empty."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "IUPAC Periodic Table of the Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "retrieved": "2026-09-11",
+     "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+    },
+    {
+     "name": "CRC Handbook of Chemistry and Physics, 97th ed. (2016), Sec. 4, \"The Elements\" (C.R. Hammond)",
+     "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+     "retrieved": "2026-09-11",
+     "note": "Francium, Z=87, discovered 1939 by Marguerite Perey (Institut du Radium, Paris); primary announcement M. Perey, C. R. Acad. Sci. (Paris) 208, 97–99 (1939). Via the frozen data/modern_elements.json francium record."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "The starred tones are undiscovered elements located by the author; 40 of them carry invented names.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      }
+     ],
+     "note": "None of the 40 printed names or symbols corresponds to any of the 118 elements of the modern record. The book's own equations reduce the 40 names to 38 entities (Tomium ≡ Tomion; Omeganon ≡ Alphanon); no entity exists under either count."
+    },
+    {
+     "role": "premise",
+     "statement": "The tables print no atomic mass and no melting point for any invented name; the only exceptions on those rows are hydrogen's standard values and Luminon's starred 2.92.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "Verified at native resolution (R11/R17; C017, C019, C028 context). The empty columns leave the names with no checkable property beyond position and existence. The one printed novel mass (Luminon) is adjudicated at V004."
+    }
+   ],
+   "class_base_rate": {
+    "class_description": "The 40 named invented elements printed across the octave tables and plates (data/claims_notes.md §3). The 8 unnamed placeholder slots are scored at V017; the post-uranium positional content at V019; the 1001+ prose claim at V003.",
+    "class_size": 40,
+    "hits": 0,
+    "misses": 40,
+    "note": "The text's own equations identify Tomium with Tomion and Omeganon with Alphanon, so the 40 names denote 38 distinct entities; the tally is 0 hits under either count."
+   },
+   "analysis": "The star legend asserts that every starred tone is an undiscovered element. Forty invented names carry stars across the tables and plates. None matches any of the 118 elements. The book's own equations identify Tomium with Tomion and Omeganon with Alphanon, reducing the 40 names to 38 entities; the tally is zero under either count, and orthographic variants carry no weight (§4.3). The names' data cells are printed empty — no mass, no melting point — so position and existence are all there is to test. The Uridium and Urium rows also belong to this class; as names they match nothing, and their positional content beyond uranium is scored separately at V019. The class's only positional hits sit in the unnamed placeholder slots (V017) and the 1001+ prose claim (V003).",
+   "verdict_sentence": "The claim that the starred tones locate undiscovered elements is refuted for every named case: none of the 40 printed names matches any of the 118 elements, and their empty data cells offer nothing further to test.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V014",
+   "title": "Helionon (401−): hydrogen's asserted undiscovered tonal mate",
+   "claim_ids": [
+    "C016",
+    "C033"
+   ],
+   "related_claim_ids": [
+    "C014",
+    "C019"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C016",
+     "quote_verbatim": "Hydrogen could not exist without its negative reaction which is helionon, 401−.",
+     "printed_page": "[91]",
+     "loc_index": 111
+    },
+    {
+     "claim_id": "C033",
+     "quote_verbatim": "Note.—The true tonal mate of hydrogen is not fluorine; it is helionon, an undiscovered tone in the fourth octave.",
+     "printed_page": "[107]",
+     "loc_index": 127
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    },
+    {
+     "name": "IUPAC CIAAW element page: hydrogen",
+     "url": "https://ciaaw.org/hydrogen.htm",
+     "retrieved": "2026-09-11"
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "An undiscovered element, helionon (401−), exists between hydrogen and helium.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+       "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+       "retrieved": "2026-09-11",
+       "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+      }
+     ],
+     "note": "No element exists between Z=1 and Z=2."
+    },
+    {
+     "role": "assertion",
+     "statement": "Hydrogen could not exist without helionon.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC CIAAW element page: hydrogen",
+       "url": "https://ciaaw.org/hydrogen.htm",
+       "retrieved": "2026-09-11"
+      }
+     ],
+     "note": "Hydrogen exists; helionon does not. The stated dependence fails in the only direction open to test."
+    },
+    {
+     "role": "assertion",
+     "statement": "Fluorine is not hydrogen's true tonal mate; helionon is.",
+     "status": "unfalsifiable",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "note": "“Tonal mate” receives no measurable definition; the checkable part is helionon's existence, scored above."
+    }
+   ],
+   "analysis": "The claim binds hydrogen's existence to an undiscovered partner. No element exists between hydrogen and helium, so helionon has no place in the sequence. Hydrogen exists without it, which closes the dependence claim in the only direction open to test. The rejection of fluorine as “true tonal mate” turns on a term the book never defines measurably; that residue is unfalsifiable.",
+   "verdict_sentence": "The claim that hydrogen requires an undiscovered mate, helionon (401−), is refuted: no element exists between hydrogen and helium, and hydrogen exists without any such partner.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V015",
+   "title": "“The mass of iodine must exceed that of tellurium”",
+   "claim_ids": [
+    "C021"
+   ],
+   "related_claim_ids": [
+    "C006"
+   ],
+   "claim_scope": "single",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C021",
+     "quote_verbatim": "* Note.—The calculation of the atomic weight of iodine, or tellurium, or of both, appears to be incorrect. The mass of iodine must exceed that of tellurium.",
+     "printed_page": "96",
+     "loc_index": 116
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "IUPAC CIAAW element page: tellurium",
+     "url": "https://ciaaw.org/tellurium.htm",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "IUPAC CIAAW element page: iodine",
+     "url": "https://ciaaw.org/iodine.htm",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "IUPAC CIAAW, \"Standard Atomic Weights\" (2024 table, based on Atomic Weights 2021 with 2024 revisions of Gd, Lu, Zr)",
+     "url": "https://ciaaw.org/atomic-weights.htm",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "The accepted period weights put tellurium above iodine (printed *127.5 and *126.92).",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "note": "The book reprints the accepted figures beside the footnote that disputes them. Verified, not creditable (§3.1)."
+    },
+    {
+     "role": "assertion",
+     "statement": "The iodine and tellurium weight determinations are incorrect; iodine's mass must exceed tellurium's.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC CIAAW, \"Standard Atomic Weights\" (2024 table, based on Atomic Weights 2021 with 2024 revisions of Gd, Lu, Zr)",
+       "url": "https://ciaaw.org/atomic-weights.htm",
+       "retrieved": "2026-09-11"
+      },
+      {
+       "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+       "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+       "retrieved": "2026-09-11",
+       "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+      }
+     ],
+     "note": "Modern standard atomic weights: tellurium 127.60(3), iodine 126.904 47(3). The inversion is real. Atomic number orders the pair (Te 52, I 53); mass follows isotopic composition, not table position."
+    }
+   ],
+   "analysis": "The footnote requires iodine to outweigh tellurium and calls the measurements incorrect. The modern standard atomic weights are 127.60 for tellurium and 126.904 for iodine; the inversion is real and settled. Atomic number governs the order — tellurium 52, iodine 53 — and mass follows isotopic composition, not table position. The book prints the accepted period figures beside the footnote that disputes them; the disputed measurements were the accurate part. The octave scheme requires strict weight order and fails with it.",
+   "verdict_sentence": "The claim that the mass of iodine must exceed that of tellurium is refuted: the standard atomic weights are 127.60 for tellurium and 126.904 for iodine, and atomic number, not mass, orders the two.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V016",
+   "title": "Beta emanations ejected at 186,400 / “exactly 186,330” miles per second",
+   "claim_ids": [
+    "C022",
+    "C035"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C022",
+     "quote_verbatim": "TENTH OCTAVE CONSTANT WHERE TIME DIMENSION OVERTAKES POWER DIMENSION IN PRESSURES WHICH EJECT BETA EMANA-TIONS AT 186,400 MILES PER SECOND. THIS ENDS THE CYCLE.",
+     "printed_page": "[97]",
+     "loc_index": 117
+    },
+    {
+     "claim_id": "C035",
+     "quote_verbatim": "From actinium (1003+) on the ejection speed increases until, in tomium (1004‡) it is exactly 186,330 miles per second.",
+     "printed_page": "188",
+     "loc_index": 208
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "CODATA value: speed of light in vacuum, c = 299 792 458 m s⁻¹ (exact; NIST Reference on Constants, Units and Uncertainty)",
+     "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+     "retrieved": "2026-09-11",
+     "note": "Exact by the 1983 SI definition of the metre; equals about 186,282.4 miles per second."
+    },
+    {
+     "name": "C.D. Ellis and W.A. Wooster, \"The average energy of disintegration of radium E\", Proc. R. Soc. A 117 (1927) 109–123",
+     "url": "https://doi.org/10.1098/rspa.1927.0168",
+     "retrieved": "2026-09-11",
+     "note": "Calorimetric proof that beta particles are emitted with a continuous energy spectrum. DOI resolution and title verified via Crossref API on 2026-09-11."
+    }
+   ],
+   "printed_variants": [
+    {
+     "claim_id": "C022",
+     "printed_value": "186,400 miles per second",
+     "location": "plate [97] caption (LoC 0117)"
+    },
+    {
+     "claim_id": "C035",
+     "printed_value": "exactly 186,330 miles per second",
+     "location": "p.188, three occurrences (LoC 0208)",
+     "note": "Internal discrepancy of 70 miles per second between the two printings, against a claim of “exactly”."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "Beta emanations leave radioactive matter at one universal, exact ejection speed.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "C.D. Ellis and W.A. Wooster, \"The average energy of disintegration of radium E\", Proc. R. Soc. A 117 (1927) 109–123",
+       "url": "https://doi.org/10.1098/rspa.1927.0168",
+       "retrieved": "2026-09-11",
+       "note": "Calorimetric proof that beta particles are emitted with a continuous energy spectrum. DOI resolution and title verified via Crossref API on 2026-09-11."
+      }
+     ],
+     "note": "Beta particles are electrons emitted across a continuous energy spectrum, proved calorimetrically by Ellis and Wooster (1927). No single ejection speed exists."
+    },
+    {
+     "role": "assertion",
+     "statement": "That speed is 186,330 (or 186,400) miles per second.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "CODATA value: speed of light in vacuum, c = 299 792 458 m s⁻¹ (exact; NIST Reference on Constants, Units and Uncertainty)",
+       "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+       "retrieved": "2026-09-11",
+       "note": "Exact by the 1983 SI definition of the metre; equals about 186,282.4 miles per second."
+      }
+     ],
+     "note": "c = 299,792,458 m/s exactly, about 186,282.4 miles per second. Both printed figures exceed c; particles with mass travel below it."
+    }
+   ],
+   "analysis": "The same physical claim prints twice with different figures: 186,400 on the [97] plate and “exactly 186,330” on p.188, three times. Rule §4.2 governs: both figures are reported; neither is averaged; neither is selected. The 70-mile discrepancy against “exactly” is itself a printed-record fact, recorded in printed_variants. On content, beta particles are electrons emitted across a continuous spectrum of energies, so no single ejection speed exists. Both printed figures also exceed the speed of light — 299,792,458 m/s by definition, about 186,282.4 miles per second — and particles with mass travel below it. The claim fails as a universal constant and as a number.",
+   "verdict_sentence": "The claim that beta emanations are ejected at exactly 186,330, or 186,400, miles per second is refuted: beta particles leave nuclei across a continuous spectrum of speeds, all below light's 186,282 miles per second.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V017",
+   "title": "The eight unnamed “Mate to …” placeholder slots",
+   "claim_ids": [
+    "C024"
+   ],
+   "related_claim_ids": [
+    "C015",
+    "C044"
+   ],
+   "claim_scope": "single",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C024",
+     "quote_verbatim": "NINTH OCTAVE / With Twenty-six Mid-Tones",
+     "printed_page": "98",
+     "loc_index": 118,
+     "note": "The claim record documents the eight placeholder rows: 803D+ (p.96); 903D+, 903M−, 903L−, 903I−, 903E−, 901− (p.98); 1001+ (p.100). All symbol, mass and melting cells are printed empty; all three sets verified at native resolution."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "C. Perrier and E. Segrè, \"Some Chemical Properties of Element 43\", J. Chem. Phys. 5, 712–716 (1937)",
+     "url": "https://doi.org/10.1063/1.1750105",
+     "retrieved": "2026-09-11",
+     "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+    },
+    {
+     "name": "J.A. Marinsky, L.E. Glendenin and C.D. Coryell, \"The Chemical Identification of Radioisotopes of Neodymium and of Element 61\", J. Am. Chem. Soc. 69, 2781–2785 (1947)",
+     "url": "https://doi.org/10.1021/ja01203a059",
+     "retrieved": "2026-09-11",
+     "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+    },
+    {
+     "name": "IUPAC CIAAW element page: hafnium",
+     "url": "https://ciaaw.org/hafnium.htm",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "IUPAC CIAAW element page: rhenium",
+     "url": "https://ciaaw.org/rhenium.htm",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "D.R. Corson, K.R. MacKenzie and E. Segrè, \"Artificially Radioactive Element 85\", Phys. Rev. 58, 672–678 (1940)",
+     "url": "https://doi.org/10.1103/PhysRev.58.672",
+     "retrieved": "2026-09-11",
+     "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+    },
+    {
+     "name": "CRC Handbook of Chemistry and Physics, 97th ed. (2016), Sec. 4, \"The Elements\" (C.R. Hammond)",
+     "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+     "retrieved": "2026-09-11",
+     "note": "Francium, Z=87, discovered 1939 by Marguerite Perey (Institut du Radium, Paris); primary announcement M. Perey, C. R. Acad. Sci. (Paris) 208, 97–99 (1939). Via the frozen data/modern_elements.json francium record."
+    },
+    {
+     "name": "IUPAC Periodic Table of the Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "retrieved": "2026-09-11",
+     "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "Six of the eight slots mark positions where an element exists or was later found: 803D+ → Tc, 903D+ → Pm, one of 903M−/903L− → Hf, 903I− → Re, 901− → At, 1001+ → Fr.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "C. Perrier and E. Segrè, \"Some Chemical Properties of Element 43\", J. Chem. Phys. 5, 712–716 (1937)",
+       "url": "https://doi.org/10.1063/1.1750105",
+       "retrieved": "2026-09-11",
+       "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+      },
+      {
+       "name": "J.A. Marinsky, L.E. Glendenin and C.D. Coryell, \"The Chemical Identification of Radioisotopes of Neodymium and of Element 61\", J. Am. Chem. Soc. 69, 2781–2785 (1947)",
+       "url": "https://doi.org/10.1021/ja01203a059",
+       "retrieved": "2026-09-11",
+       "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+      },
+      {
+       "name": "IUPAC CIAAW element page: hafnium",
+       "url": "https://ciaaw.org/hafnium.htm",
+       "retrieved": "2026-09-11"
+      },
+      {
+       "name": "IUPAC CIAAW element page: rhenium",
+       "url": "https://ciaaw.org/rhenium.htm",
+       "retrieved": "2026-09-11"
+      },
+      {
+       "name": "D.R. Corson, K.R. MacKenzie and E. Segrè, \"Artificially Radioactive Element 85\", Phys. Rev. 58, 672–678 (1940)",
+       "url": "https://doi.org/10.1103/PhysRev.58.672",
+       "retrieved": "2026-09-11",
+       "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+      },
+      {
+       "name": "CRC Handbook of Chemistry and Physics, 97th ed. (2016), Sec. 4, \"The Elements\" (C.R. Hammond)",
+       "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+       "retrieved": "2026-09-11",
+       "note": "Francium, Z=87, discovered 1939 by Marguerite Perey (Institut du Radium, Paris); primary announcement M. Perey, C. R. Acad. Sci. (Paris) 208, 97–99 (1939). Via the frozen data/modern_elements.json francium record."
+      }
+     ],
+     "note": "Every match was a gap already fixed by Moseley's sequence (Z = 43, 61, 85, 87) or an element already discovered before the 1926 printing (hafnium 1923, rhenium 1925 — both nonetheless printed as undiscovered)."
+    },
+    {
+     "role": "assertion",
+     "statement": "The remaining two slots — the second of the 903M−/903L− pair and 903E− between platinum and gold — mark undiscovered elements.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      }
+     ],
+     "note": "Only hafnium lies between lutetium and tantalum, and the atomic numbers run 78, 79 between platinum and gold with no gap. No element exists at either slot."
+    }
+   ],
+   "class_base_rate": {
+    "class_description": "The 8 unnamed “Mate to …” placeholder slots of C024. The 40 named inventions are scored at V013; the 1001+ prose claim at V003.",
+    "class_size": 8,
+    "hits": 6,
+    "misses": 2,
+    "note": "Positional matches: 803D+ (Mo–Ru) → Tc (1937); 903D+ (Nd–Sm) → Pm (1945); one of 903M−/903L− (Lu–Ta) → Hf (already discovered 1923); 903I− (W–Os) → Re (already discovered 1925); 901− (after Po) → At (1940); 1001+ (Nt–Ra) → Fr (1939). Misses: the second Lu–Ta slot (only Hf exists there) and 903E− (Pt–Au: no gap exists). Every match was a Moseley-known gap or an already-discovered element."
+   },
+   "analysis": "The tables print eight unnamed “Mate to …” rows with every data cell empty. Six of the eight sit where an element exists: technetium (1937), promethium (1945), hafnium (1923), rhenium (1925), astatine (1940) and francium (1939) fill them. Every match was a gap already fixed by Moseley's sequence or an element already discovered before the printing; hafnium and rhenium were in the record when the rows were printed as undiscovered. Two slots match nothing: only hafnium lies between lutetium and tantalum, and no gap exists between platinum (78) and gold (79). Under §3.3 the verdict follows the novel content. The slots not already in the period literature score zero, and the period-standard matches cannot dilute that failure. The class tally is stated per §3.4; the 1001+ slot's prose twin is scored at V003.",
+   "verdict_sentence": "The claim that eight unnamed slots mark undiscovered elements is refuted in what it newly asserts: the two slots outside the period literature's known gaps match no element, and the six matches record gaps Moseley had fixed or elements already found.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C024",
+     "description": "The p.98 table shows a name/symbol column misalignment (R11 layout_anomaly); the placeholder mapping reads through the documented intended alignment.",
+     "resolution": "verdict-stable",
+     "note": "The misalignment is a typesetting fact; both the hit and miss counts are unchanged under it (data/claims_notes.md §7)."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V018",
+   "title": "Atoms as spiral force-lines on cones: hydrogen flattening into carbon",
+   "claim_ids": [
+    "C026"
+   ],
+   "related_claim_ids": [
+    "C003"
+   ],
+   "claim_scope": "single",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C026",
+     "quote_verbatim": "Imagine these lines drawn on the surface of a cone into which you are looking and you will know the lines of force of the hydrogene atom, 1+. Shorten the cone gradually until these lines are as flat as a watch spring and you then have the carbon atom, 4‡.",
+     "printed_page": "[99]",
+     "loc_index": 119
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "E. Rutherford, \"The Scattering of α and β Particles by Matter and the Structure of the Atom\", Phil. Mag. ser. 6, 21 (1911) 669–688",
+     "url": "https://doi.org/10.1080/14786440508637080",
+     "retrieved": "2026-09-11",
+     "note": "The nuclear model of the atom from alpha-scattering. DOI resolution and title verified via Crossref API on 2026-09-11."
+    },
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "The hydrogen atom is lines of force drawn on a cone; shortening the cone until the lines flatten yields the carbon atom.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "E. Rutherford, \"The Scattering of α and β Particles by Matter and the Structure of the Atom\", Phil. Mag. ser. 6, 21 (1911) 669–688",
+       "url": "https://doi.org/10.1080/14786440508637080",
+       "retrieved": "2026-09-11",
+       "note": "The nuclear model of the atom from alpha-scattering. DOI resolution and title verified via Crossref API on 2026-09-11."
+      },
+      {
+       "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+       "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+       "retrieved": "2026-09-11",
+       "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+      }
+     ],
+     "note": "Scattering experiments establish the nuclear atom (Rutherford 1911). Hydrogen and carbon differ as Z=1 and Z=6 — different nuclei and electron counts — not as one geometric figure at two heights."
+    }
+   ],
+   "analysis": "The caption instructs the reader to see hydrogen as force lines on a cone and carbon as the same cone flattened. The measured atom is a nucleus with electrons: Rutherford's scattering fixed the nuclear structure in 1911, and Moseley's law counts the nuclear charge. Hydrogen and carbon differ by nuclear charge and nucleon count, not by the flattening of one figure. The uncertain glyph readings on the caption are typographic and change nothing.",
+   "verdict_sentence": "The claim that the hydrogen atom is a cone of force lines which flattens into the carbon atom is refuted: scattering experiments establish nuclear atoms, and hydrogen and carbon differ by nuclear charge, not by the shape of one figure.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C026",
+     "description": "The sign glyphs after “1” and “4” render as double-stroked crosses; “1” versus “I” is not resolvable at native resolution.",
+     "resolution": "verdict-stable",
+     "note": "Typography only (§4.3); the structural claim is unaffected under every admissible reading."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V019",
+   "title": "Uridium and Urium: two elements beyond uranium, then the cycle's end",
+   "claim_ids": [
+    "C027"
+   ],
+   "related_claim_ids": [
+    "C015",
+    "C023",
+    "C028"
+   ],
+   "claim_scope": "split",
+   "scope_note": "Adjudicates only the Uridium/Urium rows of C027; the “Uranium XII” row of the same claim id is adjudicated at V005.",
+   "verdict": "partially confirmed",
+   "novelty_1926": "novel",
+   "evidence_1926": [
+    {
+     "claim_id": "C027",
+     "quote_verbatim": "Uridium 1003D+ Um / Urium 1003E+ Uu",
+     "printed_page": "100",
+     "loc_index": 120
+    },
+    {
+     "claim_id": "C015",
+     "quote_verbatim": "★ STARS INDICATE UNDISCOVERED ELEMENTS LOCATED BY THE AUTHOR",
+     "printed_page": "[91]",
+     "loc_index": 111,
+     "note": "The star legend covers these rows: the starred tones are asserted as undiscovered elements."
+    },
+    {
+     "claim_id": "C023",
+     "quote_verbatim": "The cycle ends between 1003+ and 1003−, therefore 1004 ‡ equals 104 ‡",
+     "printed_page": "[97]",
+     "loc_index": 117,
+     "note": "The terminus assertion: after the post-uranium tones the cycle ends and overlaps the first octave."
+    },
+    {
+     "claim_id": "C028",
+     "quote_verbatim": "Omeganon 100= — the end, which is Alphanon, the beginning.",
+     "printed_page": "100",
+     "loc_index": 120,
+     "note": "The table's closing line."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "E. McMillan and P.H. Abelson, \"Radioactive Element 93\", Phys. Rev. 57, 1185–1186 (1940)",
+     "url": "https://doi.org/10.1103/PhysRev.57.1185.2",
+     "retrieved": "2026-09-11",
+     "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+    },
+    {
+     "name": "G.T. Seaborg, E.M. McMillan, J.W. Kennedy and A.C. Wahl, \"Radioactive Element 94 from Deuterons on Uranium\", Phys. Rev. 69, 366–367 (1946)",
+     "url": "https://doi.org/10.1103/PhysRev.69.366.2",
+     "retrieved": "2026-09-11",
+     "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+    },
+    {
+     "name": "IUPAC Periodic Table of the Elements",
+     "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "retrieved": "2026-09-11",
+     "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "Undiscovered elements exist beyond uranium, in the two positions immediately following it (1003D+, 1003E+).",
+     "status": "confirmed",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "E. McMillan and P.H. Abelson, \"Radioactive Element 93\", Phys. Rev. 57, 1185–1186 (1940)",
+       "url": "https://doi.org/10.1103/PhysRev.57.1185.2",
+       "retrieved": "2026-09-11",
+       "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+      },
+      {
+       "name": "G.T. Seaborg, E.M. McMillan, J.W. Kennedy and A.C. Wahl, \"Radioactive Element 94 from Deuterons on Uranium\", Phys. Rev. 69, 366–367 (1946)",
+       "url": "https://doi.org/10.1103/PhysRev.69.366.2",
+       "retrieved": "2026-09-11",
+       "note": "DOI resolution and title verified via Crossref API on 2026-09-11."
+      }
+     ],
+     "note": "Neptunium (Z=93, 1940) and plutonium (Z=94, 1940–41) fill the two positions after uranium. Every element beyond uranium was first made in 1940 or later (data/modern_elements.json discovery records), so the 1926 table's continuation past uranium exceeded the accepted record."
+    },
+    {
+     "role": "assertion",
+     "statement": "Exactly two elements follow uranium; the cycle then ends at Tomium and overlaps the first octave.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC Periodic Table of the Elements",
+       "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+       "retrieved": "2026-09-11",
+       "note": "Francium is the group-1 (alkali) element between radon (86) and radium (88)."
+      }
+     ],
+     "note": "26 transuranic elements are confirmed (Z = 93–118). The sequence neither stops after two nor returns to its start."
+    }
+   ],
+   "class_base_rate": {
+    "class_description": "The Uridium and Urium rows are two of the 40 named starred tones (V013), scored here for their positional content beyond uranium.",
+    "class_size": 40,
+    "hits": 0,
+    "misses": 40,
+    "note": "As names, 0 of the 40 invented names match the modern record. The credit in this entry is positional only; the class tally credits no name."
+   },
+   "analysis": "Split from C027: this entry scores the Uridium and Urium rows; V005 handles the “Uranium XII” row. The rows assert two undiscovered elements immediately beyond uranium, where the cycle then ends. Elements beyond uranium do exist: neptunium (1940) and plutonium (1940–41) fill the two positions the rows mark. Every transuranic discovery postdates 1940, so this confirmed component exceeded the 1926 record and is novel. The terminus is refuted: 26 transuranic elements now stand where the table prints two rows and an end. The printed names and symbols are treated as provisional labels, like Mendeléef's eka-names; their data cells are empty and carry no checkable properties, so no component turns on them. The base rate is stated per §3.4: the credit here is positional only, and the named class itself scores 0 of 40 (V013). The verdict is partially confirmed, with the confirmed content confined to bare continuation past uranium.",
+   "verdict_sentence": "The claim printed as Uridium and Urium — two undiscovered elements beyond uranium, where the cycle then ends — is partially confirmed: elements do continue past uranium (neptunium 1940, plutonium 1940–41), but 26 now stand where the table prints two rows and a terminus.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V020",
+   "title": "Hydron (400=): the lighter-than-hydrogen lifting gas awaiting discovery",
+   "claim_ids": [
+    "C029",
+    "C030"
+   ],
+   "related_claim_ids": [
+    "C007",
+    "C019",
+    "C031"
+   ],
+   "claim_scope": "consolidated",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C030",
+     "quote_verbatim": "Hydron (400=) the master-tone of its octave, is a non-inflammable inert gas which is in every way superior for transportation to hydrogen because it is much lighter, absolutely non-injurious and easier to produce. It has all of the safety qualities of helium and its carrying capacity exceeds that of helium by eight times and is double that of hydrogen.",
+     "printed_page": "100",
+     "loc_index": 120
+    },
+    {
+     "claim_id": "C029",
+     "quote_verbatim": "Of these elements two in the fourth octave, when discovered, will be of great use to man. Each of them will mark an epoch in human progress.",
+     "printed_page": "100",
+     "loc_index": 120,
+     "note": "The when-discovered prediction covers Hydron and Luminon; Luminon's own claims are scored at V004."
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "IUPAC CIAAW, \"Standard Atomic Weights\" (2024 table, based on Atomic Weights 2021 with 2024 revisions of Gd, Lu, Zr)",
+     "url": "https://ciaaw.org/atomic-weights.htm",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "IUPAC CIAAW element page: hydrogen",
+     "url": "https://ciaaw.org/hydrogen.htm",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "NIST Chemistry WebBook, Thermophysical Properties of Fluid Systems (air, hydrogen, helium)",
+     "url": "https://webbook.nist.gov/chemistry/fluid/",
+     "retrieved": "2026-09-11",
+     "note": "Dry air density ≈1.20 kg m⁻³ at 20 °C and 101.325 kPa (mean molar mass ≈28.96 g mol⁻¹); hydrogen ≈0.084; helium ≈0.166."
+    },
+    {
+     "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+     "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+     "retrieved": "2026-09-11",
+     "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "An inert gas lighter than hydrogen exists, awaiting discovery.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+       "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+       "retrieved": "2026-09-11",
+       "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+      },
+      {
+       "name": "IUPAC CIAAW element page: hydrogen",
+       "url": "https://ciaaw.org/hydrogen.htm",
+       "retrieved": "2026-09-11"
+      }
+     ],
+     "note": "Hydrogen (Z=1) is the lightest element; atomic number admits nothing below it. The non-inflammable, non-injurious and easier-to-produce properties attach to a substance that does not exist."
+    },
+    {
+     "role": "assertion",
+     "statement": "Its carrying capacity is double hydrogen's and eight times helium's.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "IUPAC CIAAW, \"Standard Atomic Weights\" (2024 table, based on Atomic Weights 2021 with 2024 revisions of Gd, Lu, Zr)",
+       "url": "https://ciaaw.org/atomic-weights.htm",
+       "retrieved": "2026-09-11"
+      },
+      {
+       "name": "NIST Chemistry WebBook, Thermophysical Properties of Fluid Systems (air, hydrogen, helium)",
+       "url": "https://webbook.nist.gov/chemistry/fluid/",
+       "retrieved": "2026-09-11",
+       "note": "Dry air density ≈1.20 kg m⁻³ at 20 °C and 101.325 kPa (mean molar mass ≈28.96 g mol⁻¹); hydrogen ≈0.084; helium ≈0.166."
+      }
+     ],
+     "note": "Buoyant lift equals displaced air weight minus gas weight, so displaced air is the ceiling — for a weightless gas included. Gas densities scale with molar mass (hydrogen 2.016, helium 4.003, dry air ≈28.96 g/mol): hydrogen already delivers about 93 percent of the ceiling, helium about 86 percent. Double hydrogen's lift, or eight times helium's, exceeds the physical maximum severalfold."
+    },
+    {
+     "role": "assertion",
+     "statement": "Two fourth-octave elements (Hydron, Luminon), when discovered, will each mark an epoch in human progress.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "H.G.J. Moseley, \"The High-Frequency Spectra of the Elements\", Phil. Mag. ser. 6, 26 (1913) 1024–1034",
+       "url": "https://www.chemteam.info/Chem-History/Moseley-article.html",
+       "retrieved": "2026-09-11",
+       "note": "Atomic number is integral nuclear charge: there is no element between Z=1 (hydrogen) and Z=2 (helium)."
+      }
+     ],
+     "note": "Neither element exists; the fourth octave's known region is complete with hydrogen (Z=1) and helium (Z=2) adjacent. Luminon is refuted at V004."
+    }
+   ],
+   "analysis": "The text promises a lighter-than-hydrogen inert gas with double hydrogen's carrying capacity and eight times helium's. No element is lighter than hydrogen: atomic number begins at 1. The lift figures fail independently of existence. A gas lifts the weight of displaced air minus its own weight, so displaced air is the ceiling — a hypothetical weightless gas included. Hydrogen (2.016 g/mol against air's ≈28.96) already delivers roughly 93 percent of that ceiling, and helium about 86 percent; the promised factors call for several times more lift than a vacuum provides. The epoch prediction names hydron and luminon; neither exists. The garbled connective in C030 was settled on the native image and changes nothing.",
+   "verdict_sentence": "The claim that hydron, a non-inflammable gas much lighter than hydrogen, awaits discovery is refuted: no element is lighter than hydrogen, and the promised double-hydrogen lift exceeds what buoyancy in air permits for any gas.",
+   "uncertainty_flags": [
+    {
+     "source_claim_id": "C030",
+     "description": "The “and is double” connective is garbled in both OCR layers; settled on the native image (R17 §5.5).",
+     "resolution": "verdict-stable",
+     "note": "Under any admissible reading the printed capacity factors exceed the buoyancy ceiling."
+    }
+   ],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V021",
+   "title": "The Zeeman effect as evidence of the ten octaves",
+   "claim_ids": [
+    "C034"
+   ],
+   "related_claim_ids": [
+    "C003",
+    "C010"
+   ],
+   "claim_scope": "single",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C034",
+     "quote_verbatim": "Zeeman long since stumbled upon one evidence of the ten octaves by sending a strong generative charge through sodium, but the significance of what he saw had no meaning for him.",
+     "printed_page": "124",
+     "loc_index": 144
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "The Nobel Prize in Physics 1902, awarded to Hendrik A. Lorentz and Pieter Zeeman for their researches into the influence of magnetism upon radiation phenomena",
+     "url": "https://www.nobelprize.org/prizes/physics/1902/summary/",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "NIST Atomic Spectra Database (Na I D lines: D2 5889.951 Å, D1 5895.924 Å)",
+     "url": "https://physics.nist.gov/PhysRefData/ASD/lines_form.html",
+     "retrieved": "2026-09-11"
+    }
+   ],
+   "components": [
+    {
+     "role": "premise",
+     "statement": "Zeeman observed the splitting of sodium's spectral lines in a magnetic field.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "The Nobel Prize in Physics 1902, awarded to Hendrik A. Lorentz and Pieter Zeeman for their researches into the influence of magnetism upon radiation phenomena",
+       "url": "https://www.nobelprize.org/prizes/physics/1902/summary/",
+       "retrieved": "2026-09-11"
+      }
+     ],
+     "note": "Zeeman's 1896 experiments on the sodium D lines; Nobel Prize 1902 with Lorentz. Verified, not creditable (§3.1)."
+    },
+    {
+     "role": "assertion",
+     "statement": "That observation evidences the ten octaves.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "The Nobel Prize in Physics 1902, awarded to Hendrik A. Lorentz and Pieter Zeeman for their researches into the influence of magnetism upon radiation phenomena",
+       "url": "https://www.nobelprize.org/prizes/physics/1902/summary/",
+       "retrieved": "2026-09-11"
+      }
+     ],
+     "note": "The effect is the magnetic splitting of atomic energy levels: Lorentz's electron theory accounted for the normal pattern at once, and quantum mechanics for the rest. The explanation involves no octave structure."
+    }
+   ],
+   "analysis": "The premise is real: Zeeman split sodium's lines in a magnetic field in 1896, and the 1902 Nobel Prize recognized the work. The claim rides an interpretation on it: that the splitting evidences the ten octaves. The effect is fully accounted for by the magnetic splitting of atomic energy levels — Lorentz's electron theory for the normal pattern, quantum mechanics for the rest. Nothing in the phenomenon requires or reflects an octave structure. As with the helium line of V004, a fully assigned observation evidences no further scheme.",
+   "verdict_sentence": "The claim that the Zeeman effect evidences the ten octaves is refuted: magnetic splitting of atomic energy levels accounts for the observation completely, with no octave structure anywhere in the accounting.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V022",
+   "title": "The fifth-octave melting-point run: helium through fluorine",
+   "claim_ids": [
+    "C036"
+   ],
+   "claim_scope": "single",
+   "verdict": "confirmed",
+   "novelty_1926": "period-standard",
+   "evidence_1926": [
+    {
+     "claim_id": "C036",
+     "quote_verbatim": "By a study of the table of the elements in Chapter VI. one will see that the melting point of the inert gas at the beginning of the fifth octave is −271° C. whereas the melting point of the substance in the first tone is +186° C., that of the second tone +1280° C., the third +2350° C. and the double tone +3600° C. Going back down the negative side of the scale, the melting point of the substance in the third tone is −210° C., that of the second −218° C., the first −223° C. and the master tone −271° C.",
+     "printed_page": "200-201",
+     "loc_index": 220
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "CRC Handbook of Chemistry and Physics, 97th ed. (W.M. Haynes, ed., CRC Press, 2016), Sec. 4, \"Melting, Boiling, Triple, and Critical Points of the Elements\", pp. 4-116 to 4-118 (ITS-90)",
+     "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+     "retrieved": "2026-09-11",
+     "note": "Open-access scan on Internet Archive; values transcribed from the table text extracted locally with pdftotext from that scan (pp. 4-116..4-118)."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "Melting points rise from the octave's first tone through the second and third to a maximum at the double tone (lithium → beryllium → boron → carbon).",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "CRC Handbook of Chemistry and Physics, 97th ed. (W.M. Haynes, ed., CRC Press, 2016), Sec. 4, \"Melting, Boiling, Triple, and Critical Points of the Elements\", pp. 4-116 to 4-118 (ITS-90)",
+       "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+       "retrieved": "2026-09-11",
+       "note": "Open-access scan on Internet Archive; values transcribed from the table text extracted locally with pdftotext from that scan (pp. 4-116..4-118)."
+      }
+     ],
+     "note": "Modern values (CRC, ITS-90): Li 180.5 < Be 1287 < B 2077 °C; carbon tops the row — it has no normal melting point and sublimes at 3825 °C."
+    },
+    {
+     "role": "assertion",
+     "statement": "Down the negative side, melting points fall from the third tone through the second and first toward the master-tone (nitrogen → oxygen → fluorine → helium).",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "CRC Handbook of Chemistry and Physics, 97th ed. (W.M. Haynes, ed., CRC Press, 2016), Sec. 4, \"Melting, Boiling, Triple, and Critical Points of the Elements\", pp. 4-116 to 4-118 (ITS-90)",
+       "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+       "retrieved": "2026-09-11",
+       "note": "Open-access scan on Internet Archive; values transcribed from the table text extracted locally with pdftotext from that scan (pp. 4-116..4-118)."
+      }
+     ],
+     "note": "Modern values: N −210.0 > O −218.79 > F −219.67 °C, with helium at the floor — it never solidifies at one atmosphere."
+    },
+    {
+     "role": "premise",
+     "statement": "Six of the eight printed values match modern determinations within a few degrees.",
+     "status": "confirmed",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "CRC Handbook of Chemistry and Physics, 97th ed. (W.M. Haynes, ed., CRC Press, 2016), Sec. 4, \"Melting, Boiling, Triple, and Critical Points of the Elements\", pp. 4-116 to 4-118 (ITS-90)",
+       "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+       "retrieved": "2026-09-11",
+       "note": "Open-access scan on Internet Archive; values transcribed from the table text extracted locally with pdftotext from that scan (pp. 4-116..4-118)."
+      }
+     ],
+     "note": "Boron prints +2350 against the modern 2077 °C. The carbon and helium cells (+3600, −271) name points modern data treat as sublimation (3825 °C) and non-freezing at one atmosphere. Reported per §3.1; the verdict rests on the trend, not on these cells."
+    }
+   ],
+   "analysis": "The passage reads its own table: melting points for the octave running helium, lithium, beryllium, boron, carbon, nitrogen, oxygen, fluorine. The stated trend holds in modern data. Values rise from lithium (180.5 °C) through beryllium (1287) and boron (2077) to carbon at the top of the row; carbon has no normal melting point and sublimes at 3825 °C. Down the negative side they fall: nitrogen −210.0, oxygen −218.79, fluorine −219.67, with helium at the floor — it never solidifies at one atmosphere. Six of the eight printed values match modern determinations within a few degrees; boron's +2350 is a period figure since revised. The content is wholly period-standard: the passage cites known reference values from its own printed table, so the confirmation records nothing beyond the period literature. The book states the run for this octave only; neighboring rows show the same rise and fall less cleanly (phosphorus melts at 44.15 °C, CRC), and the verdict covers what the text states.",
+   "verdict_sentence": "The claim that fifth-octave melting points rise from helium's floor to a peak at carbon and fall back through fluorine is confirmed by modern data — as a restatement of the period record's own values, recording nothing beyond the tables of the day.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  },
+  {
+   "entry_id": "V023",
+   "title": "Noble gases uniting “very readily with each other” as interlocking substances",
+   "claim_ids": [
+    "C045"
+   ],
+   "related_claim_ids": [
+    "C001",
+    "C005"
+   ],
+   "claim_scope": "single",
+   "verdict": "refuted",
+   "evidence_1926": [
+    {
+     "claim_id": "C045",
+     "quote_verbatim": "The inert gases have zero valency for they will not unite with any other element, although they will unite very readily with each other, not as compounds, but as interlocking substances.",
+     "printed_page": "246",
+     "loc_index": 266
+    }
+   ],
+   "evidence_modern": [
+    {
+     "name": "ACS National Historic Chemical Landmark, \"Neil Bartlett and the Reactive Noble Gases\" (first noble-gas compound, Xe⁺[PtF₆]⁻, 1962)",
+     "url": "https://www.acs.org/education/whatischemistry/landmarks/bartlettnoblegases.html",
+     "retrieved": "2026-09-11"
+    },
+    {
+     "name": "CRC Handbook of Chemistry and Physics, 97th ed. (2016), Sec. 4, \"The Elements\" (C.R. Hammond)",
+     "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+     "retrieved": "2026-09-11",
+     "note": "Francium, Z=87, discovered 1939 by Marguerite Perey (Institut du Radium, Paris); primary announcement M. Perey, C. R. Acad. Sci. (Paris) 208, 97–99 (1939). Via the frozen data/modern_elements.json francium record."
+    }
+   ],
+   "components": [
+    {
+     "role": "assertion",
+     "statement": "The inert gases unite very readily with each other, not as compounds but as interlocking substances.",
+     "status": "refuted",
+     "novelty": "novel",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "ACS National Historic Chemical Landmark, \"Neil Bartlett and the Reactive Noble Gases\" (first noble-gas compound, Xe⁺[PtF₆]⁻, 1962)",
+       "url": "https://www.acs.org/education/whatischemistry/landmarks/bartlettnoblegases.html",
+       "retrieved": "2026-09-11"
+      },
+      {
+       "name": "CRC Handbook of Chemistry and Physics, 97th ed. (2016), Sec. 4, \"The Elements\" (C.R. Hammond)",
+       "url": "https://archive.org/details/CRCHandbookOfChemistryAndPhysics97thEdition2016",
+       "retrieved": "2026-09-11",
+       "note": "Francium, Z=87, discovered 1939 by Marguerite Perey (Institut du Radium, Paris); primary announcement M. Perey, C. R. Acad. Sci. (Paris) 208, 97–99 (1939). Via the frozen data/modern_elements.json francium record."
+      }
+     ],
+     "note": "No noble-gas–noble-gas compound is known. The noble-gas chemistry that exists (from 1962) binds xenon or krypton to fluorine and oxygen, not to other noble gases."
+    },
+    {
+     "role": "assertion",
+     "statement": "The inert gases have zero valency and will not unite with any other element.",
+     "status": "refuted",
+     "novelty": "period-standard",
+     "rests_on_uncertain_datum": false,
+     "evidence_modern": [
+      {
+       "name": "ACS National Historic Chemical Landmark, \"Neil Bartlett and the Reactive Noble Gases\" (first noble-gas compound, Xe⁺[PtF₆]⁻, 1962)",
+       "url": "https://www.acs.org/education/whatischemistry/landmarks/bartlettnoblegases.html",
+       "retrieved": "2026-09-11"
+      }
+     ],
+     "note": "Standard 1926 doctrine, overturned in 1962: Bartlett's Xe⁺[PtF₆]⁻, then the xenon fluorides."
+    }
+   ],
+   "analysis": "The sentence restates the period doctrine of zero valency and adds a novel chemistry: noble gases uniting “very readily with each other”. No noble-gas–noble-gas compound is known. The noble-gas chemistry that exists dates from 1962 and binds xenon or krypton to fluorine and oxygen — the reverse of the claim's direction, since the gases proved able to combine with other elements and not with each other. The zero-valency restatement fails against that same chemistry; its period-standard status is disclosed, and under §3.3 it neither earns credit nor softens the novel component's failure.",
+   "verdict_sentence": "The claim that the inert gases unite very readily with each other as interlocking substances is refuted: no noble gas binds to another noble gas, and the compounds found since 1962 pair xenon with fluorine and oxygen instead.",
+   "uncertainty_flags": [],
+   "register_checked": true
+  }
+ ]
+}
