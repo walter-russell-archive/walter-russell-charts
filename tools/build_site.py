@@ -49,6 +49,9 @@ REPO = "https://github.com/walter-russell-archive/walter-russell-charts"
 LOC_ITEM = "https://www.loc.gov/item/27004508/"
 CONTACT = "contact@walterrussellarchive.org"
 CC_BY_NC = "https://creativecommons.org/licenses/by-nc/4.0/"
+# IndexNow ownership key. The same key serves every host of the archive, and
+# each host proves ownership by publishing it at its own root.
+INDEXNOW_KEY = "bc3af5b0a09ce2ede0e71eea8af3cf1c"
 RETRIEVED = "September 11, 2026"
 
 WARNINGS: list[str] = []
@@ -1277,6 +1280,9 @@ def main() -> int:
         f"{urls}</urlset>\n",
     )
     write(OUT / "robots.txt", f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n")
+    # IndexNow ownership key, shared by every host of the archive. Hosting the
+    # file at the site root is what authorizes URL submissions for this host.
+    write(OUT / f"{INDEXNOW_KEY}.txt", INDEXNOW_KEY + "\n")
 
     check_one_way_rule()
     index_html = (OUT / "index.html").read_text(encoding="utf-8")
