@@ -73,7 +73,7 @@ Fairness cuts both ways. Three things in this book reward any reader, whatever t
 - **[The dataset](dataset.html)** — all 137 table rows, cell by cell.
 - **[The chart page](chart.html)** — facsimile and measured redraw, with provenance.
 - **[The FAQ](essay/faq.md)** — the claims people arrive with, answered with page citations.
-- **[The Dube Verdict](https://walterrussellarchive.org)** — our companion archive project: the 1958 Alco Valve test of the Russell coil, documented end to end.
+- **[The Dube Verdict](https://dube.walterrussellarchive.org)** — our companion archive project: the 1958 Alco Valve test of the Russell coil, documented end to end.
 
 ## Source
 

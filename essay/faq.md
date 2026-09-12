@@ -76,7 +76,7 @@ The story appears in the movement's literature and in many videos. The movement'
 
 In 1996, the community journal printed the only archived Russell–Tesla material: two 1954–55 letters about a reprinted Tesla book. The editor wrote that this "is the only item in the archives that shows any trace" of the association (*Fulcrum*, V4N3, journal p. 16). He asked readers for anything more. The letters say nothing about sealing, burying, or withholding knowledge.
 
-The full letters, with analysis, are in the archive's Tesla sidebar (https://walterrussellarchive.org/).
+The full letters, with analysis, are in the archive's Tesla sidebar (https://dube.walterrussellarchive.org/).
 
 ## Did NORAD validate Russell's device?
 
@@ -84,7 +84,7 @@ No independent record supports the account. The story of NORAD officers visiting
 
 Timing matters here. In November 1958, Walter and Lao Russell conceded in writing that the coil test showed no advantage. The NORAD account begins in fall 1959 and runs to 1961. The claimed validation postdates the signed concession by ten months to nearly three years.
 
-The documents are published in full at the archive (https://walterrussellarchive.org/).
+The documents are published in full at the archive (https://dube.walterrussellarchive.org/).
 
 ## Does the chart's best-known promoter hold 97 patents?
 
@@ -96,7 +96,7 @@ For the chart's author: no granted US patent names Walter Russell as inventor (U
 
 We find no peer-reviewed replication of any claim from the chart or the 1926 book. The Department of Energy's OSTI database returns zero records for this work (https://www.osti.gov/).
 
-Two tests by sympathetic parties are on record. Both returned negatives. The 1958 Alco Valve coil test measured no advantage for the Russell design (https://walterrussellarchive.org/). USP's own timeline records: "Walter Russell is unable to repeat his transmutation experiment while at Swannanoa in the 1950's, according to scientist Dr. Shigeo Okubo" (https://www.philosophy.org/historical-timeline).
+Two tests by sympathetic parties are on record. Both returned negatives. The 1958 Alco Valve coil test measured no advantage for the Russell design (https://dube.walterrussellarchive.org/). USP's own timeline records: "Walter Russell is unable to repeat his transmutation experiment while at Swannanoa in the 1950's, according to scientist Dr. Shigeo Okubo" (https://www.philosophy.org/historical-timeline).
 
 ## Did Russell split water into other substances with frequencies?
 
@@ -110,7 +110,7 @@ Scoreboard entry V007 holds the verdicts for the book's transmutation claims.
 
 The 1926 book presents gravitation and radiation as opposed phases of one electric process. It offers the doctrine as cosmology, without a quantitative law an instrument could test.
 
-One follower-era document did attach a number to "gravity power." In a letter of October 1958, published in *The Fulcrum*, Vol. 5 No. 1 (May 1997), journal page 87, Russell predicted in writing, in advance, a 40% to 60% advantage for his coil design. The November 1958 measurement went the other way at every tested gap. The full test record is at the archive (https://walterrussellarchive.org/).
+One follower-era document did attach a number to "gravity power." In a letter of October 1958, published in *The Fulcrum*, Vol. 5 No. 1 (May 1997), journal page 87, Russell predicted in writing, in advance, a 40% to 60% advantage for his coil design. The November 1958 measurement went the other way at every tested gap. The full test record is at the archive (https://dube.walterrussellarchive.org/).
 
 ---
 
