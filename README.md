@@ -1,4 +1,4 @@
-# The Russell Periodic Chart, 1926 — free web edition
+# The Russell Periodic Chart, 1926 — the complete plate and table
 
 This repository publishes the periodic chart and the ten-octave element table from
 Walter Russell's *The Universal One* (Brieger Press, New York, 1926), with every

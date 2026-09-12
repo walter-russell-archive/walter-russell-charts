@@ -2,7 +2,7 @@
 
 Readers ask us one question more than any other: where should I start? This guide answers it.
 
-You need to buy nothing. Every page link below opens the free Library of Congress scan of the 1926 first edition ([LoC item 27004508](https://www.loc.gov/item/27004508/); all LoC links retrieved 2026-09-11).
+Every page link below opens the Library of Congress scan of the 1926 first edition, which is in the public domain ([LoC item 27004508](https://www.loc.gov/item/27004508/); all LoC links retrieved 2026-09-11).
 
 One rule governs this guide. Each part of the book is labeled by what it is. Some parts are metaphysics, which no measurement can test. Some parts make checkable claims. The [scoreboard](scoreboard.html) tests those claims one by one, with sources. Verdicts attach to claims, never to the man.
 

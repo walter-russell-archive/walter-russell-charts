@@ -574,7 +574,7 @@ def link_map() -> dict[str, str]:
 
 def build_index(base: str, have: dict[str, bool]) -> str:
     head = title_block(
-        "Free web edition",
+        "Web edition",
         "The Russell periodic chart, 1926",
         "A restored facsimile, a measured redraw, and the full ten-octave element "
         "table from <em>The Universal One</em>.",
@@ -601,7 +601,7 @@ def build_index(base: str, have: dict[str, bool]) -> str:
 <article class="prose">
 <p class="lede">Walter Russell published <em>The Universal One</em> in New York in 1926.
 The book prints a circular chart of the elements and a ten-octave table of 137 rows.
-This site is a free web edition of both.</p>
+This site publishes both, in full.</p>
 
 <h2 id="what-is-here">What is here</h2>
 <ul>
@@ -639,7 +639,7 @@ sources for Walter Russell's scientific claims with their provenance stated.
 Corrections are welcome: write to <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
 </article>"""
     return page(
-        title="The Russell periodic chart, 1926 — free web edition",
+        title="The Russell periodic chart, 1926 — the complete plate and table",
         description=(
             "Walter Russell's 1926 periodic chart from The Universal One: a restored "
             "facsimile from the Library of Congress scan, a measured redraw, the full "
@@ -1166,6 +1166,14 @@ def write(path: Path, text: str) -> None:
 _STORE_WORDS = ("fair", "copy", "press")
 FORBIDDEN = tuple(sep.join(_STORE_WORDS) for sep in ("", " ", "-"))
 
+# Phrases that imply a paid counterpart to this edition. There is none here, and
+# calling the site "free" invents one, so the words are refused too. Assembled
+# from parts, like the store needles, so this file never trips its own check.
+_FREE, _PAID, _ED = "fr" "ee", "pa" "id", "edit" "ion"
+IMPLIES_COMMERCE = (f"{_FREE} {_ED}", f"{_FREE} web {_ED}", f"{_PAID} {_ED}",
+                    "buy " "now", "for " "sale", "add to " "cart",
+                    "order " "now", "pur" "chase")
+
 
 def check_one_way_rule() -> None:
     """The whole repository is checked, not only the generated pages: every file
@@ -1183,7 +1191,12 @@ def check_one_way_rule() -> None:
         for needle in FORBIDDEN:
             if needle in low:
                 die(f"one-way rule: {path.relative_to(ROOT)} contains {needle!r}")
-    print(f"one-way rule OK: no store reference in {checked} repository files")
+        for needle in IMPLIES_COMMERCE:
+            if needle in low:
+                die(f"commercial implication: {path.relative_to(ROOT)} contains "
+                    f"{needle!r}; this edition has no paid counterpart to imply")
+    print(f"one-way rule OK: no store reference and no commercial implication "
+          f"in {checked} repository files")
 
 
 def main() -> int:
