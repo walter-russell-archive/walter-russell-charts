@@ -1109,15 +1109,19 @@ def build_md_page(base: str, src_rel: str, current: str, kicker: str,
 {items}
   </ul>
 </nav>"""
-    head = title_block(kicker, html.escape(heading), "", [])
+    # The first line is Markdown, so the heading can carry a book title in
+    # emphasis. Render it for the page, and strip the markers for the places
+    # that take plain text (the <title> element and the meta description).
+    head = title_block(kicker, mdlite.inline(heading), "", [])
     body = f"""{head}
 <article class="prose">
 {contents}
 {rendered}
 </article>"""
-    description = f"{heading} — the Russell chart edition."
+    heading_text = re.sub(r"[*_`]", "", heading)
+    description = f"{heading_text} — the Russell chart edition."
     return page(
-        title=f"{heading} — the Russell chart edition",
+        title=f"{heading_text} — the Russell chart edition",
         description=description,
         current=current,
         body=body,
