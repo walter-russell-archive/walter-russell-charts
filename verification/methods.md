@@ -3,7 +3,7 @@
 Where the images come from, how the data was read, what the machines did, and how to re-derive every artifact on this site.
 
 Every file this page names ships in the repository behind the site,
-[walter-russell-archive/charts](https://github.com/walter-russell-archive/charts).
+[walter-russell-archive/walter-russell-charts](https://github.com/walter-russell-archive/walter-russell-charts).
 Paths are relative to its root, and the checksum table at the end covers all of them.
 
 ## Sources

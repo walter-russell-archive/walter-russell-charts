@@ -10,7 +10,7 @@ Generator: `tools/make_image_provenance.py`. Verifier:
 `tools/check_image_provenance.py`.
 
 **Every path in this file and in the manifest is relative to the repository
-root** — the root of `walter-russell-archive/charts`, the repository that holds
+root** — the root of `walter-russell-archive/walter-russell-charts`, the repository that holds
 `docs/`, `tools/`, `data/`, `charts/`, `assets_src/` and `source_scans/`.
 
 ---

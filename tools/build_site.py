@@ -45,7 +45,7 @@ DEFAULT_BASE = "https://charts.walterrussellarchive.org"
 ARCHIVE = "https://walterrussellarchive.org"
 # Repository slug. The subdomain is charts.walterrussellarchive.org, so the
 # repository carries the same boring name.
-REPO = "https://github.com/walter-russell-archive/charts"
+REPO = "https://github.com/walter-russell-archive/walter-russell-charts"
 LOC_ITEM = "https://www.loc.gov/item/27004508/"
 CONTACT = "contact@walterrussellarchive.org"
 CC_BY_NC = "https://creativecommons.org/licenses/by-nc/4.0/"
